@@ -1,0 +1,7 @@
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\myConsoleProject\myConsoleProject.cs\bin\Debug\myConsoleProject.cs.exe.config
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\myConsoleProject\myConsoleProject.cs\bin\Debug\myConsoleProject.cs.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\myConsoleProject\myConsoleProject.cs\bin\Debug\myConsoleProject.cs.pdb
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\myConsoleProject\myConsoleProject.cs\obj\Debug\myConsoleProject.cs.csproj.AssemblyReference.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\myConsoleProject\myConsoleProject.cs\obj\Debug\myConsoleProject.cs.csproj.CoreCompileInputs.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\myConsoleProject\myConsoleProject.cs\obj\Debug\myConsoleProject.cs.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\myConsoleProject\myConsoleProject.cs\obj\Debug\myConsoleProject.cs.pdb
