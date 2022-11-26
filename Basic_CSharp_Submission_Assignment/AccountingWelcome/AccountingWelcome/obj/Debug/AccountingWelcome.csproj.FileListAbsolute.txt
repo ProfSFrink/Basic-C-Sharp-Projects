@@ -1,0 +1,7 @@
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Basic_CSharp_Submission_Assignment\AccountingWelcome\AccountingWelcome\bin\Debug\AccountingWelcome.exe.config
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Basic_CSharp_Submission_Assignment\AccountingWelcome\AccountingWelcome\bin\Debug\AccountingWelcome.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Basic_CSharp_Submission_Assignment\AccountingWelcome\AccountingWelcome\bin\Debug\AccountingWelcome.pdb
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Basic_CSharp_Submission_Assignment\AccountingWelcome\AccountingWelcome\obj\Debug\AccountingWelcome.csproj.AssemblyReference.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Basic_CSharp_Submission_Assignment\AccountingWelcome\AccountingWelcome\obj\Debug\AccountingWelcome.csproj.CoreCompileInputs.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Basic_CSharp_Submission_Assignment\AccountingWelcome\AccountingWelcome\obj\Debug\AccountingWelcome.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Basic_CSharp_Submission_Assignment\AccountingWelcome\AccountingWelcome\obj\Debug\AccountingWelcome.pdb

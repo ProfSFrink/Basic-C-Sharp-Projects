@@ -4,6 +4,7 @@
 
 // MODULE 4: CHALLENGE 4B-1: Escape Sequence / Characters
 // AUTHOR: Steven Partlow
+// DATE: 26/11/2022
 
 using System; // Use the System Library
 
