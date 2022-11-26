@@ -1,0 +1,7 @@
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Hello World Tutorial\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Hello World Tutorial\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Hello World Tutorial\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Hello World Tutorial\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Hello World Tutorial\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Hello World Tutorial\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Hello World Tutorial\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
