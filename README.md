@@ -16,8 +16,8 @@ A very simple console app which prints my name in double-quotes through use of t
 ## 05 - BASIC C# SUBMISSION ASSIGNMENT - WELCOME SCREEN [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/tree/main/Basic_CSharp_Submission_Assignment/AccountingWelcome)
 A console app welcoming the user to 'Acme Accounting Systems' and prints the second line of text with "accounting" in double-quotes using the backslash (\) escape character.
 
-## 06 - VARIABLES AND DATA TYPES [(CODE)]https://github.com/ProfSFrink/Basic-C-Sharp-Projects/tree/main/Variables%20and%20Data%20Types%20Tutorial/VariablesAndDataTypes)
+## 06 - VARIABLES AND DATA TYPES [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/tree/main/Variables%20and%20Data%20Types%20Tutorial/VariablesAndDataTypes)
 A follow on video series that goes through the various C# data types and how to assign variables and output them along with examples of how to cast them into other data types.
 
-## 07 - VARIABLES AND DATA TYPES [(CODE)]https://github.com/ProfSFrink/Basic-C-Sharp-Projects/tree/main/Variables%20and%20Data%20Types%20Tutorial/VariablesAndDataTypes)
-A simple console application that ask the user to answer some question then we store the inputs in appropriate data types and casting when necessary, then at the end of the application we output all the inputs before exiting the application.
+## 07 - DAILY REPORT ASSIGNMENT SUBMISSION [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/tree/main/Daily_Report_Submission_Assignment/DailyReportSubmissionAssignment)
+A simple console application that asks the user to answer some questions then we store the inputs in appropriate data types, casting when necessary, then at the end of the application we output all the inputs before exiting the application.
