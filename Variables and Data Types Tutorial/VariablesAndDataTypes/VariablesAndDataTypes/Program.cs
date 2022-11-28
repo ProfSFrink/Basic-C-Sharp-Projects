@@ -2,7 +2,7 @@
 // Part IX: C# and .NET Framework - Part 1
 // by Pitman Training / The Tech Academy
 
-// MODULE 4: Variables and Data Types Tutorial
+// MODULE 6: Variables and Data Types Tutorial
 // AUTHOR: Steven Partlow
 // DATE: 28/11/2022
 
