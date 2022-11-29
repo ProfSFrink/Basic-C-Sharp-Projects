@@ -24,3 +24,6 @@ A simple console application that asks the user to answer some questions then we
 
 ## 08 - CHALLENGE 7B-1 - MATH OPERATIONS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge_7B-1/Challenge_7B-1_Math/Program.cs)
 The goals for this challenge were to add, subtract, multiply and divide two numbers and display the output in addition to this I also completed an operations calulating the remainder of two number through use of the modules operator, also added introduction and exit messages to the application.
+
+## 09 - CHALLENGE 7B-2 - STRING CONCATENATION [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge_7B-2/Challenge_7B-2_Str_Concat/Program.cs)
+A simple challege were we are required to perform a math operation (string concatenation) on a string, three variables are declared each concatenated with a label and displayed on screen, then finally the three strings are concatenated together again with their own label and again outputted to the display.
