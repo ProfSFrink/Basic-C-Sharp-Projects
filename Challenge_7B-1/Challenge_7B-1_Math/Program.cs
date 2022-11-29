@@ -26,6 +26,8 @@ namespace Challenge_7B_1_Math
         static void Main(string[] args)
         {
             // Program Introduction
+
+            // Output all the below text to the display
             Console.WriteLine("PITMAN TRAINING / THE TECH ACADEMY");
             Console.WriteLine("----------------------------------\n");
             Console.WriteLine("CHALLENGE 7B-1: MATH OPERATIONS");
@@ -62,7 +64,7 @@ namespace Challenge_7B_1_Math
             answer = num1 % num2; // Re-assign answer with answer to num1 divided by num2 and calculate the remainder
             Console.WriteLine("REMAINDER: " + num1 + " % " + num2 + " = " + answer + "\n"); // Output the answer to the console window
 
-            Console.WriteLine("Press the ENTER key to exit the application");
+            Console.WriteLine("Press the ENTER key to exit the application"); // Output this text to the display
             Console.ReadLine(); // Pause the application so we can see the output
             // END OF APPLICATION
 
