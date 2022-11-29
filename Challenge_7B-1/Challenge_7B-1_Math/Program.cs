@@ -30,6 +30,11 @@ namespace Challenge_7B_1_Math
             int answer = num1 + num2; // Initialise the variable as an integer and assign it the value of num1 plus num2 (84)
             Console.WriteLine(num1 + " + " + num2 + " = " + answer); // Output the answer to the console window
 
+            // 2) Subtract two numbers and display the output
+            num1 = 70; // Re-assign variable num1 with a new value
+            num2 = 66; // Re-assign variable num2 with a new value
+            answer = num1 - num2; // Re-assign answer with answer to num1 minus num2
+            Console.WriteLine(num1 + " + " + num2 + " = " + answer); // Output the answer to the console window
             Console.ReadLine(); // Pause the application so we can see the output
         }
     }
