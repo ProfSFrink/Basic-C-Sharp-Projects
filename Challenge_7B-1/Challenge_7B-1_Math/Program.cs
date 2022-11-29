@@ -9,8 +9,8 @@
 // GOALS FOR THIS CHALLENGE
 // 1) Add two numbers and display the output - DONE
 // 2) Subtract two numbers and display the output - DONE
-// 3) Multiply two numbers and display the output
-// 4) Divide two numbers and display the output
+// 3) Multiply two numbers and display the output - DONE
+// 4) Divide two numbers and display the output - DONE
 
 using System;
 using System.Collections.Generic;
@@ -41,6 +41,12 @@ namespace Challenge_7B_1_Math
             num2 = 568; // Re-assign variable num1 with a new value
             answer = num1 * num2; // Re-assign answer with answer to num1 multiplied by num2
             Console.WriteLine(num1 + " * " + num2 + " = " + answer); // Output the answer to the console window
+
+            // 4) Divide two numbers and display the output
+            num1 = 122; // Re-assign variable num1 with a new value
+            num2 = 3; // Re-assign variable num1 with a new value
+            answer = num1 / num2; // Re-assign answer with answer to num1 divided by num2
+            Console.WriteLine(num1 + " / " + num2 + " = " + answer); // Output the answer to the console window
 
             Console.ReadLine(); // Pause the application so we can see the output
         }
