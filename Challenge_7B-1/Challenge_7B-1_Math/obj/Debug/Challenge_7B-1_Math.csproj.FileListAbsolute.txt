@@ -1,0 +1,7 @@
+C:\Users\pitma\sp\Basic_C#_Programs\Challenge_7B-1\Challenge_7B-1_Math\bin\Debug\Challenge_7B-1_Math.exe.config
+C:\Users\pitma\sp\Basic_C#_Programs\Challenge_7B-1\Challenge_7B-1_Math\bin\Debug\Challenge_7B-1_Math.exe
+C:\Users\pitma\sp\Basic_C#_Programs\Challenge_7B-1\Challenge_7B-1_Math\bin\Debug\Challenge_7B-1_Math.pdb
+C:\Users\pitma\sp\Basic_C#_Programs\Challenge_7B-1\Challenge_7B-1_Math\obj\Debug\Challenge_7B-1_Math.csproj.AssemblyReference.cache
+C:\Users\pitma\sp\Basic_C#_Programs\Challenge_7B-1\Challenge_7B-1_Math\obj\Debug\Challenge_7B-1_Math.csproj.CoreCompileInputs.cache
+C:\Users\pitma\sp\Basic_C#_Programs\Challenge_7B-1\Challenge_7B-1_Math\obj\Debug\Challenge_7B-1_Math.exe
+C:\Users\pitma\sp\Basic_C#_Programs\Challenge_7B-1\Challenge_7B-1_Math\obj\Debug\Challenge_7B-1_Math.pdb
