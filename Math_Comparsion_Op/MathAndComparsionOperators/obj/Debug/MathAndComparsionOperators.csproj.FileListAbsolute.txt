@@ -1,0 +1,7 @@
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Math_Comparsion_Op\MathAndComparsionOperators\bin\Debug\MathAndComparsionOperators.exe.config
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Math_Comparsion_Op\MathAndComparsionOperators\bin\Debug\MathAndComparsionOperators.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Math_Comparsion_Op\MathAndComparsionOperators\bin\Debug\MathAndComparsionOperators.pdb
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Math_Comparsion_Op\MathAndComparsionOperators\obj\Debug\MathAndComparsionOperators.csproj.AssemblyReference.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Math_Comparsion_Op\MathAndComparsionOperators\obj\Debug\MathAndComparsionOperators.csproj.CoreCompileInputs.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Math_Comparsion_Op\MathAndComparsionOperators\obj\Debug\MathAndComparsionOperators.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Math_Comparsion_Op\MathAndComparsionOperators\obj\Debug\MathAndComparsionOperators.pdb

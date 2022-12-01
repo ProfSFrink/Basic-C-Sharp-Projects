@@ -2,7 +2,7 @@
 // Part IX: C# and .NET Framework - Part 1
 // by Pitman Training / The Tech Academy
 
-// MODULE 8: Challenge 7B-2: String Concatenation 
+// MODULE 7: Challenge 7B-2: String Concatenation 
 // AUTHOR: Steven Partlow
 // DATE: 29/11/2022
 //
