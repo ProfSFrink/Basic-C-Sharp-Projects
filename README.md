@@ -31,5 +31,8 @@ A simple challege were we are required to perform a math operation (string conca
 ## 10 - MATH AND COMPARISON OPERATORS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Math_Comparsion_Op/MathAndComparsionOperators/Program.cs)
 A code along project done alongside a two-part video series initally reviewing C# math operators. Then in the second part of the series we go over the standard comparison operators within C# we cover less than, greater than, equal to and not equal to.
 
-## 11 - MATH OPERATION ASSIGNMENT [(CODE)]()
+## 11 - MATH OPERATION ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/MathOpAssign/MathOpAssignment/Program.cs)
 A submission assignment to test my knowledge of math operators, includes examples of addition, subtraction, multiplacation, divison, modulus (remainder) and greater than operations.
+
+## 12 - INCOME COMPARISON ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Programs/blob/main/IncomeComparisonAssign/IncomeComparison/Program.cs)
+An anonymous income comparison program, which takes the hourly rate and weekly hours worked of two people, works out their annual wage and then performs a boolean operation showing if Person 1 earns more than Person 2.

@@ -1,10 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Challenge_4B-1\\Challenge_4B-1_Escape_Sequence",
+    "\\Challenge_7B-1\\Challenge_7B-1_Math",
     "\\Challenge_7B-2\\Challenge_7B-2_Str_Concat",
-    "\\Math_Comparsion_Op",
-    "\\Math_Comparsion_Op\\MathAndComparsionOperators"
+    "\\Daily_Report\\DailyReport",
+    "\\Daily_Report\\DailyReport\\DailyReportSubmissionAssignment",
+    "\\MathOpAssign",
+    "\\MathOpAssign\\MathOpAssignment"
   ],
-  "SelectedNode": "\\Math_Comparsion_Op\\MathAndComparsionOperators\\Program.cs",
+  "SelectedNode": "\\MathOpAssign\\MathOpAssignment\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

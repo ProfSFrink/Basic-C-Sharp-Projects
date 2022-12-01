@@ -1,0 +1,7 @@
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\IncomeComparisonAssign\IncomeComparison\bin\Debug\IncomeComparison.exe.config
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\IncomeComparisonAssign\IncomeComparison\bin\Debug\IncomeComparison.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\IncomeComparisonAssign\IncomeComparison\bin\Debug\IncomeComparison.pdb
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\IncomeComparisonAssign\IncomeComparison\obj\Debug\IncomeComparison.csproj.AssemblyReference.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\IncomeComparisonAssign\IncomeComparison\obj\Debug\IncomeComparison.csproj.CoreCompileInputs.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\IncomeComparisonAssign\IncomeComparison\obj\Debug\IncomeComparison.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\IncomeComparisonAssign\IncomeComparison\obj\Debug\IncomeComparison.pdb
