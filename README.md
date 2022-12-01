@@ -28,5 +28,5 @@ The goals for this challenge were to add, subtract, multiply and divide two numb
 ## 09 - CHALLENGE 7B-2 - STRING CONCATENATION [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge_7B-2/Challenge_7B-2_Str_Concat/Program.cs)
 A simple challege were we are required to perform a math operation (string concatenation) on a string, three variables are declared each concatenated with a label and displayed on screen, then finally the three strings are concatenated together again with their own label and again outputted to the display.
 
-## 10 - MATH AND COMPARISON OPERATORS [(CODE)]()
-A code along project done alongside a two-part video series initally reviewing C# math operators. 
+## 10 - MATH AND COMPARISON OPERATORS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Math_Comparsion_Op/MathAndComparsionOperators/Program.cs)
+A code along project done alongside a two-part video series initally reviewing C# math operators. Then in the second part of the series we go over the standard comparison operators within C# we cover less than, greater than, equal to and not equal to.
