@@ -1,0 +1,7 @@
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\MathOpAssign\MathOpAssignment\bin\Debug\MathOpAssignment.exe.config
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\MathOpAssign\MathOpAssignment\bin\Debug\MathOpAssignment.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\MathOpAssign\MathOpAssignment\bin\Debug\MathOpAssignment.pdb
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\MathOpAssign\MathOpAssignment\obj\Debug\MathOpAssignment.csproj.AssemblyReference.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\MathOpAssign\MathOpAssignment\obj\Debug\MathOpAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\MathOpAssign\MathOpAssignment\obj\Debug\MathOpAssignment.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\MathOpAssign\MathOpAssignment\obj\Debug\MathOpAssignment.pdb

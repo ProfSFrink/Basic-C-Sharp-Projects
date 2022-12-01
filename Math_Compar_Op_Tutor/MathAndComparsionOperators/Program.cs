@@ -106,6 +106,8 @@ namespace MathAndComparsionOperators
 
             Console.WriteLine("\nPress the ENTER key to exit the application"); // Output this text to the display
             Console.ReadLine(); // Pause the application so we can see the output
+
+            // END OF APPLICATION
         } // End MAIN
 
     } // End CLASS

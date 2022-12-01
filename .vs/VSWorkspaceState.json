@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Challenge_7B-2\\Challenge_7B-2_Str_Concat"
+    "\\Challenge_7B-2\\Challenge_7B-2_Str_Concat",
+    "\\Math_Comparsion_Op",
+    "\\Math_Comparsion_Op\\MathAndComparsionOperators"
   ],
+  "SelectedNode": "\\Math_Comparsion_Op\\MathAndComparsionOperators\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
