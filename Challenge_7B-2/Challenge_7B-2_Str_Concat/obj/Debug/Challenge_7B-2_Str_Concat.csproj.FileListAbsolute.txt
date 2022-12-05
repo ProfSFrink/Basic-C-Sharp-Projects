@@ -12,3 +12,10 @@ C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framewo
 C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_7B-2\Challenge_7B-2_Str_Concat\obj\Debug\Challenge_7B-2_Str_Concat.csproj.CoreCompileInputs.cache
 C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_7B-2\Challenge_7B-2_Str_Concat\obj\Debug\Challenge_7B-2_Str_Concat.exe
 C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_7B-2\Challenge_7B-2_Str_Concat\obj\Debug\Challenge_7B-2_Str_Concat.pdb
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_7B-2\Challenge_7B-2_Str_Concat\bin\Debug\Challenge_7B-2_Str_Concat.exe.config
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_7B-2\Challenge_7B-2_Str_Concat\bin\Debug\Challenge_7B-2_Str_Concat.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_7B-2\Challenge_7B-2_Str_Concat\bin\Debug\Challenge_7B-2_Str_Concat.pdb
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_7B-2\Challenge_7B-2_Str_Concat\obj\Debug\Challenge_7B-2_Str_Concat.csproj.AssemblyReference.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_7B-2\Challenge_7B-2_Str_Concat\obj\Debug\Challenge_7B-2_Str_Concat.csproj.CoreCompileInputs.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_7B-2\Challenge_7B-2_Str_Concat\obj\Debug\Challenge_7B-2_Str_Concat.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_7B-2\Challenge_7B-2_Str_Concat\obj\Debug\Challenge_7B-2_Str_Concat.pdb

@@ -1,14 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Challenge_4B-1\\Challenge_4B-1_Escape_Sequence",
-    "\\Challenge_7B-1\\Challenge_7B-1_Math",
-    "\\Challenge_7B-2\\Challenge_7B-2_Str_Concat",
-    "\\Daily_Report\\DailyReport",
-    "\\Daily_Report\\DailyReport\\DailyReportSubmissionAssignment",
-    "\\MathOpAssign",
-    "\\MathOpAssign\\MathOpAssignment"
+    "\\BooleanLogic",
+    "\\BooleanLogic\\BooleanLogic",
+    "\\IncomeComparisonAssign\\IncomeComparison"
   ],
-  "SelectedNode": "\\MathOpAssign\\MathOpAssignment\\Program.cs",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }

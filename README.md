@@ -34,5 +34,8 @@ A code along project done alongside a two-part video series initally reviewing C
 ## 11 - MATH OPERATION ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/MathOpAssign/MathOpAssignment/Program.cs)
 A submission assignment to test my knowledge of math operators, includes examples of addition, subtraction, multiplacation, divison, modulus (remainder) and greater than operations.
 
-## 12 - INCOME COMPARISON ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Programs/blob/main/IncomeComparisonAssign/IncomeComparison/Program.cs)
+## 12 - INCOME COMPARISON ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/IncomeComparisonAssign/IncomeComparison/Program.cs)
 An anonymous income comparison program, which takes the hourly rate and weekly hours worked of two people, works out their annual wage and then performs a boolean operation showing if Person 1 earns more than Person 2.
+
+## 13 - BOOLEAN LOGIC TUTORIAL [(CODE)]()
+A follow on video covering boolean logic operators so AND (&&), OR (||), EQUALS (==), NOT EQUALS (!=), and XOR (^) with simple code examples.
