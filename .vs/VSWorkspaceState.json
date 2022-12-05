@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BooleanLogic",
-    "\\BooleanLogic\\BooleanLogic",
+    "\\IncomeComparisonAssign",
     "\\IncomeComparisonAssign\\IncomeComparison"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\IncomeComparisonAssign\\IncomeComparisonAssign.sln",
   "PreviewInSolutionExplorer": false
 }
