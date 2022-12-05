@@ -40,5 +40,5 @@ An anonymous income comparison program, which takes the hourly rate and weekly h
 ## 13 - BOOLEAN LOGIC TUTORIAL [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/BooleanLogic/BooleanLogic/Program.cs)
 A follow on video covering boolean logic operators so AND (&&), OR (||), EQUALS (==), NOT EQUALS (!=), and XOR (^) with simple code examples.
 
-## 14 - BOOLEAN LOGIC ASSIGNMENT [(CODE)]()
+## 14 - BOOLEAN LOGIC ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/CarInsurAppAssign/CarInsurAppAssign/Program.cs)
 A simple assignment in which we take three inputs from the user, their age, if they have ever had a dui and how many speeding tickets they have had and use these to determine if the user qualifies for car insurance. We then output the result of this boolean logic check to the console window as part of a string.

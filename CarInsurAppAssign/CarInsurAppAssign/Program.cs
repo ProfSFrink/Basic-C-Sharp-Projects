@@ -2,7 +2,7 @@
 // Part IX: C# and .NET Framework - Part 1
 // by Pitman Training / The Tech Academy
 
-// MODULE 9: Boolean Logic Assignment - Car Insurnace Approval
+// MODULE 9: Boolean Logic Assignment - Car Insuranace Approval
 // AUTHOR: Steven Partlow
 // DATE: 05/12/2022
 //
@@ -10,7 +10,7 @@
 // 1) Ask the user "What is your age?" - DONE
 // 2) Ask the user "Have you ever had a DUI (ANSWER: true or false (enter in lowercase)?" - DONE
 // 3) Ask the user "How many speeding tickets have you had?" - DONE
-// 4) Determine if the user qualifies for a drving license (CRITERIA: Over 15 years old, NO DUI's, no more than 3 speeding tickets - DONE
+// 4) Determine if the user qualifies for a driving license (CRITERIA: Over 15 years old, NO DUI's, no more than 3 speeding tickets - DONE
 // 5) Display the result to user within the console window - DONE
 
 using System;
