@@ -46,5 +46,5 @@ A simple assignment in which we take three inputs from the user, their age, if t
 ## 15 - CHALLENGE 10A-1 - IF / ELSE / ELSE IF STATEMENTS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge10A-1/Challenge10A-1/Program.cs)
 A demonstration of the use of IF / ELSE and ELSE IF statements within C#, taking input from the user and using it to execute branching statements.
 
-## 16 - CHALLENGE 10B-1 - NOT EQUALS (!=) OPERATOR [(CODE)]()
+## 16 - CHALLENGE 10B-1 - NOT EQUALS (!=) OPERATOR [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge10B-1/Challenge10B-1/Program.cs)
 A demonstration of the use of the NOT EQUALS operator (!=) within C#, again taking user input and using it to execute branching statements.
