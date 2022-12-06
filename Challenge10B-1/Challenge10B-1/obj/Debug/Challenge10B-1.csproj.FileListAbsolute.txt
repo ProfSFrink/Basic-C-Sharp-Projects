@@ -1,0 +1,7 @@
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge10B-1\Challenge10B-1\bin\Debug\Challenge10B-1.exe.config
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge10B-1\Challenge10B-1\bin\Debug\Challenge10B-1.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge10B-1\Challenge10B-1\bin\Debug\Challenge10B-1.pdb
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge10B-1\Challenge10B-1\obj\Debug\Challenge10B-1.csproj.AssemblyReference.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge10B-1\Challenge10B-1\obj\Debug\Challenge10B-1.csproj.CoreCompileInputs.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge10B-1\Challenge10B-1\obj\Debug\Challenge10B-1.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge10B-1\Challenge10B-1\obj\Debug\Challenge10B-1.pdb

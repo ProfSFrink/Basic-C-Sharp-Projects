@@ -7,7 +7,7 @@
 // DATE: 06/12/2022
 //
 // GOAL
-// 1) Write and execute C# code that utilises IF / ELSE and ELSE IF Statements and display the output to the console
+// 1) Write and execute C# code that utilises IF / ELSE and ELSE IF Statements and display the output to the console - DONE
 
 using System;
 using System.Collections.Generic;
