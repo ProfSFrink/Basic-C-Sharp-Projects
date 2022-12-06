@@ -49,7 +49,7 @@ namespace Challenge10B_2
                 Console.WriteLine("or play the lottery!");
 
                 Console.WriteLine("\nPress the ENTER key to exit the application"); // Output this text to the display
-                Console.ReadLine(); // Pause the application so we can see the output 
+            Console.ReadLine(); // Pause the application so we can see the output 
             } // End ELSE IF
         } // End MAIN
 

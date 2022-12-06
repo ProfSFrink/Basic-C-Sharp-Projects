@@ -49,5 +49,5 @@ A demonstration of the use of IF / ELSE and ELSE IF statements within C#, taking
 ## 16 - CHALLENGE 10B-1 - NOT EQUALS (!=) OPERATOR [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge10B-1/Challenge10B-1/Program.cs)
 A demonstration of the use of the NOT EQUALS operator (!=) within C#, again taking user input and using it to execute branching statements.
 
-## 17 - CHALLENGE 10B-2 - GREATER OR LESS THAN OPERATORS [(CODE)]()
+## 17 - CHALLENGE 10B-2 - GREATER OR LESS THAN OPERATORS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge10B-2/Challenge10B-2/Program.cs)
 A challenge to show that I understand how to use both the greater than and less than or equal to operator, this is shown alongside the use of IF statements.
