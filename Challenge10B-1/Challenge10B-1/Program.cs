@@ -8,7 +8,7 @@
 //
 // GOAL
 //
-// 1) Write and execute C# code that utilises the NOT EQUALS (!=) operator and display the output to the console
+// 1) Write and execute C# code that utilises the NOT EQUALS (!=) operator and display the output to the console - DONE
 
 using System;
 using System.Collections.Generic;
@@ -22,7 +22,6 @@ namespace Challenge10B_1
     {
         static void Main(string[] args)
         {
-
             // Output all the below text to the display
             Console.WriteLine("PITMAN TRAINING / THE TECH ACADEMY");
             Console.WriteLine("----------------------------------\n");
