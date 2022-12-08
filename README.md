@@ -43,11 +43,14 @@ A follow on video covering boolean logic operators so AND (&&), OR (||), EQUALS 
 ## 14 - BOOLEAN LOGIC ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/CarInsurAppAssign/CarInsurAppAssign/Program.cs)
 A simple assignment in which we take three inputs from the user, their age, if they have ever had a dui and how many speeding tickets they have had and use these to determine if the user qualifies for car insurance. We then output the result of this boolean logic check to the console window as part of a string.
 
-## 15 - CHALLENGE 10A-1 - IF / ELSE / ELSE IF STATEMENTS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge10A-1/Challenge10A-1/Program.cs)
+## 15 - CHALLENGE 10A-1 - IF / ELSE / ELSE IF STATEMENTS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge_10A-1/Challenge10A-1/Program.cs)
 A demonstration of the use of IF / ELSE and ELSE IF statements within C#, taking input from the user and using it to execute branching statements.
 
-## 16 - CHALLENGE 10B-1 - NOT EQUALS (!=) OPERATOR [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge10B-1/Challenge10B-1/Program.cs)
+## 16 - CHALLENGE 10B-1 - NOT EQUALS (!=) OPERATOR [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge_10B-1/Challenge10B-1/Program.cs)
 A demonstration of the use of the NOT EQUALS operator (!=) within C#, again taking user input and using it to execute branching statements.
 
-## 17 - CHALLENGE 10B-2 - GREATER OR LESS THAN OPERATORS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge10B-2/Challenge10B-2/Program.cs)
+## 17 - CHALLENGE 10B-2 - GREATER OR LESS THAN OPERATORS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge_10B-2/Challenge10B-2/Program.cs)
 A challenge to show that I understand how to use both the greater than and less than or equal to operator, this is shown alongside the use of IF statements.
+
+## 18 - CHALLENGE 11A-1 - TERNARY OPERATORS [(CODE)]()
+A challenge to demonstrate an understanding of ternary operators in C#.
