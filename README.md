@@ -52,5 +52,8 @@ A demonstration of the use of the NOT EQUALS operator (!=) within C#, again taki
 ## 17 - CHALLENGE 10B-2 - GREATER OR LESS THAN OPERATORS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge_10B-2/Challenge10B-2/Program.cs)
 A challenge to show that I understand how to use both the greater than and less than or equal to operator, this is shown alongside the use of IF statements.
 
-## 18 - CHALLENGE 11A-1 - TERNARY OPERATORS [(CODE)]()
+## 18 - CHALLENGE 11A-1 - TERNARY OPERATORS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge_11A-1/Challenge_11A-1/Program.cs)
 A challenge to demonstrate an understanding of ternary operators in C#.
+
+## 19 - BRANCHING TUTORIAL [(CODE)]()
+The code that I wrote while following along with the branching tutorial video.
