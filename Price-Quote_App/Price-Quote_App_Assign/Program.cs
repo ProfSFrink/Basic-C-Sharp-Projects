@@ -6,9 +6,9 @@
 // AUTHOR: Steven Partlow
 // DATE: 10/12/2022
 //
-// GOALS2
+// GOALS
 // 1) The first line of the program must be: "Welcome to Package Express. Please follow the instructions below." - DONE
-// 2) The user must then be prompted for the package weight.
+// 2) The user must then be prompted for the package weight. - DONE
 // 3) If the weight is greater than 50, display the error message: "Package too heavy to be shipped via Package Express. Have a good day." At this point, the program must end.
 // 4) The user must be prompted for the package width, height and length.
 // 5) If the total dimensions of the package is greater than 50, display the error message: "Package too big to be shipped via Package Express." At this point, the program will end.
@@ -30,11 +30,17 @@ namespace Price_Quote_App_Assign
     {
         static void Main(string[] args)
         {
-            // Goal 1) The first line of the program must be: "Welcome to Package Express." Please follow the instructions below."
+            // GOAL 1) The first line of the program must be: "Welcome to Package Express." Please follow the instructions below."
             Console.WriteLine("Welcome to Package Express.");
             
             Console.WriteLine("\nPlease follow the instructions below.");
             Console.WriteLine("-------------------------------------");
+
+            // GOAL 2) The user must then be prompted for the package weight.
+            Console.Write("Please enter the weight of your package in kilos: ");
+            decimal packageWeight = Convert.ToDecimal(Console.ReadLine());
+
+            
 
             Console.WriteLine("\nPress the ENTER key to exit the application"); // Output this text to the display
             Console.ReadLine(); // Pause the application so we can see the output 
