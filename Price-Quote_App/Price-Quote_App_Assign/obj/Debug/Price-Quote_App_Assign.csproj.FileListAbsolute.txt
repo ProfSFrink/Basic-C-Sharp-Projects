@@ -1,0 +1,7 @@
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Price-Quote_App\Price-Quote_App_Assign\bin\Debug\Price-Quote_App_Assign.exe.config
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Price-Quote_App\Price-Quote_App_Assign\bin\Debug\Price-Quote_App_Assign.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Price-Quote_App\Price-Quote_App_Assign\bin\Debug\Price-Quote_App_Assign.pdb
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Price-Quote_App\Price-Quote_App_Assign\obj\Debug\Price-Quote_App_Assign.csproj.AssemblyReference.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Price-Quote_App\Price-Quote_App_Assign\obj\Debug\Price-Quote_App_Assign.csproj.CoreCompileInputs.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Price-Quote_App\Price-Quote_App_Assign\obj\Debug\Price-Quote_App_Assign.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Price-Quote_App\Price-Quote_App_Assign\obj\Debug\Price-Quote_App_Assign.pdb
