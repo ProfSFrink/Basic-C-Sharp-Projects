@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Branching",
-    "\\Branching\\Branching",
     "\\Price-Quote_App",
     "\\Price-Quote_App\\Price-Quote_App_Assign"
   ],
-  "SelectedNode": "\\Branching\\Branching\\Program.cs",
+  "SelectedNode": "\\Price-Quote_App\\Price-Quote_App.sln",
   "PreviewInSolutionExplorer": false
 }
