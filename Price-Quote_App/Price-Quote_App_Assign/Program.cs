@@ -91,7 +91,8 @@ namespace Price_Quote_App_Assign
 
                     // GOAL 7) Display the quote to the user as an amount in pounds sterling
 
-                    Console.WriteLine("\nThe price we will quote to send your package is: £" + Convert.ToString(priceQuote));
+                    Console.WriteLine("\nYour estimated total for shipping this package is: £" + Convert.ToString(priceQuote)); // Cast priceQuote to a string and concatenate with this text and then output the resulting string to the console
+
                 } // End ELSE
 
             } // End ELSE
