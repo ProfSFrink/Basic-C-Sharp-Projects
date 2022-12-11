@@ -45,7 +45,7 @@ namespace Price_Quote_App_Assign
 
             // GOAL 3) If the weight is greater than 50, display the error message: "Package too heavy to be shipped via Package Express. Have a good day." At this point, the program must end
 
-            if (packageWeight > 50) // If packageWeight is greater than 50 execute inform the user the package is too heavy to be shipped and end the program
+            if (packageWeight > 50) // If packageWeight is greater than 50 inform the user the package is too heavy to be shipped and end the program
             {
                 Console.WriteLine("\nPackage too heavy to be shipped via Package Express. Have a good day."); // Print this text to the console
             } // End IF
@@ -74,12 +74,12 @@ namespace Price_Quote_App_Assign
 
                 Console.WriteLine("\nTotal Package Dimensions: " + (packageDimensions) + "cm"); // Concatenate packageDimensions into this string and output it to the console window
 
-                if (packageDimensions > 50) // If packageDimensions is greater than 50 inform user that the dimensions of the package are too big and end the program 
+                if (packageDimensions > 50) // If packageDimensions is greater more than 50 inform user that the dimensions of the package are too big and end the program 
                 {
                     Console.WriteLine("\nPackage too big to be shipped via Package Express. Have a good day.");
                 } // End IF
 
-                else // If packageDimensions are less than 50 execute the rest of the program
+                else // If packageDimensions is less than 50 execute the rest of the program
                 {
                     Console.WriteLine("\nPackage Weight: " + packageWeight + "kg"); // Concatenate packageWeight into this string and display to the console window
                     Console.WriteLine("Total Package Dimensions: " + (packageDimensions) + "cm"); // Concatenate packageDimensions into this string and output it to the console window
