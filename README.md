@@ -61,5 +61,8 @@ The code that I wrote while following along with the branching tutorial video.
 ## 20 - PRICE-QUOTE ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Price-Quote_App/Price-Quote_App_Assign/Program.cs)
 The graded assignment for this course, a price-quote application where we give a price-quote for an package that the user wishes to deliver, the user must provide the weight, height, width and length of the package then we will calulate the cost to ship the package. If the package either weighs more than a certian amount or is bigger than a certain size we must decline to give a quote and end the program at that point. If the package is ok we calculate a price to ship the package in pounds sterling and then thank the user before exiting the application.
 
-## 21 - CHALLENGE 12A-1 - SWITCH STATEMENT [(CODE)]()
+## 21 - CHALLENGE 12A-1 - SWITCH STATEMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge_12A-1/Challenge_12A-1/Program.cs)
 An example use of the switch statement within C#. We prompt the user to enter a number between 1 and 5 and then execute a switch statement on the user input, executing one of five case statements to recommend a game to the user, their is also a default case if the user does not enter a number between 1 and 5.
+
+## 22 - LOOPS TUTORIAL [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Loops/Loops/Program.cs)
+A tutorial code along which covers loops in C#, we review the switch statement then cover WHILE loops and an example of using a DO WHILE loop in conjunction with a switch statement were we ask the user to guess a number and the program loops until the user guesses correctly.
