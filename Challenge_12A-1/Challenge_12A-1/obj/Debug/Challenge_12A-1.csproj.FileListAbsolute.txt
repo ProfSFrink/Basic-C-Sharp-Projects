@@ -1,0 +1,7 @@
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_12A-1\Challenge_12A-1\bin\Debug\Challenge_12A-1.exe.config
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_12A-1\Challenge_12A-1\bin\Debug\Challenge_12A-1.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_12A-1\Challenge_12A-1\bin\Debug\Challenge_12A-1.pdb
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_12A-1\Challenge_12A-1\obj\Debug\Challenge_12A-1.csproj.AssemblyReference.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_12A-1\Challenge_12A-1\obj\Debug\Challenge_12A-1.csproj.CoreCompileInputs.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_12A-1\Challenge_12A-1\obj\Debug\Challenge_12A-1.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\Challenge_12A-1\Challenge_12A-1\obj\Debug\Challenge_12A-1.pdb

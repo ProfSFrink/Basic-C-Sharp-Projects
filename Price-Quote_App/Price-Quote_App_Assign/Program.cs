@@ -11,7 +11,7 @@
 // 2) The user must then be prompted for the package weight. - DONE
 // 3) If the weight is greater than 50, display the error message: "Package too heavy to be shipped via Package Express. Have a good day." At this point, the program must end. - DONE
 // 4) The user must be prompted for the package width, height and length. - DONE
-// 5) If the total dimensions of the package is greater than 50, display the error message: "Package too big to be shipped via Package Express." At this point, the program will end.
+// 5) If the total dimensions of the package is greater than 50, display the error message: "Package too big to be shipped via Package Express." At this point, the program will end. - DONE
 // 6) Next, multiply the three dimensions (height, width, and length) together and multiply the product by the weight. Finally, divide the outcome by 100. - DONE
 // 7) Display the quote to the user as an amount in pounds sterling. - DONE
 // 8) Thank the user for using the application and end the program. - DONE
