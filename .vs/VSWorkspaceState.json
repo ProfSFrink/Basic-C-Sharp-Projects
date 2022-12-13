@@ -1,12 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\LoopsAssign",
-    "\\LoopsAssign\\LoopsAssign",
-    "\\Loops\\Loops",
-    "\\StringFunctions",
-    "\\StringFunctions\\StringFunctions"
+    ""
   ],
-  "SelectedNode": "\\StringFunctions\\StringFunctions\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

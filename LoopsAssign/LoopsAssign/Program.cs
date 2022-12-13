@@ -8,7 +8,7 @@
 //
 // GOALS
 // 1) Do a boolean comparison using a "while" statement - DONE
-// 2) Do a boolean comparison using a "do while" statment
+// 2) Do a boolean comparison using a "do while" statment - DONE
 
 using System;
 using System.Collections.Generic;

@@ -5,3 +5,10 @@ C:\Users\pitma\sp\Basic_C#_Programs\StringFunctions\StringFunctions\obj\Debug\St
 C:\Users\pitma\sp\Basic_C#_Programs\StringFunctions\StringFunctions\obj\Debug\StringFunctions.csproj.CoreCompileInputs.cache
 C:\Users\pitma\sp\Basic_C#_Programs\StringFunctions\StringFunctions\obj\Debug\StringFunctions.exe
 C:\Users\pitma\sp\Basic_C#_Programs\StringFunctions\StringFunctions\obj\Debug\StringFunctions.pdb
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\StringFunctions\StringFunctions\bin\Debug\StringFunctions.exe.config
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\StringFunctions\StringFunctions\bin\Debug\StringFunctions.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\StringFunctions\StringFunctions\bin\Debug\StringFunctions.pdb
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\StringFunctions\StringFunctions\obj\Debug\StringFunctions.csproj.AssemblyReference.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\StringFunctions\StringFunctions\obj\Debug\StringFunctions.csproj.CoreCompileInputs.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\StringFunctions\StringFunctions\obj\Debug\StringFunctions.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\StringFunctions\StringFunctions\obj\Debug\StringFunctions.pdb

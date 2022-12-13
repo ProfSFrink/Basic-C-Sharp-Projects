@@ -67,7 +67,8 @@ An example use of the switch statement within C#. We prompt the user to enter a 
 ## 22 - LOOPS TUTORIAL [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Loops/Loops/Program.cs)
 A tutorial code along which covers loops in C#, we review the switch statement then cover WHILE loops and an example of using a DO WHILE loop in conjunction with a switch statement were we ask the user to guess a number and the program loops until the user guesses correctly.
 
-## 23 - LOOPS ASSIGNMENT [(CODE)]()
-A assignment to demonstrate an understanding of "while" and "do while" loops in C# using boolean comparison to control the loops in question.
+## 23 - LOOPS ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/LoopsAssign/LoopsAssign/Program.cs)
+An assignment to demonstrate an understanding of "while" and "do while" loops in C# using boolean comparison to control the loops in question.
 
-## 24 - STRING ASSIGNMENT [(CODE)]()
+## 24 - STRING ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/StringAssign/StringAssign/Program.cs)
+An assignment utilising string functions. First an example of concatenating three strings together, then using the ToUpper() method to convert a string to upper case and using a StringBuilder object to create a paragraph within a string but by adding one sentence at a time using the append method.

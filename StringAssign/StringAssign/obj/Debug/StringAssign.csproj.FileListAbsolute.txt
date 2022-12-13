@@ -1,0 +1,7 @@
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\StringAssign\StringAssign\bin\Debug\StringAssign.exe.config
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\StringAssign\StringAssign\bin\Debug\StringAssign.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\StringAssign\StringAssign\bin\Debug\StringAssign.pdb
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\StringAssign\StringAssign\obj\Debug\StringAssign.csproj.AssemblyReference.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\StringAssign\StringAssign\obj\Debug\StringAssign.csproj.CoreCompileInputs.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\StringAssign\StringAssign\obj\Debug\StringAssign.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\9. C# and .NET Framework - Part 1\Basic-C-Sharp-Programs\StringAssign\StringAssign\obj\Debug\StringAssign.pdb
