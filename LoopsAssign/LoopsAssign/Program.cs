@@ -4,7 +4,7 @@
 
 // MODULE 12: Loops Assignment
 // AUTHOR: Steven Partlow
-// DATE: 12/12/2022
+// DATE: 13/12/2022
 //
 // GOALS
 // 1) Do a boolean comparison using a "while" statement - DONE

@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\LoopsAssign",
+    "\\LoopsAssign\\LoopsAssign",
+    "\\Loops\\Loops",
+    "\\StringFunctions",
+    "\\StringFunctions\\StringFunctions"
   ],
-  "SelectedNode": "\\DailyReportSubmissionAssignment.sln",
+  "SelectedNode": "\\StringFunctions\\StringFunctions\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
