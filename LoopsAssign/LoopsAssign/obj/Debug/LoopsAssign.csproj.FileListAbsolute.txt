@@ -1,0 +1,7 @@
+C:\Users\pitma\sp\Basic_C#_Programs\LoopsAssign\LoopsAssign\bin\Debug\LoopsAssign.exe.config
+C:\Users\pitma\sp\Basic_C#_Programs\LoopsAssign\LoopsAssign\bin\Debug\LoopsAssign.exe
+C:\Users\pitma\sp\Basic_C#_Programs\LoopsAssign\LoopsAssign\bin\Debug\LoopsAssign.pdb
+C:\Users\pitma\sp\Basic_C#_Programs\LoopsAssign\LoopsAssign\obj\Debug\LoopsAssign.csproj.AssemblyReference.cache
+C:\Users\pitma\sp\Basic_C#_Programs\LoopsAssign\LoopsAssign\obj\Debug\LoopsAssign.csproj.CoreCompileInputs.cache
+C:\Users\pitma\sp\Basic_C#_Programs\LoopsAssign\LoopsAssign\obj\Debug\LoopsAssign.exe
+C:\Users\pitma\sp\Basic_C#_Programs\LoopsAssign\LoopsAssign\obj\Debug\LoopsAssign.pdb
