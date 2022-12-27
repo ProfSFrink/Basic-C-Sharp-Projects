@@ -1,7 +1,0 @@
-C:\Users\pitma\sp\Basic_C#_Programs\Variables and Data Types Tutorial\VariablesAndDataTypes\VariablesAndDataTypes\bin\Debug\VariablesAndDataTypes.exe.config
-C:\Users\pitma\sp\Basic_C#_Programs\Variables and Data Types Tutorial\VariablesAndDataTypes\VariablesAndDataTypes\bin\Debug\VariablesAndDataTypes.exe
-C:\Users\pitma\sp\Basic_C#_Programs\Variables and Data Types Tutorial\VariablesAndDataTypes\VariablesAndDataTypes\bin\Debug\VariablesAndDataTypes.pdb
-C:\Users\pitma\sp\Basic_C#_Programs\Variables and Data Types Tutorial\VariablesAndDataTypes\VariablesAndDataTypes\obj\Debug\VariablesAndDataTypes.csproj.AssemblyReference.cache
-C:\Users\pitma\sp\Basic_C#_Programs\Variables and Data Types Tutorial\VariablesAndDataTypes\VariablesAndDataTypes\obj\Debug\VariablesAndDataTypes.csproj.CoreCompileInputs.cache
-C:\Users\pitma\sp\Basic_C#_Programs\Variables and Data Types Tutorial\VariablesAndDataTypes\VariablesAndDataTypes\obj\Debug\VariablesAndDataTypes.exe
-C:\Users\pitma\sp\Basic_C#_Programs\Variables and Data Types Tutorial\VariablesAndDataTypes\VariablesAndDataTypes\obj\Debug\VariablesAndDataTypes.pdb

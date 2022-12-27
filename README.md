@@ -72,3 +72,6 @@ An assignment to demonstrate an understanding of "while" and "do while" loops in
 
 ## 24 - STRING ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/StringAssign/StringAssign/Program.cs)
 An assignment utilising string functions. First an example of concatenating three strings together, then using the ToUpper() method to convert a string to upper case and using a StringBuilder object to create a paragraph within a string but by adding one sentence at a time using the append method.
+
+## 25 - ARRAYS AND LISTS TUTORIAL [(CODE)]()
+A tutorial video covering arrays and lists within C#. Firstly we cover how to instantiate an array and fill it with values before creating a second array and filling it with values upon instantiation, then outputing elements of the array to the console.
