@@ -1,5 +1,5 @@
 ﻿// Advanced Software and Web Developer Diploma
-// Part IX: C# and .NET Framework - Part 2
+// Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
 // MODULE 1: Arrays and Lists Tutorial
@@ -22,7 +22,7 @@ class Program
 
         //// Arrays and Lists Tutorial Part 1
 
-        //int[] numArray = new int[5]; // Create an array object containing five integer elements
+        int[] numArray = new int[5]; // Create an array object containing five integer elements
 
         //numArray[0] = 5; // Set the first element of the array numArray to 5
         //numArray[1] = 2; // Set the second element of the array numArray to 2
@@ -32,14 +32,14 @@ class Program
 
         ////Console.WriteLine(numArray[3]); // Print to the console the value store in the fourth element of the numArray array
 
-        //int[] numArray1 = new int[] { 5, 2, 10, 200, 5000 }; // This will again create an array with five elements but will fill those five elements with the values that are
+        int[] numArray1 = new int[] { 5, 2, 10, 200, 5000 }; // This will again create an array with five elements but will fill those five elements with the values that are
         //                                                     // between the curly braces, this achieves the same as above but is cleaner
 
         ////Console.WriteLine(numArray1[3]); // Print to the console the value store in the fourth element of the numArray1 array
 
         //// Arrays and Lists Tutorial Part 2
 
-        //int[] numArray2 = { 5, 2, 10, 200, 5000, 600, 2300 }; // This will create and array and fill it with the values that are in between the curly braces we do not                                                             need the new clause as C# can figure out that we are using the integer data type
+        int[] numArray2 = { 5, 2, 10, 200, 5000, 600, 2300 }; // This will create and array and fill it with the values that are in between the curly braces we do not                                                             need the new clause
 
         ////Console.WriteLine(numArray2[3]); // Print to the console the value store in the fourth element of the numArray2 array
 

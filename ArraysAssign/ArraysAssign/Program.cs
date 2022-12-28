@@ -1,5 +1,5 @@
 ﻿// Advanced Software and Web Developer Diploma
-// Part IX: C# and .NET Framework - Part 2
+// Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
 // MODULE 1: Arrays Assignment
