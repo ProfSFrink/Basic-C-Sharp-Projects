@@ -39,7 +39,7 @@ class Program
 
         //// Arrays and Lists Tutorial Part 2
 
-        //int[] numArray2 = { 5, 2, 10, 200, 5000, 600, 2300 }; // This will create and array and fill it with the values that are in between the curly braces we do not need the                                                 // the new clause as C# can figure out that we are using the integer data type
+        //int[] numArray2 = { 5, 2, 10, 200, 5000, 600, 2300 }; // This will create and array and fill it with the values that are in between the curly braces we do not                                                             need the new clause as C# can figure out that we are using the integer data type
 
         ////Console.WriteLine(numArray2[3]); // Print to the console the value store in the fourth element of the numArray2 array
 

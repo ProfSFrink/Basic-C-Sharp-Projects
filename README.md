@@ -1,6 +1,8 @@
 # Basic C Sharp Projects
 This repository is for the C# and .NET Framework Course that is part of my Advanced Software and Web Developer Diploma with Pitman Training / The Tech Academy. This repository is for basic C# projects done on the course.
 
+## C# AND .NET FRAMEWORK - PART 1
+
 ## 01 - COMPILER ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Compiler%20Assignment/SampleApplication.cs)
 This was a simple assignment to add the C# compiler location to the Windows Environment Variable 'PATH' then through use of the command line create both an executable (.exe file) and a library (.dll file) of the code within 'SampleApplication.cs' which prints "Hello, World" to the console.
 
@@ -73,5 +75,10 @@ An assignment to demonstrate an understanding of "while" and "do while" loops in
 ## 24 - STRING ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/StringAssign/StringAssign/Program.cs)
 An assignment utilising string functions. First an example of concatenating three strings together, then using the ToUpper() method to convert a string to upper case and using a StringBuilder object to create a paragraph within a string but by adding one sentence at a time using the append method.
 
-## 25 - ARRAYS AND LISTS TUTORIAL [(CODE)]()
+## C# AND .NET FRAMEWORK - PART 2
+
+## 25 - ARRAYS AND LISTS TUTORIAL [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ArraysAndLists/ArraysAndLists/Program.cs)
 A tutorial video covering arrays and lists within C#. Firstly we cover how to instantiate an array and fill it with values before creating a second array and filling it with values upon instantiation, then outputing elements of the array to the console. The second part of the tutorial covers lists and how to create one, then adding and removing elements along with outputting to the display.
+
+## 26 - ARRAYS ASSIGNMENT [(CODE)]()
+An assignment were we have to complete four different goals, firstly to create a one-dimensional array of strings then request an index number from the user and display the content of that index within our array.

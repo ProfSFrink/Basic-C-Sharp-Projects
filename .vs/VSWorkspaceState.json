@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ArraysAndLists\\ArraysAndLists",
-    "\\Price-Quote_App\\Price-Quote_App_Assign",
-    "\\StringAssign\\StringAssign"
+    "\\ArraysAndLists",
+    "\\ArraysAndLists\\ArraysAndLists"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\ArraysAndLists\\ArraysAndLists\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
