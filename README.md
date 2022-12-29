@@ -77,8 +77,11 @@ An assignment utilising string functions. First an example of concatenating thre
 
 ## C# AND .NET FRAMEWORK - PART 2
 
-## 25 - ARRAYS AND LISTS TUTORIAL [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ArraysAndLists/ArraysAndLists/Program.cs)
+## 01 - ARRAYS AND LISTS TUTORIAL [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ArraysAndLists/ArraysAndLists/Program.cs)
 A tutorial video covering arrays and lists within C#. Firstly we cover how to instantiate an array and fill it with values before creating a second array and filling it with values upon instantiation, then outputing elements of the array to the console. The second part of the tutorial covers lists and how to create one, then adding and removing elements along with outputting to the display.
 
-## 26 - ARRAYS ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ArraysAssign/ArraysAssign/Program.cs)
+## 02 - ARRAYS ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ArraysAssign/ArraysAssign/Program.cs)
 An assignment were we have to complete four different goals, firstly to create a one-dimensional array of strings then request an index number from the user and display the content of that index within our array, then do the same thing but with an array of integer values instead, then create a list of string values and again ask the user to select an index value and display the value at that position. For all three data structures we have a do while loop along side both if and else statements which check the value the user has entered and if it is outside the range of the array or list we inform the user and then ask them to enter a valid index number, this process repeats until the user enters a valid index position.
+
+## 03 - ITERATION TUTORIAL [(CODE)]()
+A tutorial video covering the use of iteration within C#. We firstly iterate through an array of numbers utilising a for loop and output any values that are greater than 85 to the console, then we iterate through an array of strings and output any names which equal Jesse.
