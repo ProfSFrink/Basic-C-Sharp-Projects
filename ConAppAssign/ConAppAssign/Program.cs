@@ -20,8 +20,15 @@
 // ------
 // 2-1) An infinite loop. - DONE
 // 2-2) Save your code. - DONE
-// 2-3) Fix the infinite loop so that it will execute properly.
-// 2-4) Save and execute your code.
+// 2-3) Fix the infinite loop so that it will execute properly. - DONE
+// 2-4) Save and execute your code. - DONE
+
+// PART 3
+// ------
+// 3-1) A loop where the comparison that’s used to determine whether to continue iterating the loop is a “<” operator. - DONE
+// 3-2) Save and execute your code. - DONE
+// 3-3) A loop where the comparison that’s used to determine whether to continue iterating the loop is a “<=” operator. - DONE
+// 3-4) Save and execute your code. - DONE
 
 using System;
 using System.Collections.Generic;
@@ -29,7 +36,7 @@ using System.Collections.Generic;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         // Output all the below text to the display
         Console.WriteLine("PITMAN TRAINING / THE TECH ACADEMY");
@@ -59,7 +66,7 @@ class Program
         } // End FOR
 
         // PART 2
-        Console.WriteLine("Console App Assignment - Part 2"); // Output this text to the console then start a new line
+        Console.WriteLine("\nConsole App Assignment - Part 2"); // Output this text to the console then start a new line
         Console.WriteLine("-------------------------------\n");
 
         //// GOAL 2 - 1) An infinite loop
@@ -76,10 +83,34 @@ class Program
         while (infinite) // This loop will now execute once as it will change infinite to false after one loop, exiting the while loop
         {
             infinite = false; // Set the boolean variable infinite to false to exit the while loop
-            Console.WriteLine("The while loop will now exit correctly!"); // Output this text to the console
+            Console.WriteLine("The while loop will now exit correctly!\n"); // Output this text to the console
         } // End While
 
+        // PART 3
+        Console.WriteLine("Console App Assignment - Part 3"); // Output this text to the console then start a new line
+        Console.WriteLine("-------------------------------\n");
+
+        // GOAL 3-1) A loop where the comparison that’s used to determine whether to continue iterating the loop is a “<” operator
+        for(int c = 1; c < 11; c++) // This FOR loop will count from 1 to 10 using the integer c as a counter
+        {
+            Console.WriteLine("The loop has run " + c + " times."); // Concatenate c into this string and out it to the console.
+        } // End FOR
+
+        // GOAL 3-3) A loop where the comparison that’s used to determine whether to continue iterating the loop is a “<=” operator
+
+        int totalValue = 0; // Initalise an integer called totalValue with a value of zero
+        do 
+        {
+            Console.Write("\nPlease enter a numerical value, this will be added to the current total: "); // Output this text to the console
+            totalValue = totalValue + Convert.ToInt32(Console.ReadLine()); // Take the value the user inputs and add it the current value of totalValue
+            Console.WriteLine("\nThe current total is: " + totalValue); // Concatenate the current value of totalValue to this string
+        } // End DO WHILE
+        while (totalValue <= 12500); // After the loop has run once we check if totalValue is less or equal to 12500 if it is we iterate through the loop again
+
+        Console.WriteLine("\nThe total has exceeded 12500 and the application will now exit. Thank You!."); // Output this text to the console
+
         Console.ReadLine(); // Pause the application
+
     } // End MAIN
 
 } // End CLASS
