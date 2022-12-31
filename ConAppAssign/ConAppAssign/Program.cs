@@ -39,6 +39,13 @@
 // 4-5) Add code to the loop that stops it from executing once a match has been found. - DONE
 // 4-6) Save and execute your code. - DONE
 
+// PART 5
+// ------
+// 5-1) A list of strings that has at least two identical strings in the list. Ask the user to select text to search for in the list. - DONE
+// 5-2) Create a loop that iterates through the list and then displays the indices of the list that contain matching text on the screen. - DONE
+// 5-3) Add code to the loop that tells a user if they put in text that isn’t in the list. - DONE
+// 5-4) Save and execute your code. - DONE
+
 using System;
 using System.Collections.Generic;
 
@@ -121,54 +128,88 @@ class Program
 
         //Console.WriteLine("\nThe total has exceeded 12500 and the application will now exit. Thank You!.\n"); // Output this text to the console
 
-        /* ---------------------------------------------------------------- PART 4 ----------------------------------------------------------------------------------- */
+        ///* ---------------------------------------------------------------- PART 4 ----------------------------------------------------------------------------------- */
 
-        Console.WriteLine("Console App Assignment - Part 4"); // Output this text to the console then start a new line
+        //Console.WriteLine("Console App Assignment - Part 4"); // Output this text to the console then start a new line
+        //Console.WriteLine("-------------------------------\n");
+
+        //// GOAL 4-1) A list of strings where each item in the list is unique
+
+        //List<string> c64Games = new List<string>() { "Summer Games", "Jumpman", "Movie Monster Game", "Subterranea", "Alleykat", "Winter Games", "Lee", "Marauder", "Battle Valley", "Street Sports Baseball", "Impossible Mission", "Gateway to Apshai", "Stormlord", "Idridis Alpha" }; // Instanstiate a new instance of the list object called c64Games and assign these fourteen values
+
+        //// GOAL 4-2) Ask the user to input text to search for in the list
+
+        //Console.WriteLine("Commodore 64 Game Database"); // Output this text to the console
+        //Console.WriteLine("--------------------------"); // Output this text to the console
+
+        //Console.Write("\nPlease enter a game name to search for: "); // Output this text to the console
+        //string searchString = Console.ReadLine(); // Take the user input and assign it to the string searchString
+        //Console.WriteLine(); // Add a blank line to the console
+
+        //// 4-3) A loop that iterates through the list and then displays the index of the list that contains matching text on the screen
+
+        //bool matchFound = false; // A boolean variable to track if we have found a match within our database which we initally set to false
+
+        //for (int g = 0; g <= 13; g++) // Start a FOR loop using integer variable g as a counter starting at zero and going up to thirteen
+        //{
+
+        //    if (c64Games[g].ToUpper().Contains(searchString.ToUpper())) // We check if the current value of c64Games contains the value in searchString, we also convert both values to uppercase to aid with case accuracy, then if we find a match
+        //    {
+        //        // The current value of the counter g will represet our index position in our list
+        //        Console.WriteLine("Game found at index position " + g); // We concatenate that value to this string then output it to the console
+        //        matchFound = true; // We can set this to true as we have a match
+
+        //        // GOAL 4-5) Add code to the loop that stops it from executing once a match has been found
+        //        break; // We break the loop here as we have found a match and there is no need to continue
+        //    } // End IF
+
+        //} // End FOR
+
+        //// GOAL 4-4) Add code to the loop that tells a user if they put in text that isn’t in the list
+
+        //if (!matchFound) // If after the above FOR loop has completed and matchFound is still false then we had no match and we inform the user
+        //{
+        //    Console.WriteLine("No match found in the database, sorry!."); // Output this text to the console
+        //} // End IF
+
+        /* ---------------------------------------------------------------- PART 5 ----------------------------------------------------------------------------------- */
+
+        Console.WriteLine("Console App Assignment - Part 5"); // Output this text to the console then start a new line
         Console.WriteLine("-------------------------------\n");
 
-        // GOAL 4-1) A list of strings where each item in the list is unique
+        // GOAL 5-1) A list of strings that has at least two identical strings in the list. Ask the user to select text to search for in the list
 
-        List<string> c64Games = new List<string>() { "Summer Games", "Jumpman", "Movie Monster Game", "Subterranea", "Alleykat", "Winter Games", "Lee", "Marauder", "Battle Valley", "Street Sports Baseball", "Impossible Mission", "Gateway to Apshai", "Stormlord", "Idridis Alpha" }; // Instanstiate a new instance of the list object called c64Games and assign these fourteen values
+        List<string> dataEastGames = new List<string>() { "Burger Time", "Bad Dudes VS Dragonninja", "Gate of Doom", "Wizard Fire", "Breakthru", "Tumblepop", "Darwin 4878", "Sly Spy", "Chain Reaction", "Gate of Doom", "Lock N Chase"}; // Instanstiate a new list of strings called dataEastGames and assign it these eleven values
 
-        // GOAL 4-2) Ask the user to input text to search for in the list
-
-        Console.WriteLine("Commodore 64 Game Database"); // Output this text to the console
-        Console.WriteLine("--------------------------"); // Output this text to the console
+        Console.WriteLine("Data East Games Database"); // Output this text to the console
+        Console.WriteLine("------------------------"); // Output this text to the console
 
         Console.Write("\nPlease enter a game name to search for: "); // Output this text to the console
         string searchString = Console.ReadLine(); // Take the user input and assign it to the string searchString
         Console.WriteLine(); // Add a blank line to the console
 
-        // 4-3) A loop that iterates through the list and then displays the index of the list that contains matching text on the screen
+        // GOAL 5-2 ) Create a loop that iterates through the list and then displays the indices of the list that contain matching text on the screen
 
         bool matchFound = false; // A boolean variable to track if we have found a match within our database which we initally set to false
 
-        for (int g = 0; g <= 13; g++) // Start a FOR loop using integer variable g as a counter start at zero and going up to thirteen
+        for (int g = 0; g <= 10; g++) // Start a FOR loop using integer variable g as a counter starting at zero and going up to ten
         {
 
-            if (c64Games[g].ToUpper().Contains(searchString.ToUpper())) // We check if the current value of c64Games contains the value in searchString, we also convert both values to uppercase to add with case accuracy, then if we find a match
+            if (dataEastGames[g].ToUpper().Contains(searchString.ToUpper())) // We check if the current value of dataEastGames contains the value in searchString, we also convert both values to uppercase to aid with case accuracy, then if we find a match
             {
                 // The current value of the counter g will represet our index position in our list
                 Console.WriteLine("Game found at index position " + g); // We concatenate that value to this string then output it to the console
                 matchFound = true; // We can set this to true as we have a match
-
-                // GOAL 4-5) Add code to the loop that stops it from executing once a match has been found
-                break; // We break the loop here as we have found a match and there is no need to continue
             } // End IF
 
         } // End FOR
 
-        // GOAL 4-4) Add code to the loop that tells a user if they put in text that isn’t in the list
+        // GOAL 5-3) Add code to the loop that tells a user if they put in text that isn’t in the list
 
-        if (!matchFound) // If after the above FOR loop has completed matchFound is still false then we had no match and we inform the user
+        if (!matchFound) // If after the above FOR loop has completed and matchFound is still false then we had no match and we inform the user
         {
             Console.WriteLine("No match found in the database, sorry!."); // Output this text to the console
         } // End IF
-
-        //foreach(string c64Game in c64Games) // Iterate through each element within the c64Games list assigning the current value to c64Game
-        //{
-        //    Console.WriteLine(c64Game);
-        //} // End FOR EACH
 
         Console.ReadLine(); // Pause the application
 
