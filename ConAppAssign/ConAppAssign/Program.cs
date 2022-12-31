@@ -49,8 +49,8 @@
 // PART 6
 // ------
 // 6-1) Create a list of strings that has at least two identical strings in the list. - DONE
-// 6-2) Create a foreach loop that evaluates each item in the list, and displays a message showing the string and whether or not it has already appeared in the list.
-// 6-3) Save and execute your code.
+// 6-2) Create a foreach loop that evaluates each item in the list, and displays a message showing the string and whether or not it has already appeared in the list. - DONE
+// 6-3) Save and execute your code. - DONE
 
 using System;
 using System.Collections.Generic;
