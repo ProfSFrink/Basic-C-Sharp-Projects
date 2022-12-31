@@ -1,0 +1,7 @@
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ConAppAssign\ConAppAssign\bin\Debug\ConAppAssign.exe.config
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ConAppAssign\ConAppAssign\bin\Debug\ConAppAssign.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ConAppAssign\ConAppAssign\bin\Debug\ConAppAssign.pdb
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ConAppAssign\ConAppAssign\obj\Debug\ConAppAssign.csproj.AssemblyReference.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ConAppAssign\ConAppAssign\obj\Debug\ConAppAssign.csproj.CoreCompileInputs.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ConAppAssign\ConAppAssign\obj\Debug\ConAppAssign.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ConAppAssign\ConAppAssign\obj\Debug\ConAppAssign.pdb
