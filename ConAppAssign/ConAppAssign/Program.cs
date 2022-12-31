@@ -16,6 +16,13 @@
 // 1-4) Then create a loop that prints off each string in the array on a separate line. - DONE
 // 1-5) Save and execute your code. - DONE
 
+// PART 2
+// ------
+// 2-1) An infinite loop. - DONE
+// 2-2) Save your code. - DONE
+// 2-3) Fix the infinite loop so that it will execute properly.
+// 2-4) Save and execute your code.
+
 using System;
 using System.Collections.Generic;
 
@@ -27,8 +34,10 @@ class Program
         // Output all the below text to the display
         Console.WriteLine("PITMAN TRAINING / THE TECH ACADEMY");
         Console.WriteLine("----------------------------------\n");
-        Console.WriteLine("Console App Assignment");
-        Console.WriteLine("----------------------");
+        
+        // PART 1
+        Console.WriteLine("Console App Assignment - Part 1"); // Output this text to the console then start a new line
+        Console.WriteLine("-------------------------------\n");
 
         // GOAL 1-1) A one-dimensional array of strings
         string[] games = { "Moon Patrol", "10-Yard Fight", "Battle Chopper", "Lightning Swords", "R-Type", "In the Hunt" }; // Instanstiate an array of string called games and add these six values to the array
@@ -49,7 +58,28 @@ class Program
             Console.WriteLine(games[i]); // Output the current value of games to the console
         } // End FOR
 
-        Console.ReadLine();
+        // PART 2
+        Console.WriteLine("Console App Assignment - Part 2"); // Output this text to the console then start a new line
+        Console.WriteLine("-------------------------------\n");
+
+        //// GOAL 2 - 1) An infinite loop
+        //bool infinite = true; // Initilise a boolean variable and set it to true
+
+        //while (infinite) // This is an infinite while loop that will not stop looping as infinite will always be set to true
+        //{
+        //    Console.WriteLine("This is an infinite loop that will never end!. You will have force the application to quit!."); // Output this text to the console
+        //} // End While
+
+        // GOAL 2-3) Fix the infinite loop so that it will execute properly
+        bool infinite = true; // Initilise a boolean variable and set it to true
+
+        while (infinite) // This loop will now execute once as it will change infinite to false after one loop, exiting the while loop
+        {
+            infinite = false; // Set the boolean variable infinite to false to exit the while loop
+            Console.WriteLine("The while loop will now exit correctly!"); // Output this text to the console
+        } // End While
+
+        Console.ReadLine(); // Pause the application
     } // End MAIN
 
 } // End CLASS
