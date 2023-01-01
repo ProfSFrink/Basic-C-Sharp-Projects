@@ -31,12 +31,25 @@ class Program
 
         } // End TRY
 
-        catch (FormatException ex) // This block only executes if a FormatException occurs, which is when the user enters a letter or special character instead of a numeric value, when an error does occur the error is store within the variable ex
+        catch (FormatException ex) // This block only executes if a FormatException occurs, which is when the user enters a letter or special character instead of a numeric value, when an error does occur the error is stored within the variable ex
         {
-            Console.WriteLine("\n" + ex.Message); // ex is the information of the error that occurs the .Message method will output that error message to the console
+            Console.WriteLine("\nPlease type a whole number."); // Inform the user they must enter a whole number
         } // End CATCH
 
-        Console.ReadLine(); // Pause the application
+        catch (DivideByZeroException ex) // This block only executes if a DivideByZeroException occurs, which is when the user attempts to divide a number by zero, when an error does occur the error is stored within the variable ex
+        {
+            Console.WriteLine("\nPlease don't divide by zero."); // Inform the user that they cannot divide by zero
+        } // End CATCH
+
+        catch (Exception ex) // This block executes if there is any other error that occurs that is not caught by the two above catch blocks, the nature of the error will be caught by the variable ex
+        {
+            Console.WriteLine("\n" + ex.Message); // Inform the user the nature of the error that has occured
+        } // End CATCH
+
+        finally
+        {
+            Console.ReadLine(); // Pause the application
+        } // End FINALLY
 
     } // End MAIN
 
