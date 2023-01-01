@@ -224,16 +224,16 @@ class Program
 
         // GOAL 6-1) Create a list of strings that has at least two identical strings in the list
 
-        List<string> topalanGames = new List<string>() { "Tiger Heli", "Truxton", "Guardian", "Alcon", "Flying Shark", "Truxton", "Zero Wing", "Snow Bros","Teki Paki" }; // Instanstiate a new list of strings called topalanGames and assign it these nine values
+        List<string> toaplanGames = new List<string>() { "Tiger Heli", "Truxton", "Guardian", "Alcon", "Flying Shark", "Truxton", "Zero Wing", "Snow Bros","Teki Paki" }; // Instanstiate a new list of strings called topalanGames and assign it these nine values
 
         List<string> alreadyExists = new List<string>(); // Instanstiate a second list of string which is empty to begin with
 
-        Console.WriteLine("Topalan Games Database"); // Output this text to the console
+        Console.WriteLine("Toaplan Games Database"); // Output this text to the console
         Console.WriteLine("------------------------"); // Output this text to the console
 
         // GOAL 6 - 2) Create a foreach loop that evaluates each item in the list, and displays a message showing the string and whether or not it has already appeared in the list
 
-        foreach (string game in topalanGames) // Iterate through the topalanGames list assigning the current value to game
+        foreach (string game in toaplanGames) // Iterate through the topalanGames list assigning the current value to game
         {
             if (alreadyExists.Contains(game)) // If the current value of game already appears within the alreadyExists list
             {
