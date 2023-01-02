@@ -46,7 +46,7 @@ class Program
             Console.WriteLine("\n" + ex.Message); // Inform the user the nature of the error that has occured
         } // End CATCH
 
-        finally
+        finally // This code is always executed after the try / catch block has been executed
         {
             Console.ReadLine(); // Pause the application
         } // End FINALLY

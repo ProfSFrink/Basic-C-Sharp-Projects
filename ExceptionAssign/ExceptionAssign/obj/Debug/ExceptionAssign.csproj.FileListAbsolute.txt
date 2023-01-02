@@ -1,0 +1,7 @@
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ExceptionAssign\ExceptionAssign\bin\Debug\ExceptionAssign.exe.config
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ExceptionAssign\ExceptionAssign\bin\Debug\ExceptionAssign.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ExceptionAssign\ExceptionAssign\bin\Debug\ExceptionAssign.pdb
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ExceptionAssign\ExceptionAssign\obj\Debug\ExceptionAssign.csproj.AssemblyReference.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ExceptionAssign\ExceptionAssign\obj\Debug\ExceptionAssign.csproj.CoreCompileInputs.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ExceptionAssign\ExceptionAssign\obj\Debug\ExceptionAssign.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ExceptionAssign\ExceptionAssign\obj\Debug\ExceptionAssign.pdb
