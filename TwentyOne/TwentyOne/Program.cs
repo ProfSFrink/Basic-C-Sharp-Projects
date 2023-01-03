@@ -19,6 +19,7 @@ namespace TwentyOne
         static void Main(string[] args)
         {
             Deck deck = new Deck(); // Instanstiate a new instance of the Deck object called deck
+            deck = Shuffle(deck); // Run the method Shuffle, pass in the current version of deck and then replace deck with the new version that the Shuffle method returns
 
             foreach (Card card in deck.Cards) // For each card object in the object Deck property Cards
             {
@@ -27,7 +28,24 @@ namespace TwentyOne
 
             Console.WriteLine(deck.Cards.Count); // Count the number of elements in the Cards property of the deck object
             Console.ReadLine(); // Pause the application
+
         } // End MAIN
+
+        public static Deck Shuffle(Deck deck)
+        {
+            List<Card> TempList = new List<Card>(); // Create a new list consisting of Card objects called TempList
+            Random random = new Random(); // Create a new instance of the Random object and call it random
+
+            while (deck.Cards.Count > 0) // Keep iterating as long as their is at least one card in deck
+            {
+                int randomIndex = random.Next(0, deck.Cards.Count); // Generate a random integer between 0 and the current number of element left with in the deck list
+                TempList.Add(deck.Cards[randomIndex]); // Add the card at the index position randomIndex that is in the deck list and add it to TempList
+                deck.Cards.RemoveAt(randomIndex); // Now remove the card at position randomIndex from the list deck
+            } // End WHILE
+
+            deck.Cards = TempList; // Replace the entire contents of deck with the contents of TempList
+            return deck; // Return the deck object
+        } // End Shuffle
 
     } // End CLASS
 
