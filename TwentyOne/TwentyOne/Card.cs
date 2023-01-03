@@ -6,7 +6,7 @@
 // AUTHOR: Steven Partlow
 // DATE: 03/01/2023
 
-// CARD CLASS
+// CARD CLASS DEFINITION
 
 using System;
 using System.Collections.Generic;
@@ -18,6 +18,11 @@ namespace TwentyOne
 {
     public class Card // Define an object called Class and make it public so other programs can use it.
     {
+        public Card()
+        {
+            Suit = "Spades"; // Assign the property Suit the value "Spades" upon the creation of the card object
+            Face = "Two"; // Assign the property Face the value "Two" upon the creation of the card object
+        } // End CONSTRUCTOR
         public string Suit { get; set; } // A string value to represent the Suit property of a playing card
         public string Face { get; set; } // A String value to represent the Face property of a playing card
     } // End CLASS
