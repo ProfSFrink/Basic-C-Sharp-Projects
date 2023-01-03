@@ -20,11 +20,25 @@ namespace TwentyOne
     {
         public Deck()
         {
-            Cards = new List<Card>();
-            Card cardOne = new Card();
-            cardOne.Face = "Two";
-            cardOne.Suit = "Hearts";
-            Cards.Add(cardOne);
+            Cards = new List<Card>(); // Create a empty list of cards for our deck object
+            List<string> Suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" }; // Create a list called Suits and assign it these string values, one for each suit of cards
+            List<string> Faces = new List<string>() // Create a list called Faces and assign it these string values, one for each face of a card
+            {
+                "Two", "Three", "Four", "Five", "Six", "Seven",
+                "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"
+            };
+
+            foreach (string face in Faces) // Iterate through each value in the list Faces assign it to face
+            {
+                foreach (string suit in Suits) // Iterate through each value in the list Suits assign it to suit
+                {
+                    Card card = new Card(); // Instanstiate a new instance of the Card object called card
+                    card.Suit = suit; // Assign the current value of suit to our new card objects Suit property
+                    card.Face = face; // Assign the current value of face to our new card objects Face property
+                    Cards.Add(card); // Add the Card object named card to the Deck object
+                } // End FOREACH
+
+            } // End FOREACH
 
         } // End of CONSTRUCTOR
         public List<Card> Cards { get; set; }
