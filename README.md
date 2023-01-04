@@ -100,3 +100,6 @@ A tutorial series covering how classes and objects work within C#, this tutorial
 
 ## 08 - METHODS TUTORIAL [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne/Program.cs)
 Carrying on with our blackjack game from the objects and classes tutorial, this next part covers methods within C#. We create a method which takes an instance of the deck object then one-by-one at random takes a card from the deck and moves it to another deck, then once the original is empty it is updated with the tempoary shuffled deck, this new deck is then returned to the main program and outputted to the console to show that it has been shuffled.
+
+## 09 - METHOD ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/MethodAssign/MethodAssign/Program.cs)
+An assignment to demonstrate our understanding of how classes and methods work in C#. We first create a seperate class and implement three methods, one to simply multiply a number by ten, one to calculate the square root and finally one that multiplies a number by 125 then divides the result of that by 2. We then take a number as user input and apply the above 3 methods to it and output the results to the console.
