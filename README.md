@@ -103,3 +103,6 @@ Carrying on with our blackjack game from the objects and classes tutorial, this 
 
 ## 09 - METHOD ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/MethodAssign/MethodAssign/Program.cs)
 An assignment to demonstrate our understanding of how classes and methods work in C#. We first create a seperate class and implement three methods, one to simply multiply a number by ten, one to calculate the square root and finally one that multiplies a number by 125 then divides the result of that by 2. We then take a number as user input and apply the above 3 methods to it and output the results to the console.
+
+## 10 - MORE ON METHODS TUTORIAL [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne/Program.cs)
+Again continuing with our blackjack game, in this video we want to add the ability to shuffle more than once and we go through a number of methods to achieve this including method overloading which involves having multiple methods that have the same name but are slightly different, then we improve our inital shuffle method in two ways, firstly by adding in an optional parameter to control the number of times the deck is shuffled, then we add an output parameter to the method so that we can track and show to the user the number of times the deck was successfully shuffled.
