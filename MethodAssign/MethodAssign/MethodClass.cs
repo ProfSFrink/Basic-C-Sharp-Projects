@@ -19,17 +19,17 @@ namespace MethodAssign
 {
     class MethodClass
     {
-        public static double multiplyByTen(double userNum)
+        public static int multiplyByTen(int userNum)
         {
             return userNum * 10; // Take the input parameter userNum multiply it by ten and return the result to the main program
         } // End multiplyByTen Method
 
-        public static double squareRoot(double userNum)
+        public static int squareRoot(int userNum)
         {
-            return Math.Sqrt(userNum); // Calculate the square root of the input parameter userNum
+            return Convert.ToInt32((Math.Sqrt(userNum))); // Calculate the square root of the input parameter userNum
         } // End squareRoot Method
 
-        public static double multiplyAndDivide(double userNum)
+        public static int multiplyAndDivide(int userNum)
         {
             return (userNum * 125) / 2; // Multiply the input parameter userNum by 125 and divide the result of that by 2
         } // End multiplyAndDivide Method

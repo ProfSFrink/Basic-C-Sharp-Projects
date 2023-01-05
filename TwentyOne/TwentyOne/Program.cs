@@ -19,7 +19,8 @@ namespace TwentyOne
         static void Main(string[] args)
         {
             Deck deck = new Deck(); // Instanstiate a new instance of the Deck object called deck
-            deck = Shuffle(deck); // Run the method Shuffle, pass in the current version of deck and then replace deck with the new version that the Shuffle method returns
+            //deck = Shuffle(deck); // Run the method Shuffle, pass in the current version of deck and then replace deck with the new version that the Shuffle method returns
+            deck = Shuffle(deck, 3);
 
             foreach (Card card in deck.Cards) // For each card object in the object Deck property Cards
             {
@@ -31,7 +32,7 @@ namespace TwentyOne
 
         } // End MAIN
 
-        public static Deck Shuffle(Deck deck)
+        public static Deck Shuffle(Deck deck) // A custom method with one parameter a Deck object
         {
             List<Card> TempList = new List<Card>(); // Create a new list consisting of Card objects called TempList
             Random random = new Random(); // Create a new instance of the Random object and call it random
@@ -45,7 +46,16 @@ namespace TwentyOne
 
             deck.Cards = TempList; // Replace the entire contents of deck with the contents of TempList
             return deck; // Return the deck object
-        } // End Shuffle
+        } // End Shuffle Method
+
+        public static Deck Shuffle(Deck deck, int times) // A custom method with two parameters a Deck object, and an integer to determine the number of times we want to shuffle our deck
+        {
+            for(int i = 0; i < times; i++) // We loop the number of times we want to shuffle our deck
+            {
+                deck = Shuffle(deck); // Take the instance of deck passed into the method and pass it into the shuffle method and replace deck with the returned result
+            } // End FOR
+            return deck; // Return the current instance of deck to the main program
+        } // End Shuffle Method
 
     } // End CLASS
 

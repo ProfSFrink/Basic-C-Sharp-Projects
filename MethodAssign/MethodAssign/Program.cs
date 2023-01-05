@@ -27,7 +27,7 @@ namespace MethodAssign
 
             // GOAL 2) In the Main() program, ask the user what number they want to do the math operations on
             Console.Write("\nPlease enter a number: "); // Output this text to the console
-            double userNum = Convert.ToDouble(Console.ReadLine()); // Cast the user input to the double variable userNum
+            int userNum = Convert.ToInt32(Console.ReadLine()); // Cast the user input to the double variable userNum
 
             // GOAL 3) Call each method in turn, passing the user input to the method. Display the returned integer to the screen
 
