@@ -1,0 +1,7 @@
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Class_Meth_Ass_1\Class_Meth_Ass_1\bin\Debug\Class_Meth_Ass_1.exe.config
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Class_Meth_Ass_1\Class_Meth_Ass_1\bin\Debug\Class_Meth_Ass_1.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Class_Meth_Ass_1\Class_Meth_Ass_1\bin\Debug\Class_Meth_Ass_1.pdb
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Class_Meth_Ass_1\Class_Meth_Ass_1\obj\Debug\Class_Meth_Ass_1.csproj.AssemblyReference.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Class_Meth_Ass_1\Class_Meth_Ass_1\obj\Debug\Class_Meth_Ass_1.csproj.CoreCompileInputs.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Class_Meth_Ass_1\Class_Meth_Ass_1\obj\Debug\Class_Meth_Ass_1.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Class_Meth_Ass_1\Class_Meth_Ass_1\obj\Debug\Class_Meth_Ass_1.pdb
