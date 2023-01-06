@@ -11,6 +11,9 @@
 
 namespace Class_Meth_Ass_2
 {
+
+    // GOAL 1) Create a class. In that class, create a method that takes two integers as parameters. Make one of them optional. Have the method do a math operation and return an integer result
+
     class Class_Meth_Ass_2 // Create a class called Class_Meth_Ass_2
     {
         /* A custom method which has two parameters, the first is a integer called userNum1, the second is an optional parameter which defaults to 1 if nothing is passed in */

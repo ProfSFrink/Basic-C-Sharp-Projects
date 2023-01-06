@@ -112,3 +112,6 @@ This is an assignment to demonstrate our understanding of classes and methods, w
 
 ## 11 - CLASSES AND METHODS ASSIGNMENT 2 [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Class_Meth_Ass_2/Class_Meth_Ass_2/Program.cs)
 For this assignment we make use of optional parameters for custom methods, we again create a class and add a method that takes two inputs one of which is an optional parameter which defaults to one if no value is passed in, a math operation is then performed on these inputs and the result is then returned to the main program. To account for the user not entering a second input we use the string method IsNullOrEmpty which checks if a string variable is empty (null) or not, we then know if we need to pass in our optional parameter or not, then with either outcome we output the result to the console.
+
+## 12 - CLASSES AND METHODS ASSIGNMENT 3 [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Class_Meth_Ass_3/Class_Meth_Ass_3/Program.cs)
+The final assignment on classes and methods main difference is to code a method that is void (does not return a value) and to execute the method but naming the parameters by name when executing the method in question.
