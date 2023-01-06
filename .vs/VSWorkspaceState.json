@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Class_Meth_Ass_2",
+    "\\Class_Meth_Ass_2\\Class_Meth_Ass_2",
+    "\\TwentyOne",
+    "\\TwentyOne\\TwentyOne"
   ],
-  "SelectedNode": "\\TwentyOne.sln",
+  "SelectedNode": "\\TwentyOne\\TwentyOne\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

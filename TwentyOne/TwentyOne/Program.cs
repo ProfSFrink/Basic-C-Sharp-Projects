@@ -34,7 +34,7 @@ namespace TwentyOne
 
         } // End MAIN
 
-        public static Deck Shuffle(Deck deck, out int timeShuffled, int times = 1) // A custom method with three parameters a Deck object for the method to shuffle, the second paramter is an output parameter which will specify the number of times the deck was shuffled, then a a final optional parameter which by default is set to one which control the number of times the deck will be shuffled
+        public static Deck Shuffle(Deck deck, out int timeShuffled, int times = 1) // A custom method with three parameters a Deck object for the method to shuffle, the second paramter is an output parameter which will specify the number of times the deck was shuffled, then a a final optional parameter which by default is set to one which controls the number of times the deck will be shuffled
         {
 
             timeShuffled = 0; // Assign this value to timeShuffled
