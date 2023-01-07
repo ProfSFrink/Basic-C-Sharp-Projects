@@ -14,13 +14,13 @@
 
 namespace ClassMethodAssign
 {
-    class ClassMethodAssign
+    // GOAL 6) Declare a class to be static
+
+    static class ClassMethodAssign
     {
         // GOAL 1) Create a class. In that class, create a void method that outputs an integer. Have the method divide the data passed to it by 2
 
         // GOAL 4) Create a method with output parameters
-
-        // GOAL 6) Declare a class to be static
 
         public static void divideMethod(int userNum, out int outAnswer) // Define a class method called divideMethod with one input parameter, an integer called userNum, then an output parameter called outAnswer also an integer
         {
