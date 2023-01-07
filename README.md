@@ -9,7 +9,7 @@ This was a simple assignment to add the C# compiler location to the Windows Envi
 ## 02 - VISUAL STUDIO ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/myConsoleProject/myConsoleProject.cs/Program.cs)
 This assignment was to write a basic console application within Visual Studio using C#. The application ask the user to input there name, which is then displayed to the user before the user presses enter to quit the application.
 
-## 03 - HELLO, WORLD! TUTORIAL VIDEO SERIES [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Hello%20World%20Tutorial/program.cs)
+## 03 - TUTORIAL: HELLO, WORLD! [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Hello%20World%20Tutorial/program.cs)
 A code along project following an instructor to show further understanding of using the C# compiler and creating basic console applications using Visual Studio.
 
 ## 04 - CHALLENGE 4B-1 - ESCAPE SEQUENCES [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge_4B-1/Challenge_4B-1_Escape_Sequence/Program.cs)
@@ -18,7 +18,7 @@ A very simple console app which prints my name in double-quotes through use of t
 ## 05 - BASIC C# SUBMISSION ASSIGNMENT - WELCOME SCREEN [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Basic_CSharp_Submission_Assignment/AccountingWelcome/AccountingWelcome/Program.cs)
 A console app welcoming the user to 'Acme Accounting Systems' and prints the second line of text with "accounting" in double-quotes using the backslash (\) escape character.
 
-## 06 - VARIABLES AND DATA TYPES [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Variables%20and%20Data%20Types%20Tutorial/VariablesAndDataTypes/VariablesAndDataTypes/Program.cs)
+## 06 - TUTORIAL: VARIABLES AND DATA TYPES [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Variables%20and%20Data%20Types%20Tutorial/VariablesAndDataTypes/VariablesAndDataTypes/Program.cs)
 A follow on video series that goes through the various C# data types and how to assign variables and output them along with examples of how to cast them into other data types.
 
 ## 07 - DAILY REPORT ASSIGNMENT SUBMISSION [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Daily_Report/DailyReport/DailyReportSubmissionAssignment/Program.cs)
@@ -30,7 +30,7 @@ The goals for this challenge were to add, subtract, multiply and divide two numb
 ## 09 - CHALLENGE 7B-2 - STRING CONCATENATION [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge_7B-2/Challenge_7B-2_Str_Concat/Program.cs)
 A simple challege were we are required to perform a math operation (string concatenation) on a string, three variables are declared each concatenated with a label and displayed on screen, then finally the three strings are concatenated together again with their own label and again outputted to the display.
 
-## 10 - MATH AND COMPARISON OPERATORS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Math_Comparsion_Op/MathAndComparsionOperators/Program.cs)
+## 10 - TUTORIAL: MATH AND COMPARISON OPERATORS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Math_Comparsion_Op/MathAndComparsionOperators/Program.cs)
 A code along project done alongside a two-part video series initally reviewing C# math operators. Then in the second part of the series we go over the standard comparison operators within C# we cover less than, greater than, equal to and not equal to.
 
 ## 11 - MATH OPERATION ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/MathOpAssign/MathOpAssignment/Program.cs)
@@ -39,7 +39,7 @@ A submission assignment to test my knowledge of math operators, includes example
 ## 12 - INCOME COMPARISON ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/IncomeComparisonAssign/IncomeComparison/Program.cs)
 An anonymous income comparison program, which takes the hourly rate and weekly hours worked of two people, works out their annual wage and then performs a boolean operation showing if Person 1 earns more than Person 2.
 
-## 13 - BOOLEAN LOGIC TUTORIAL [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/BooleanLogic/BooleanLogic/Program.cs)
+## 13 - TUTORIAL: BOOLEAN LOGIC [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/BooleanLogic/BooleanLogic/Program.cs)
 A follow on video covering boolean logic operators so AND (&&), OR (||), EQUALS (==), NOT EQUALS (!=), and XOR (^) with simple code examples.
 
 ## 14 - BOOLEAN LOGIC ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/CarInsurAppAssign/CarInsurAppAssign/Program.cs)
@@ -57,7 +57,7 @@ A challenge to show that I understand how to use both the greater than and less 
 ## 18 - CHALLENGE 11A-1 - TERNARY OPERATORS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge_11A-1/Challenge_11A-1/Program.cs)
 A challenge to demonstrate an understanding of ternary operators in C#.
 
-## 19 - BRANCHING TUTORIAL [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Branching/Branching/Program.cs)
+## 19 - TUTORIAL: BRANCHING [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Branching/Branching/Program.cs)
 The code that I wrote while following along with the branching tutorial video.
 
 ## 20 - PRICE-QUOTE ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Price-Quote_App/Price-Quote_App_Assign/Program.cs)
@@ -66,7 +66,7 @@ The graded assignment for this course, a price-quote application where we give a
 ## 21 - CHALLENGE 12A-1 - SWITCH STATEMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Challenge_12A-1/Challenge_12A-1/Program.cs)
 An example use of the switch statement within C#. We prompt the user to enter a number between 1 and 5 and then execute a switch statement on the user input, executing one of five case statements to recommend a game to the user, their is also a default case if the user does not enter a number between 1 and 5.
 
-## 22 - LOOPS TUTORIAL [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Loops/Loops/Program.cs)
+## 22 - TUTORIAL: LOOPS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Loops/Loops/Program.cs)
 A tutorial code along which covers loops in C#, we review the switch statement then cover WHILE loops and an example of using a DO WHILE loop in conjunction with a switch statement were we ask the user to guess a number and the program loops until the user guesses correctly.
 
 ## 23 - LOOPS ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/LoopsAssign/LoopsAssign/Program.cs)
@@ -77,34 +77,34 @@ An assignment utilising string functions. First an example of concatenating thre
 
 ## C# AND .NET FRAMEWORK - PART 2
 
-## 01 - ARRAYS AND LISTS TUTORIAL [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ArraysAndLists/ArraysAndLists/Program.cs)
+## 01 - TUTORIAL: ARRAYS AND LISTS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ArraysAndLists/ArraysAndLists/Program.cs)
 A tutorial video covering arrays and lists within C#. Firstly we cover how to instantiate an array and fill it with values before creating a second array and filling it with values upon instantiation, then outputing elements of the array to the console. The second part of the tutorial covers lists and how to create one, then adding and removing elements along with outputting to the display.
 
 ## 02 - ARRAYS ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ArraysAssign/ArraysAssign/Program.cs)
 An assignment were we have to complete four different goals, firstly to create a one-dimensional array of strings then request an index number from the user and display the content of that index within our array, then do the same thing but with an array of integer values instead, then create a list of string values and again ask the user to select an index value and display the value at that position. For all three data structures we have a do while loop along side both if and else statements which check the value the user has entered and if it is outside the range of the array or list we inform the user and then ask them to enter a valid index number, this process repeats until the user enters a valid index position.
 
-## 03 - ITERATION TUTORIAL [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Iteration/Iteration/Program.cs)
+## 03 - TUTORIAL: ITERATION [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Iteration/Iteration/Program.cs)
 A tutorial video covering the use of iteration within C#. We firstly iterate through an array of numbers utilising a for loop and output any values that are greater than 85 to the console, then we iterate through an array of strings and output any names which equal Jesse, we then also iterate throught the same array printing each value as we go. Then we move on to iterating through list and for the first time making use of a foreach loop to again check for any passing score greater than 85, then after repeating this with a list of strings we iterate through one list while add any values that meet certain condition to a second list before counting that lists number of elements and outputting that value to the console.
 
 ## 04 - CONSOLE APPLICATION ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ConAppAssign/ConAppAssign/Program.cs)
 An assignment to demonstrate an understanding of iteration utilising both arrays and lists. Part 1 has us creating an array of strings, then requesting user input and then updating each element within the array with a concatenation of the value in that index plus the userr input, we then output each element in the updated array to the console. Then for the second part of the assignment we create an infinite while loop then demonstrate how to fix it, then for the third part of the assignment we have a for loop that make use of the less than operator and then a do while loop using the less or equal than operator, for the fourth part we create a list of unique string variables and ask the user to input a search string, we then search the list for the search string and output the index of the position with a match and then use the break command to end the loop, also if there is no match in the list we inform the user. Then for the fifth part of the assignment we create a second list with two duplicate entries and return the index position for both matching entries and again inform the user if there is no match. The final part of the assignment again has a list with duplicate entries but this time we have a second empty list which we add each item from the first list too, then when we find an entry that has already been added to this list we know we have a duplicate entry and inform the user of this fact.
 
-## 05 - EXCEPTION HANDLING [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ExceptionHandling/ExceptionHandling/Program.cs)
+## 05 - TUTORIAL: EXCEPTION HANDLING [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ExceptionHandling/ExceptionHandling/Program.cs)
 A two-part tutorial video series covering exception handling within C#. We demonstrate this technique by requesting the user input two integer values and dividing them by two, if the user enters a letter instead of a number a catch block will run and give the user an error message. In the second part of the tutorial we catch DivideByZeroExceptions to catch if the user attempts to divide a number by zero and then general exception to catch any other type of error, then we cover the finally statement to ensure certain code always run no matter what.
 
 ## 06 - EXCEPTION ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ExceptionAssign/ExceptionAssign/Program.cs)
 An assignment where we generate a list of six random integers between 1 and 100 then ask the user to enter a whole number we then divide each number in the list by the number the user has entered and output each to the console. Initally there was no try / catch block implemented and within the code comments I have logged the number generate by the application, my input as the user and the error message visual studio gave, this can ben seen after the program source code. Then we implement the code with in a try / catch block along with a finally block, the catch block catches both FormatExceptions and DivideByZeroExceptions along with outputting appropriate error messages and the finally block executes to inform the user that normal program execution has resumed.
 
-## 07 - CLASSES AND OBJECTS TUTORIAL - TWENTY-ONE (BLACKJACK CARD GAME) [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne/Program.cs)
+## 07 - TUTORIAL: CLASSES AND OBJECTS - TWENTY-ONE (BLACKJACK CARD GAME) [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne/Program.cs)
 A tutorial series covering how classes and objects work within C#, this tutorial works differently to the other ones as we will develop a game as we go along, which will be a blackjack game. The first thing we do create a new class definition to represent a playing card and give it two properties Suit and Face as these are all we need to represent a playing card within a program. Then in the second part of the series we create a Deck object which is a list of the card objects that we created, we can then use a constructor to create a full deck of cards for us everytime we create an instance of the Deck object. For the third part of the tutorial we update the deck objects constructor to create one list of strings to represent the suits in a deck of cards and a second list of strings to represent the faces in a deck of cards, we then use nested foreach loops to create a full deck of 52 cards, this will happen each time we instanstiate a new instance of the deck object. Then iterate through each element of the deck object and output it to the console to ensure the deck has been created.
 
-## 08 - METHODS TUTORIAL [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne/Program.cs)
+## 08 - TUTORIAL: METHODS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne/Program.cs)
 Carrying on with our blackjack game from the objects and classes tutorial, this next part covers methods within C#. We create a method which takes an instance of the deck object then one-by-one at random takes a card from the deck and moves it to another deck, then once the original is empty it is updated with the tempoary shuffled deck, this new deck is then returned to the main program and outputted to the console to show that it has been shuffled.
 
 ## 09 - METHOD ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/MethodAssign/MethodAssign/Program.cs)
 An assignment to demonstrate our understanding of how classes and methods work in C#. We first create a seperate class and implement three methods, one to simply multiply a number by ten, one to calculate the square root and finally one that multiplies a number by 125 then divides the result of that by 2. We then take a number as user input and apply the above 3 methods to it and output the results to the console.
 
-## 10 - MORE ON METHODS TUTORIAL [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne/Program.cs)
+## 10 - TUTORIAL: MORE ON METHODS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne/Program.cs)
 Again continuing with our blackjack game, in this video we want to add the ability to shuffle more than once and we go through a number of methods to achieve this including method overloading which involves having multiple methods that have the same name but are slightly different, then we improve our inital shuffle method in two ways, firstly by adding in an optional parameter to control the number of times the deck is shuffled, then we add an output parameter to the method so that we can track and show to the user the number of times the deck was successfully shuffled.
 
 ## 11 - CLASSES AND METHODS ASSIGNMENT 1 [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Class_Meth_Ass_1/Class_Meth_Ass_1/Program.cs)
@@ -115,3 +115,9 @@ For this assignment we make use of optional parameters for custom methods, we ag
 
 ## 12 - CLASSES AND METHODS ASSIGNMENT 3 [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Class_Meth_Ass_3/Class_Meth_Ass_3/Program.cs)
 The final assignment on classes and methods main difference is to code a method that is void (does not return a value) and to execute the method but naming the parameters by name when executing the method in question.
+
+## 13 - TUTORIAL: CLASS METHOD [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne/Program.cs)
+An explanation of class methods which cover method attached to classes (objects), to demonstrate this we move the shuffle method from the main program to the deck class and then update the shuffle method so that it can operate on an instance of itself, this includes removing the static keyword so the method can operate on an instance of itself, adding the void keyword as we no longer need to return anything, losing the deck input parameter and the output parameter, then updating the main program to reflect these changes.
+
+## 14 CLASS METHOD ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ClassMethodAssign/ClassMethodAssign/Program.cs)
+A simple assignment to show understanding of the above tutorial, we create a static voided method with one input and one output integer parameter, which simply divides a number by 2 and outputs the result via a parameter instead of returning it, we also create an overloaded version of this method with an optional parameter to multiply the answer by an amount provided by the user, this defaults to one if nothing is provided.
