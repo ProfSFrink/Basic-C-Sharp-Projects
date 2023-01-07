@@ -18,6 +18,8 @@ namespace TwentyOne
 {
     public class Deck
     {
+        /* CLASS CONSTRUCTOR */
+
         public Deck()
         {
             Cards = new List<Card>(); // Create a empty list of cards for our deck object
@@ -41,7 +43,32 @@ namespace TwentyOne
             } // End FOREACH
 
         } // End of CONSTRUCTOR
+
+        /* CLASS PROPERTIES */
+
         public List<Card> Cards { get; set; }
+
+        /* CLASS METHODS */
+
+        public void Shuffle(int times = 1) // A custom method with three parameters a Deck object for the method to shuffle, the second paramter is an output parameter which will specify the number of times the deck was shuffled, then a a final optional parameter which by default is set to one which controls the number of times the deck will be shuffled
+        {
+
+            for (int i = 0; i < times; i++)
+            {
+                List<Card> TempList = new List<Card>(); // Create a new list consisting of Card objects called TempList
+                Random random = new Random(); // Create a new instance of the Random object and call it random
+
+                while (this.Cards.Count > 0) // Keep iterating as long as their is at least one card in deck
+                {
+                    int randomIndex = random.Next(0, this.Cards.Count); // Generate a random integer between 0 and the current number of element left with in the deck list
+                    TempList.Add(this.Cards[randomIndex]); // Add the card at the index position randomIndex that is in the deck list and add it to TempList
+                    this.Cards.RemoveAt(randomIndex); // Now remove the card at position randomIndex from the list deck
+                } // End WHILE
+
+                this.Cards = TempList; // Replace the entire contents of deck with the contents of TempList
+            } // End FOR
+
+        } // End Shuffle Method
     } // End CLASS
 
 } // End NAMESPACE
