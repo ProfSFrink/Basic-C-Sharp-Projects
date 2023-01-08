@@ -31,15 +31,6 @@ namespace TwentyOne
 
         } // End MAIN
 
-        //public static Deck Shuffle(Deck deck, int times) // A custom method with two parameters a Deck object, and an integer to determine the number of times we want to shuffle our deck
-        //{
-        //    for(int i = 0; i < times; i++) // We loop the number of times we want to shuffle our deck
-        //    {
-        //        deck = Shuffle(deck); // Take the instance of deck passed into the method and pass it into the shuffle method and replace deck with the returned result
-        //    } // End FOR
-        //    return deck; // Return the current instance of deck to the main program
-        //} // End Shuffle Method
-
     } // End CLASS
 
 } // End NAMESPACE

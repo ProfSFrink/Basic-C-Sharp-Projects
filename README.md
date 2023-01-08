@@ -121,3 +121,6 @@ An explanation of class methods which cover method attached to classes (objects)
 
 ## 14 CLASS METHOD ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ClassMethodAssign/ClassMethodAssign/Program.cs)
 A simple assignment to show understanding of the above tutorial, we create a static voided method with one input and one output integer parameter, which simply divides a number by 2 and outputs the result via a parameter instead of returning it, we also create an overloaded version of this method with an optional parameter to multiply the answer by an amount provided by the user, this defaults to one if nothing is provided.
+
+## TUTORIAL: INHERITANCE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne/Program.cs)
+A two-part video tutorial covering how inheritance works in regards to object-orientated programming by implementing it within our blackjack game, we add a game class to the application, this is a basic game class that only contains properties and methods which all card games would have in common, so that down the line if we wanted to create other card games they could inherit this generic game class.
