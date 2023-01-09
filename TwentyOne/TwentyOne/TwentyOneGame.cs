@@ -2,7 +2,7 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 3: Inheritance Tutorial
+// MODULE 5: Inheritance Tutorial
 // AUTHOR: Steven Partlow
 // DATE: 08/01/2023
 

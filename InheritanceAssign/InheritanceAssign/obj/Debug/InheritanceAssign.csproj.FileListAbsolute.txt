@@ -1,0 +1,7 @@
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\InheritanceAssign\InheritanceAssign\bin\Debug\InheritanceAssign.exe.config
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\InheritanceAssign\InheritanceAssign\bin\Debug\InheritanceAssign.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\InheritanceAssign\InheritanceAssign\bin\Debug\InheritanceAssign.pdb
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\InheritanceAssign\InheritanceAssign\obj\Debug\InheritanceAssign.csproj.AssemblyReference.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\InheritanceAssign\InheritanceAssign\obj\Debug\InheritanceAssign.csproj.CoreCompileInputs.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\InheritanceAssign\InheritanceAssign\obj\Debug\InheritanceAssign.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\InheritanceAssign\InheritanceAssign\obj\Debug\InheritanceAssign.pdb
