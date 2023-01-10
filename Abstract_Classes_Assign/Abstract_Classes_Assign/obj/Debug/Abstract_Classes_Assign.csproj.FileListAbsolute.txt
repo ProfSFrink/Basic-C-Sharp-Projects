@@ -1,0 +1,7 @@
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Abstract_Classes_Assign\Abstract_Classes_Assign\bin\Debug\Abstract_Classes_Assign.exe.config
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Abstract_Classes_Assign\Abstract_Classes_Assign\bin\Debug\Abstract_Classes_Assign.exe
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Abstract_Classes_Assign\Abstract_Classes_Assign\bin\Debug\Abstract_Classes_Assign.pdb
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Abstract_Classes_Assign\Abstract_Classes_Assign\obj\Debug\Abstract_Classes_Assign.csproj.AssemblyReference.cache
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Abstract_Classes_Assign\Abstract_Classes_Assign\obj\Debug\Abstract_Classes_Assign.csproj.CoreCompileInputs.cache
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Abstract_Classes_Assign\Abstract_Classes_Assign\obj\Debug\Abstract_Classes_Assign.exe
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Abstract_Classes_Assign\Abstract_Classes_Assign\obj\Debug\Abstract_Classes_Assign.pdb
