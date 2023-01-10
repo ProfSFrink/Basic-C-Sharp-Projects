@@ -19,6 +19,8 @@ namespace TwentyOne
     /* This TwentyOneGame class is specifically for our TwentyOne (Blackjack) game and will inherit the Game class */
     public class TwentyOneGame : Game // Inherit the Game Class
     {
+        /* METHODS */
+
         public void Play()
         {
             throw new NotImplementedException(); // Throw an error inform the user that this method has not been implementated at this time

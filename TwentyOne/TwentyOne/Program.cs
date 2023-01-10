@@ -2,9 +2,9 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 3: Classes and Objects Tutorial
+// MODULE 5: C# Class Concepts
 // AUTHOR: Steven Partlow
-// DATE: 03/01/2023
+// DATE: 10/01/2023
 
 using System;
 using System.Collections.Generic;
@@ -28,6 +28,9 @@ namespace TwentyOne
             //Game game = new TwentyOneGame();
             //Deck deck = new Deck(); // Instanstiate a new instance of the Deck object called deck
             //deck.Shuffle(3); // Execute the Shuffle method attached to the instance of our Deck class called deck, shuffle the deck three times
+
+            Deck deck = new Deck(); // Instanstiate a new instance of the Deck object called deck
+            deck.Shuffle(3); // Execute the Shuffle method attached to the instance of our Deck class called deck, shuffle the deck three times
 
             foreach (Card card in deck.Cards) // For each card object in the object Deck property Cards
             {
