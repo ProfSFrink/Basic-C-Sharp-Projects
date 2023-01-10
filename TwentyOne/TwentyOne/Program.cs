@@ -18,27 +18,21 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            /* INHERITANCE TUTORIAL - Old code left over from the inheritance tutorial */
-            //TwentyOneGame game = new TwentyOneGame(); // Instantiate a new instance of the TwentyOneGame class called TwentyOneGame
-            //game.Players = new List<string>() { "Jesse", "Bill", "Joe" }; // Add three values to the Players property of the game object as a list of strings
-            //game.ListPlayers();
-            //game.Play();
+            TwentyOneGame game = new TwentyOneGame(); // Create new instance of TwentyOneGame class called game
+            game.Players = new List<string>() { "Jesse", "Bill", "Bob" }; // Create a new list for Players property of the game object and add three values
+            game.ListPlayers(); // Execute the ListPlayers() Method of the game object
+            Console.ReadLine();
 
-            /* POLOYMORPHISM TUTORIAL - Example of polymorphism */
-            //Game game = new TwentyOneGame();
             //Deck deck = new Deck(); // Instanstiate a new instance of the Deck object called deck
             //deck.Shuffle(3); // Execute the Shuffle method attached to the instance of our Deck class called deck, shuffle the deck three times
 
-            Deck deck = new Deck(); // Instanstiate a new instance of the Deck object called deck
-            deck.Shuffle(3); // Execute the Shuffle method attached to the instance of our Deck class called deck, shuffle the deck three times
+            //foreach (Card card in deck.Cards) // For each card object in the object Deck property Cards
+            //{
+            //    Console.WriteLine(card.Face + " of " + card.Suit); // Concatenate the current card Face and Suit properties and output to the console
+            //} // End FOREACH
 
-            foreach (Card card in deck.Cards) // For each card object in the object Deck property Cards
-            {
-                Console.WriteLine(card.Face + " of " + card.Suit); // Concatenate the current card Face and Suit properties and output to the console
-            } // End FOREACH
-
-            Console.WriteLine(deck.Cards.Count); // Count the number of elements in the Cards property of the deck object
-            Console.ReadLine(); // Pause the application
+            //Console.WriteLine(deck.Cards.Count); // Count the number of elements in the Cards property of the deck object
+            //Console.ReadLine(); // Pause the application
 
         } // End MAIN
 

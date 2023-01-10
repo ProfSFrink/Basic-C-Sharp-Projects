@@ -2,9 +2,9 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 5: Inheritance Tutorial
+// MODULE 5: Abstract Classes Tutorial
 // AUTHOR: Steven Partlow
-// DATE: 08/01/2023
+// DATE: 10/01/2023
 
 // TWENTYONEGAME CLASS DEFINITION
 
@@ -21,11 +21,17 @@ namespace TwentyOne
     {
         /* METHODS */
 
-        public void Play()
+        public override void Play() // As this is an inherited abstract method from the Game class we need the override keywrod
         {
             throw new NotImplementedException(); // Throw an error inform the user that this method has not been implementated at this time
         } // End Play Method
-        
+
+        public override void ListPlayers() // We are overiding the inherited ListPlayers() method with this instance of the method
+        {
+            Console.WriteLine("21 Players:"); // Ouput this text to the console
+            base.ListPlayers(); // Execute the base version of this method that we are inheriting
+        } // End ListPlayers Method
+
     } // End TwentyOneGame Class
 
 } // EMd TwemtyOne Namespace
