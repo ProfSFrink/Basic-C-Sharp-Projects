@@ -2,7 +2,7 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 5: Abstract Classes Tutorial
+// MODULE 5: C# Class Concepts
 // AUTHOR: Steven Partlow
 // DATE: 10/01/2023
 
@@ -17,7 +17,7 @@ using System.Threading.Tasks;
 namespace TwentyOne
 {
     /* This TwentyOneGame class is specifically for our TwentyOne (Blackjack) game and will inherit the Game class */
-    public class TwentyOneGame : Game // Inherit the Game Class
+    public class TwentyOneGame : Game, IWalkAway // Inherit the Game Class and the IWalkAway interface
     {
         /* METHODS */
 
@@ -31,6 +31,11 @@ namespace TwentyOne
             Console.WriteLine("21 Players:"); // Ouput this text to the console
             base.ListPlayers(); // Execute the base version of this method that we are inheriting
         } // End ListPlayers Method
+
+        public void WalkAway(Player player) // This is an inherited method from the interface IWalkAWay which we have to implement here as we are inheriting it
+        {
+            throw new NotImplementedException(); // Throw an error inform the user that this method has not been implementated at this time
+        } // End WalkAway Method
 
     } // End TwentyOneGame Class
 

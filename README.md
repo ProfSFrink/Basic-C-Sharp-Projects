@@ -136,3 +136,6 @@ An tutorial coverting Abstract classes, abstract methods and virtual methods. An
 
 ## ABSTRACT CLASSES ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Abstract_Classes_Assign/Abstract_Classes_Assign)
 A simple assignment to show our understanding of abstract classes, like the inheritance assignment we first create a person class, with properties for first and last name but this time the class is an abstract class, we also add a SayName() method which is also abstract so is not implemented here. Then we create an Employee class which inherits from the Person class, then here we implement the sayName() method through use of the override keyword.
+
+## TUTORIAL: INTERFACES [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
+A brief tutorial covering interfaces in C# and the .NET Framework. We add an interface to our Twenty-One game called IWalkAway then we add a method called WalkAway to the interface, as interfaces work very similarly to abstract classes we do not have to implement the method here. We inherit the IWalkAway interface into the TwentyOneGame class and implement the method there.

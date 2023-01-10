@@ -2,7 +2,7 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 5: Polymorphism Tutorial
+// MODULE 5: C# Class Concepts
 // AUTHOR: Steven Partlow
 // DATE: 10/01/2023
 
