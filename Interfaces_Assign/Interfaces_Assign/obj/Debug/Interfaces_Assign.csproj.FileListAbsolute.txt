@@ -1,0 +1,7 @@
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Interfaces_Assign\Interfaces_Assign\bin\Debug\Interfaces_Assign.exe.config
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Interfaces_Assign\Interfaces_Assign\bin\Debug\Interfaces_Assign.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Interfaces_Assign\Interfaces_Assign\bin\Debug\Interfaces_Assign.pdb
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Interfaces_Assign\Interfaces_Assign\obj\Debug\Interfaces_Assign.csproj.AssemblyReference.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Interfaces_Assign\Interfaces_Assign\obj\Debug\Interfaces_Assign.csproj.CoreCompileInputs.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Interfaces_Assign\Interfaces_Assign\obj\Debug\Interfaces_Assign.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Interfaces_Assign\Interfaces_Assign\obj\Debug\Interfaces_Assign.pdb
