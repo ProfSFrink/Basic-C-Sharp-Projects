@@ -1,0 +1,7 @@
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Generics_Assign\Generics_Assign\bin\Debug\Generics_Assign.exe.config
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Generics_Assign\Generics_Assign\bin\Debug\Generics_Assign.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Generics_Assign\Generics_Assign\bin\Debug\Generics_Assign.pdb
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Generics_Assign\Generics_Assign\obj\Debug\Generics_Assign.csproj.AssemblyReference.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Generics_Assign\Generics_Assign\obj\Debug\Generics_Assign.csproj.CoreCompileInputs.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Generics_Assign\Generics_Assign\obj\Debug\Generics_Assign.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Generics_Assign\Generics_Assign\obj\Debug\Generics_Assign.pdb
