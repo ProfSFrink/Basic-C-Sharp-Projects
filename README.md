@@ -140,5 +140,11 @@ A simple assignment to show our understanding of abstract classes, like the inhe
 ## 20 TUTORIAL: INTERFACES [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
 A brief tutorial covering interfaces in C# and the .NET Framework. We add an interface to our Twenty-One game called IWalkAway then we add a method called WalkAway to the interface, as interfaces work very similarly to abstract classes we do not have to implement the method here. We inherit the IWalkAway interface into the TwentyOneGame class and implement the method there.
 
-## 21 INTERFACES ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Interfaces_Assign)
+## 21 INTERFACES ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Interfaces_Assign/Interfaces_Assign)
 An assignment to cover our understanding of intefaces in the .NET framework. We first create an interface called IQuittable and create an abstract method called Quit(), we then reuse the Person and Employee classes from the Abstract Classes assignment but the Employee class in addition to inheriting the Person class also inherits the IQuittable interface and implements the Quit() method which outputs a simple message to the console. Then within the main program we utilise polymorphism to create an instance of our interface IQuittable but create it using our Employee class.
+
+## 22 TUTORIAL: DEBUGGING [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
+A brief tutorial covering how to use the debug tools within Visual Studio, mainly covering breakpoints, then the step-in and step-over functions and how to make use of these tools to track variables and conditional and branching statements.
+
+## 23 TUTORIAL: GENERICS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
+An overview in regards to generics in programming which covers the concept of making a class or method generic in it's design as this lends more towards being able to reuse the code in future. We then make some tempoary changes to the program by adjusting the Player class so that we can pass in the T parameter, we then adjust the Hand property to change the data type of the Hand list object to be whatever parameter is passed in via the T parameter, this in turn makes the Player class more generic allowing it to be more easily reused in other game types other than just card games. We then switch the program back to how it was after this is done.
