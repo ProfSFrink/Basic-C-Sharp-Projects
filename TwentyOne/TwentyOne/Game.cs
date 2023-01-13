@@ -22,7 +22,7 @@ namespace TwentyOne
     {
         /* PROPERTIES */
 
-        public List<string> Players { get; set; } // A list of string called Players, with each element representing a player in the game
+        public List<Player> Players { get; set; } // A list of Player objects called Players, with each element representing a player in the game
         public string Name { get; set; } // The name of the game (Blackjack, Poker, Texas Hold-em, Solitaire, etc)
         public string Dealer { get; set; } // The name of our card games dealer
 
@@ -35,9 +35,9 @@ namespace TwentyOne
 
         public virtual void ListPlayers() // The virtual keyword allows this method to be inherited but also overriden
         {
-            foreach (string player in Players) // Iterate through each element of the list players assigning the value to the string player
+            foreach (Player player in Players) // Iterate through each element of the list Players assigning the value to the string player
             {
-                Console.WriteLine(player); // Output the current value assigned to player to the console
+                Console.WriteLine(player.Name); // Output the current value assigned to the player.name property to the console
             } // End FOREACH
         } // End ListPlayers Method
 
