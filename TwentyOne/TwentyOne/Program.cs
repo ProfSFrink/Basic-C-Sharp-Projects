@@ -18,12 +18,8 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            Game game = new TwentyOneGame(); // Instantiate a new instance of TwentyOneGame and polymorph it an instance of the Game class called game
-            game.Players = new List<Player>(); // Instantiate the list of the Players property so we can use it
-            Player player = new Player(); // Instatiate a new instance of the Player class called player 
-            player.Name = "Jesse"; // Set the value of the player.Name property
-            game += player; // Add the objects game and player together and assign the result to the game object
-            game -= player; // Subtracts the player object from the game object
+            Card card = new Card();
+            card.Suit = Suit.Clubs;
 
             Deck deck = new Deck(); // Instanstiate a new instance of the Deck object called deck
             deck.Shuffle(3); // Execute the Shuffle method attached to the instance of our Deck class called deck, shuffle the deck three times

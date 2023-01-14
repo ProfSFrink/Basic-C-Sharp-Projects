@@ -2,9 +2,9 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 3: Classes and Objects Tutorial
+// MODULE 6: Enumss Tutorial
 // AUTHOR: Steven Partlow
-// DATE: 03/01/2023
+// DATE: 14/01/2023
 
 // CARD CLASS DEFINITION
 
@@ -27,8 +27,16 @@ namespace TwentyOne
 
         /* PROPERTIES */
 
-        public string Suit { get; set; } // A string value to represent the Suit property of a playing card
+        public Suit Suit { get; set; } // A Suit value to represent the Suit property of a playing card
         public string Face { get; set; } // A String value to represent the Face property of a playing card
-    } // End CLASS
+    } // End Card CLASS Definition
 
-} // End NAMESPACE
+    public enum Suit // Declare an enum called Suit with the following four values 
+    { 
+        Clubs,
+        Diamonds,
+        Hearts,
+        Spades
+    } // End ENUM Suit
+
+} // End TwentyOneNAMESPACE
