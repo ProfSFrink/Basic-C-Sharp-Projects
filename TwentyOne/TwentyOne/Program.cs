@@ -18,8 +18,6 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            Card card = new Card();
-            card.Suit = Suit.Clubs;
 
             Deck deck = new Deck(); // Instanstiate a new instance of the Deck object called deck
             deck.Shuffle(3); // Execute the Shuffle method attached to the instance of our Deck class called deck, shuffle the deck three times

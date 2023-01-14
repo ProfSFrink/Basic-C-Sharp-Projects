@@ -23,24 +23,19 @@ namespace TwentyOne
         public Deck()
         {
             Cards = new List<Card>(); // Create a empty list of cards for our deck object
-            List<string> Suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" }; // Create a list called Suits and assign it these string values, one for each suit of cards
-            List<string> Faces = new List<string>() // Create a list called Faces and assign it these string values, one for each face of a card
+            
+            for (int i = 0; i <13; i++ ) // Iterate starting i at zero until i is equal or greater than thirteen, incrementing i after each loop
             {
-                "Two", "Three", "Four", "Five", "Six", "Seven",
-                "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"
-            };
 
-            foreach (string face in Faces) // Iterate through each value in the list Faces assign it to face
-            {
-                foreach (string suit in Suits) // Iterate through each value in the list Suits assign it to suit
+                for (int j =0; j < 4; j++) // Iterate starting i at zero until j is equal or greater than four, incrementing j after each loop
                 {
-                    Card card = new Card(); // Instanstiate a new instance of the Card object called card
-                    card.Suit = suit; // Assign the current value of suit to our new card objects Suit property
-                    card.Face = face; // Assign the current value of face to our new card objects Face property
-                    Cards.Add(card); // Add the Card object named card to the Deck object
-                } // End FOREACH
+                    Card card = new Card(); // Instantiate a new instance of the Card class and assign it to the card variable
+                    card.Face = (Face)i; // Cast the element within the Face enum that matches the value of i and assign it to the card objects Face property
+                    card.Suit = (Suit)j; // Cast the element with the Suit enum that matches the value of j and assign it to the card objects Suit property
+                    Cards.Add(card); // Add the card objects to the Cards list
+                } // End FOR
 
-            } // End FOREACH
+            } // End FOR
 
         } // End of CONSTRUCTOR
 
