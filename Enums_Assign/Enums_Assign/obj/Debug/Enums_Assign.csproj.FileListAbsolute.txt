@@ -1,0 +1,7 @@
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Enums_Assign\Enums_Assign\bin\Debug\Enums_Assign.exe.config
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Enums_Assign\Enums_Assign\bin\Debug\Enums_Assign.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Enums_Assign\Enums_Assign\bin\Debug\Enums_Assign.pdb
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Enums_Assign\Enums_Assign\obj\Debug\Enums_Assign.csproj.AssemblyReference.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Enums_Assign\Enums_Assign\obj\Debug\Enums_Assign.csproj.CoreCompileInputs.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Enums_Assign\Enums_Assign\obj\Debug\Enums_Assign.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Enums_Assign\Enums_Assign\obj\Debug\Enums_Assign.pdb

@@ -2,7 +2,7 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 5: Operator Overloading Assignment
+// MODULE 6: Operator Overloading Assignment
 // AUTHOR: Steven Partlow
 // DATE: 13/01/2023
 
