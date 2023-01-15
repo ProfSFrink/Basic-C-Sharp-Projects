@@ -28,8 +28,8 @@ namespace Enums_Assign
             // Output all the below text to the console
             Console.WriteLine("PITMAN TRAINING / THE TECH ACADEMY");
             Console.WriteLine("----------------------------------\n");
-            Console.WriteLine("Operator Overloading Assignment");
-            Console.WriteLine("-------------------------------\n");
+            Console.WriteLine("Enums Assignment");
+            Console.WriteLine("----------------\n");
 
             // GOAL 4) Wrap the above statement in a try/catch block and have it print "Please enter an actual day of the week." to the console if an error occurs
 

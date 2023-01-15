@@ -1,0 +1,7 @@
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Structs_Assign\Structs_Assign\bin\Debug\Structs_Assign.exe.config
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Structs_Assign\Structs_Assign\bin\Debug\Structs_Assign.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Structs_Assign\Structs_Assign\bin\Debug\Structs_Assign.pdb
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Structs_Assign\Structs_Assign\obj\Debug\Structs_Assign.csproj.AssemblyReference.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Structs_Assign\Structs_Assign\obj\Debug\Structs_Assign.csproj.CoreCompileInputs.cache
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Structs_Assign\Structs_Assign\obj\Debug\Structs_Assign.exe
+C:\Users\ProfS\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\Structs_Assign\Structs_Assign\obj\Debug\Structs_Assign.pdb
