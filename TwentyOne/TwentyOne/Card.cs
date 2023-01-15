@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    public class Card // Define an object called Class and make it public so other programs can use it.
+    public struct Card // Define an Struct object called Card and make it public so other programs can use it.
     {
         /* PROPERTIES */
 
