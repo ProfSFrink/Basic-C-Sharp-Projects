@@ -18,14 +18,17 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            Card card1 = new Card();
-            Card card2 = card1;
-            card1.Face = Face.Eight;
-            card2.Face = Face.King;
 
-            Console.WriteLine(card1.Face);
+            Deck deck = new Deck(); // Instanstiate a new instance of the Deck object called deck
 
-            //Deck deck = new Deck(); // Instanstiate a new instance of the Deck object called deck
+            //int count = deck.Cards.Count(x => x.Face == Face.Ace);
+
+            List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList();
+
+            foreach(Card card in newList)
+            {
+                Console.WriteLine(card.Face);
+            }
             //deck.Shuffle(3); // Execute the Shuffle method attached to the instance of our Deck class called deck, shuffle the deck three times
 
             //foreach (Card card in deck.Cards) // For each card object in the object Deck property Cards

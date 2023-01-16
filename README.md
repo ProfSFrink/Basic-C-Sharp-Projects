@@ -169,3 +169,6 @@ A two part video covering structures or "structs" in C#. The first part of the t
 
 ## 30 STRUCTS ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Structs_Assign/Structs_Assign)
 A simple excerise where implement a struct called Number give it a value and then output that value to the console.
+
+## 31 TUTORIAL: LAMBDA EXPRESSIONS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
+Tutorial covering lambda expressions
