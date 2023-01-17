@@ -1,0 +1,7 @@
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Lambda_Express_Assign\Lambda_Express_Assign\bin\Debug\Lambda_Express_Assign.exe.config
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Lambda_Express_Assign\Lambda_Express_Assign\bin\Debug\Lambda_Express_Assign.exe
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Lambda_Express_Assign\Lambda_Express_Assign\bin\Debug\Lambda_Express_Assign.pdb
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Lambda_Express_Assign\Lambda_Express_Assign\obj\Debug\Lambda_Express_Assign.csproj.AssemblyReference.cache
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Lambda_Express_Assign\Lambda_Express_Assign\obj\Debug\Lambda_Express_Assign.csproj.CoreCompileInputs.cache
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Lambda_Express_Assign\Lambda_Express_Assign\obj\Debug\Lambda_Express_Assign.exe
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Lambda_Express_Assign\Lambda_Express_Assign\obj\Debug\Lambda_Express_Assign.pdb
