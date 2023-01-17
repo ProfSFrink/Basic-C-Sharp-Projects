@@ -171,4 +171,4 @@ A two part video covering structures or "structs" in C#. The first part of the t
 A simple excerise where implement a struct called Number give it a value and then output that value to the console.
 
 ## 31 TUTORIAL: LAMBDA EXPRESSIONS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
-Tutorial covering lambda expressions
+Tutorial covering lambda expressions, lambda expressions in C# expose lists to a selection of methods and expressions that make live easier. Then before implementing lambda expressions within our twenty one game we cover some of the rexpressions that can be used on list such as ToList(), Sum(), Min(), Max() and Where() and what 'x =>' means in regards to the syntax of an expression. We will then implement such expressions within out Twenty One game at a later date.
