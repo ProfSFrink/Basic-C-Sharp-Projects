@@ -181,3 +181,6 @@ A ten part video that covers finishing our Twenty One game, a series of code alo
 
 ### PART ONE
 We re-write the main program by asking the user for their name and starting balance, then asking them if they would like to play a game of Twenty-One after which if they do we create a new Player object and add the player to the game and providing they wish to play and have a balance greater than zero we start the game.
+
+### PART TWO
+Continuing on frm part one, once the while loop ends we remove the player from the Game class, and output a goodbye message to the user, then we create a new TwentyOneDealer class which inherits from the Dealer class and gives it properties to represent the dealer's hand, if they wish to stay and if they have gone bust, then we remove the dealer property from the Game class as we no longer need it. Then we add an instance of TwentyOneDealer to the TwentyOneGame class, create a new instance of it, then finally give the Player class a stay property as well.

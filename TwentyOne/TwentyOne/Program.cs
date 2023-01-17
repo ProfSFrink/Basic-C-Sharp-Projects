@@ -2,9 +2,9 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 6: Debugging and Value Tests
+// MODULE 7: Creating a Game of Blackjack and Intermediate C# Programming
 // AUTHOR: Steven Partlow
-// DATE: 12/01/2023
+// DATE: 17/01/2023
 
 using System;
 using System.Collections.Generic;
@@ -40,8 +40,12 @@ namespace TwentyOne
                     game.Play(); // Execute the Play() method of the game object
                 } // End WHILE
 
+                game -= player; // Remove the player from the game object
+                Console.WriteLine("Thank you for playing"); // Output this text to the console
             } // End IF
 
+            Console.WriteLine("Feel free to look around the casino. Bye for now."); // Output this text to the console
+            Console.Read(); // Pause the application
         } // End MAIN
 
     } // End CLASS

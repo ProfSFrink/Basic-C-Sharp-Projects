@@ -17,13 +17,18 @@ using System.Threading.Tasks;
 namespace TwentyOne
 {
     /* This TwentyOneGame class is specifically for our TwentyOne (Blackjack) game and will inherit the Game class */
+
     public class TwentyOneGame : Game, IWalkAway // Inherit the Game Class and the IWalkAway interface
     {
+        /* PROPERTIES */
+
+        public TwentyOneDealer Dealer { get; set; }
         /* METHODS */
 
         public override void Play() // As this is an inherited abstract method from the Game class we need the override keywrod
         {
-            throw new NotImplementedException(); // Throw an error inform the user that this method has not been implementated at this time
+            Dealer = new TwentyOneDealer(); // Instantiate a new instance of TwentyOneDealer called Dealer
+            
         } // End Play Method
 
         public override void ListPlayers() // We are overiding the inherited ListPlayers() method with this instance of the method

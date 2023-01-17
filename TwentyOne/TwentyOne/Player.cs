@@ -34,6 +34,7 @@ namespace TwentyOne
         public int Balance { get; set; } // An integer data type to represent the player's current balance
         public string Name { get; set; } // A string data type to represent the player's name
         public bool IsActivelyPlaying { get; set; } // A boolean data type to track if it's this instance of the player classes turn in during the game
+        public bool Stay { get; set; } // A boolean data type to represent if the player wants to stay
 
         /* METHODS */
 
