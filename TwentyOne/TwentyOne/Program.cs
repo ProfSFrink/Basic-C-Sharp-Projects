@@ -18,18 +18,29 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            Console.Write("Welcome to the Grand Hotel and Casino. Let's start by telling me your name? "); // Output this text to the console
+            string playerName = Console.ReadLine(); // Assign the user input to the string variable playerName
+            Console.Write("And how much did you bring today? "); // Output this text to the console
+            int bank = Convert.ToInt32(Console.ReadLine()); // Cast the user input to the int variable bank
+            Console.WriteLine("Hello, {0}. Would you like to join a game of 21 right now?", playerName); // Utilise string formatting to concatenate this string and output it to the console
+            string answer = Console.ReadLine().ToLower(); // Assign the user input to the string variable answer and convert it to lowercase
 
-            Deck deck = new Deck(); // Instanstiate a new instance of the Deck object called deck
-
-            deck.Shuffle(3); // Execute the Shuffle method attached to the instance of our Deck class called deck, shuffle the deck three times
-
-            foreach (Card card in deck.Cards) // For each card object in the object Deck property Cards
+            // If answer equals any of the below listed values
+            if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya") 
             {
-                Console.WriteLine(card.Face + " of " + card.Suit); // Concatenate the current card Face and Suit properties and output to the console
-            } // End FOREACH
+                /* Instantiate a new instance of the Player class called player, passing in the player and bank values */
+                Player player = new Player(playerName,bank);
+                Game game = new TwentyOneGame(); // Instantiate a new instance of the TwentyOneGame class but utilise polymorphism to convert it back to the inherited class Game so we can make use of our overloaded operators
+                game += player; // Add the new created instance of the Player class player to our new instance of the Game class, this make use of our overloaded "+" operator
+                player.IsActivelyPlaying = true; // As the player wants to play the game we set this boolean to true
 
-            Console.WriteLine(deck.Cards.Count); // Count the number of elements in the Cards property of the deck object
-            Console.ReadLine(); // Pause the application
+                /* While player.IsActivelyPlaying equals true and their balance is greater than zero */
+                while (player.IsActivelyPlaying && player.Balance > 0)
+                {
+                    game.Play(); // Execute the Play() method of the game object
+                } // End WHILE
+
+            } // End IF
 
         } // End MAIN
 

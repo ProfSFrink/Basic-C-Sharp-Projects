@@ -175,3 +175,9 @@ Tutorial covering lambda expressions, lambda expressions in C# expose lists to a
 
 ## 32 LAMBDA EXPRESSIONS ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Lambda_Express_Assogn)
 An assignment where we use lambda expressions on our Employee class which we have been using in prior assignments. Firstly we generate two lists of first and second names, then utilising for loops we create an employee object taking a first and last names from our lists and add the new instance to a list of Employee objects. Then we use a foreach loop to iterate through the list of Employee objects and create a new list where we add only employees with the first name Joe, then we output the list to the console. We then do the exact same thing but we utilise a lambda expression to achieve the same goal instead of a foreach loop and again we output the list to the console. Finally we use a lambda expression to create a list of employees where their employee id is greater than 5 and again ouput the list to the console.
+
+## 33 TUTORIAL - PUTTING IT ALL TOGETHER - PARTS 1 TO 10 [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
+A ten part video that covers finishing our Twenty One game, a series of code along videos that covers us turning our Twenty One game into a working application.
+
+### PART ONE
+We re-write the main program by asking the user for their name and starting balance, then asking them if they would like to play a game of Twenty-One after which if they do we create a new Player object and add the player to the game and providing they wish to play and have a balance greater than zero we start the game.

@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Lambda_Express_Assign",
+    "\\Lambda_Express_Assign\\Lambda_Express_Assign",
     "\\TwentyOne",
     "\\TwentyOne\\TwentyOne"
   ],
-  "SelectedNode": "\\TwentyOne\\TwentyOne\\Program.cs",
+  "SelectedNode": "\\Lambda_Express_Assign\\Lambda_Express_Assign.sln",
   "PreviewInSolutionExplorer": false
 }

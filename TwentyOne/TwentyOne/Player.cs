@@ -18,6 +18,16 @@ namespace TwentyOne
 {
     public class Player
     {
+        /* CONSTRUCTOR */
+
+        /* A constructor which is created on object instantiation containing two input parameters, name and beginningBalance */
+        public Player(string name, int beginningBalance)
+        {
+            Hand = new List<Card>(); // Instantiate the Hand properties list
+            Balance = beginningBalance; // Assign input parameter beginningBalance to property Balance
+            Name = name; // Assign input parameter name to property Name
+        } // End CONSTRUCTOR
+
         /* PROPERTIES  */
 
         public List<Card> Hand { get; set; } // A list data type containing instances of the Card class, this object will represent the players hand of card in the game
