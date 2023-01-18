@@ -184,3 +184,6 @@ We re-write the main program by asking the user for their name and starting bala
 
 ### PART TWO
 Continuing on frm part one, once the while loop ends we remove the player from the Game class, and output a goodbye message to the user, then we create a new TwentyOneDealer class which inherits from the Dealer class and gives it properties to represent the dealer's hand, if they wish to stay and if they have gone bust, then we remove the dealer property from the Game class as we no longer need it. Then we add an instance of TwentyOneDealer to the TwentyOneGame class, create a new instance of it, then finally give the Player class a stay property as well.
+
+### PART THREE
+In this part we reset each player's hand and stay property, then do like wise with the dealer before issuing the dealer a new deck of playing cards. Then we continue working on our Play method by asking players to place there bets, we check to make sure that each player has enough to actually place there respective bets, if they do not we inform them of the fact, but if the do we deduct the amount from their balance. We have also added a dictionary to the Game class to track the bets made by each player in the game, the key / value pair is an instance of the Player class and an integer representing the amount bet.

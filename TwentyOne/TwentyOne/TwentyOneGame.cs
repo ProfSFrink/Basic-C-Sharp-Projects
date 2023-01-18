@@ -28,7 +28,28 @@ namespace TwentyOne
         public override void Play() // As this is an inherited abstract method from the Game class we need the override keywrod
         {
             Dealer = new TwentyOneDealer(); // Instantiate a new instance of TwentyOneDealer called Dealer
-            
+            foreach (Player player in Players) // Iterate through the list of Players and assign each instance to the player variable
+            {
+                player.Hand = new List<Card>(); // Creates a new empty hand of playing cards for the Player
+                player.Stay = false; // Reset the Stay property to false of the current player object
+            } // End FOREACH
+            Dealer.Hand = new List<Card>(); // Create a new empty hand of playing cards for the Dealer
+            Dealer.Stay = false; // Set the Dealer's stay property to false
+            Dealer.Deck = new Deck(); // Issue the Dealer with a new deck of playing cards
+
+            Console.WriteLine("Place your bet:"); // Output this text to the console
+
+            foreach(Player player in Players) // Iterate through the list of Players and assign each instance to the player 
+            {
+                int bet = Convert.ToInt32(Console.ReadLine()); // Cast the value the user enters as a bet and assign it to the integer bet
+                bool successfullyBet = player.Bet(bet); // Attempt to place the bet and store if it was successful in the boolean variable successfullyBet
+                if (!successfullyBet) // If the attempt to place the Players bet is unsucessful
+                {
+                    return; // Exit the Play() method
+                } // End IF
+                Bets[player] = bet; // Because the bet has been placed successfully we add the bet amount to the player bet property which is a dictionary
+            } // End FOREACH
+
         } // End Play Method
 
         public override void ListPlayers() // We are overiding the inherited ListPlayers() method with this instance of the method

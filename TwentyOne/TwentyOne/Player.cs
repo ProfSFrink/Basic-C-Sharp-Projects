@@ -38,6 +38,21 @@ namespace TwentyOne
 
         /* METHODS */
 
+        /* A custom method to allow the Player to place a bet, has one input parameter which is an integer to cover the amount the player wants to bet, method returns a boolean which will return true if the player has enough in their balance to place the bet and false if they do not */
+        public bool Bet(int amount)
+        {
+            if (Balance - amount < 0 ) // If after deducting the amount the Player wants to bet from their balance, said balance is less than zero
+            {
+                Console.WriteLine("You do not have enough to place a bet of that size."); // Output this text to the console
+                return false; // The method will return false as the player does not have enough to place the bet
+            } // End IF
+            else // Then the player does have enough in their balance to place the bet
+            {
+                Balance -= amount; // Deduct the amount from the Player's balance
+                return true; // Then we return true as the Player has enough in their balance to place the bet 
+            } // End ELSE
+        } // End Bet Method
+
         /* A method which overloads the '+' operator so we can add two objects together an instance of the Game class and Player class, the method will return an instance of the Game object */
         public static Game operator+ (Game game, Player player)
         {

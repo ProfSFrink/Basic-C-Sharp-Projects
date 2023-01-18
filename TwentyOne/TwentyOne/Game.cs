@@ -24,6 +24,7 @@ namespace TwentyOne
 
         public List<Player> Players { get; set; } // A list of Player objects called Players, with each element representing a player in the game
         public string Name { get; set; } // The name of the game (Blackjack, Poker, Texas Hold-em, Solitaire, etc
+        public Dictionary<Player, int> Bets { get; set; } // A dictionary called Bets to track the bets the players have made the key is an instance of the Player class with value being an integer value to represent the amount bet
 
         /* This method is simply to take the list of player names and output them to the console, something that again all card games would have in common */
 
