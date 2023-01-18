@@ -187,3 +187,6 @@ Continuing on frm part one, once the while loop ends we remove the player from t
 
 ### PART THREE
 In this part we reset each player's hand and stay property, then do like wise with the dealer before issuing the dealer a new deck of playing cards. Then we continue working on our Play method by asking players to place there bets, we check to make sure that each player has enough to actually place there respective bets, if they do not we inform them of the fact, but if the do we deduct the amount from their balance. We have also added a dictionary to the Game class to track the bets made by each player in the game, the key / value pair is an instance of the Player class and an integer representing the amount bet.
+
+### PART FOUR
+We countinue writing our Play() method by dealing cards to each player, we deal cards from the dealer's deck to each player. Then add a TwentyOneRules class to the application which will be a business logic class and then add dictionary called _cardValues which is used to store the face values of the playing cards.

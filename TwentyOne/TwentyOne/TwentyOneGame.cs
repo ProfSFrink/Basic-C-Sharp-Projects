@@ -27,6 +27,7 @@ namespace TwentyOne
 
         public override void Play() // As this is an inherited abstract method from the Game class we need the override keywrod
         {
+            /* Setup for a new game */
             Dealer = new TwentyOneDealer(); // Instantiate a new instance of TwentyOneDealer called Dealer
             foreach (Player player in Players) // Iterate through the list of Players and assign each instance to the player variable
             {
@@ -36,6 +37,8 @@ namespace TwentyOne
             Dealer.Hand = new List<Card>(); // Create a new empty hand of playing cards for the Dealer
             Dealer.Stay = false; // Set the Dealer's stay property to false
             Dealer.Deck = new Deck(); // Issue the Dealer with a new deck of playing cards
+
+            /* PLACE BETS */
 
             Console.WriteLine("Place your bet:"); // Output this text to the console
 
@@ -48,7 +51,23 @@ namespace TwentyOne
                     return; // Exit the Play() method
                 } // End IF
                 Bets[player] = bet; // Because the bet has been placed successfully we add the bet amount to the player bet property which is a dictionary
+
             } // End FOREACH
+
+            /* DEAL CARDS */
+            for (int i = 0; i < 2; i++)
+            {
+                Console.WriteLine("Dealing..."); // Output this text to the console
+                foreach (Player player in Players)
+                {
+                    Console.Write("{0}: ", player.Name);
+                    Dealer.Deal(player.Hand); // The dealer deals a card from their deck and deals it to the current instance of Player 
+                    if (i == 1)
+                    {
+
+                    } // End IF
+                } // End FOREACH
+            } // End FOR
 
         } // End Play Method
 
