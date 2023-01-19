@@ -4,7 +4,7 @@
 
 // MODULE 7: Creating a Game of Blackjack and Intermediate C# Programming
 // AUTHOR: Steven Partlow
-// DATE: 17/01/2023
+// DATE: 18/01/2023
 
 // TWENTY ONE DEALER DEFINITION
 

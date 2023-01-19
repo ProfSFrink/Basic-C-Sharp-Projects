@@ -2,9 +2,9 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 5: C# Class Concepts
+// MODULE 7: Creating a Game of Blackjack and Intermediate C# Programming
 // AUTHOR: Steven Partlow
-// DATE: 10/01/2023
+// DATE: 18/01/2023
 
 // TWENTYONEGAME CLASS DEFINITION
 
@@ -20,14 +20,16 @@ namespace TwentyOne
 
     public class TwentyOneGame : Game, IWalkAway // Inherit the Game Class and the IWalkAway interface
     {
-        /* PROPERTIES */
+        /* CLASS PROPERTIES */
 
         public TwentyOneDealer Dealer { get; set; }
-        /* METHODS */
+
+        /* CLASS METHODS */
 
         public override void Play() // As this is an inherited abstract method from the Game class we need the override keywrod
         {
-            /* Setup for a new game */
+            /* -------------- SETUP FOR A NEW GAME -------------- */
+
             Dealer = new TwentyOneDealer(); // Instantiate a new instance of TwentyOneDealer called Dealer
             foreach (Player player in Players) // Iterate through the list of Players and assign each instance to the player variable
             {
@@ -38,7 +40,7 @@ namespace TwentyOne
             Dealer.Stay = false; // Set the Dealer's stay property to false
             Dealer.Deck = new Deck(); // Issue the Dealer with a new deck of playing cards
 
-            /* PLACE BETS */
+            /* -------------- PLACE BETS -------------- */
 
             Console.WriteLine("Place your bet:"); // Output this text to the console
 
@@ -54,7 +56,8 @@ namespace TwentyOne
 
             } // End FOREACH
 
-            /* DEAL CARDS */
+            /* -------------- DEAL CARDS -------------- */
+
             for (int i = 0; i < 2; i++)
             {
                 Console.WriteLine("Dealing..."); // Output this text to the console
