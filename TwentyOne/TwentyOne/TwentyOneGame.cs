@@ -65,11 +65,31 @@ namespace TwentyOne
                 {
                     Console.Write("{0}: ", player.Name);
                     Dealer.Deal(player.Hand); // The dealer deals a card from their deck and deals it to the current instance of Player 
-                    if (i == 1)
+                    if (i == 1) // We check if i is equal to one here as this means we are on the second iteration of the loop which means there is at least two cards in the players hand which means they could have a blackjack at this point
                     {
-
+                        bool blackJack = TwentyOneRules.CheckForBlackJack(player.Hand); // Define a boolean variable called blackJack then execute the CheckForBlackJack method within the TwentyOneRules class then store the boolean return by the method in the blackJack variable
+                        if (blackJack) // If blackJack is true then the player won the current hand
+                        {
+                            Console.WriteLine("Blackjack! {0} wins {1}", player.Name, Bets[player]); // Concatenate the players name and current bet to this string and then output it to the console
+                            player.Balance += Convert.ToInt32((Bets[player] * 1.5) + Bets[player]); // Add the value of the current player bet plus fifty percent and the value of the original bet to the players balance
+                            return; // Exit the method
+                        } // End IF
                     } // End IF
                 } // End FOREACH
+                Console.Write("Dealer: "); // Output this text to the console
+                Dealer.Deal(Dealer.Hand); // Deal a card from the dealers deck of playing cards to the dealers hand
+                if (i == 1) // We check if i is equal to one here as this means we are on the second iteration of the loop which means there is at least two cards in the dealers hand which means they could have a blackjack at this point
+                {
+                    bool blackJack = TwentyOneRules.CheckForBlackJack(Dealer.Hand);
+                    if (blackJack) // If blackJack is true then the dealer won the current hand
+                    {
+                        Console.WriteLine("Dealer has BlackJack! Everyone loses!"); // Output this text to the console
+                        foreach (KeyValuePair<Player, int> entry in Bets) // Iterate through the Bets dictionary
+                        {
+                            Dealer.Balance += entry.Value; // Add the value of each bet in the dictionary to the Dealer's balance
+                        } // End FOREACH
+                    } // End IF
+                } // End IF
             } // End FOR
 
         } // End Play Method
