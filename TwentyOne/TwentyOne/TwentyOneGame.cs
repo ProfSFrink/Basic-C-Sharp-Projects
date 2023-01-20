@@ -53,10 +53,11 @@ namespace TwentyOne
                     return; // Exit the Play() method
                 } // End IF
                 Bets[player] = bet; // Because the bet has been placed successfully we add the bet amount to the player bet property which is a dictionary
-
             } // End FOREACH
 
             /* -------------- DEAL CARDS -------------- */
+
+            /* -------------- PLAYER DEAL ------------- */
 
             for (int i = 0; i < 2; i++)
             {
@@ -76,6 +77,10 @@ namespace TwentyOne
                         } // End IF
                     } // End IF
                 } // End FOREACH
+
+
+            /* -------------- DEALER DEAL ------------- */
+
                 Console.Write("Dealer: "); // Output this text to the console
                 Dealer.Deal(Dealer.Hand); // Deal a card from the dealers deck of playing cards to the dealers hand
                 if (i == 1) // We check if i is equal to one here as this means we are on the second iteration of the loop which means there is at least two cards in the dealers hand which means they could have a blackjack at this point
@@ -91,6 +96,67 @@ namespace TwentyOne
                     } // End IF
                 } // End IF
             } // End FOR
+
+            /* ASK EACH PLAYER IF THEY WANT TO HIT OR STAY */
+
+            foreach (Player player in Players) // Iterate through the Players list and assign each instance to the player value
+            {
+
+                while (!player.Stay) // While the current instance of player's stay property is equal to false
+                {
+
+                    Console.WriteLine("Your cards are: "); // Output this text to the console
+                    foreach (Card card in player.Hand) // Iterate through the current Players Hand and assign the current Card to card
+                    {
+                        Console.Write("{0} ", card.ToString()); // Call the toString() method attach to the current card which will display the cards face and suit
+                    } // End FOREACH
+                    Console.WriteLine("\n\nHit or stay?"); // Go down two lines and then output this text to the console
+                    string answer = Console.ReadLine().ToLower(); // Take the user input assign it to the string answer and also convert it to lowercase
+
+                    /* ------------ PLAYER STAYS ------------ */
+
+                    if (answer == "stay") // If the value of answer is equal to stay
+                    {
+                        player.Stay = true; // Set the current players Stay property to true
+                        break; // Break the current iteration of the while loop and check if we meet the condition to execute the loop again
+                    } // End IF
+                    
+                    /* ------------ PLAYER HITS ------------- */
+                    
+                    else if (answer == "hit") // If the value of answer is equal to hit
+                    {
+                        Dealer.Deal(player.Hand); // Add another card from the dealers deck to the players current hand
+                    } // End ELSE IF
+
+
+                    /* ------------ PLAYER BUSTED ---------- */
+
+                    bool busted = TwentyOneRules.IsBusted(player.Hand); // Utilise the TwentyOneRules.IsBusted() Method and pass in the current players hand and store the returned boolean into the boolean variable busted
+                    if (busted) // If the hand is busted then
+                    {
+                        Dealer.Balance += Bets[player]; // Then the value of the current players bet to the dealer
+                        Console.WriteLine("{0} Busted! You lose your bet of {1}. Your balance is now {2}.", player.Name, Bets[player], player.Balance); // Concatenate the current players name, bet value and balance to this string of text and output it to the console
+
+                        /* ------------ ASK THE PLAYER IF WANT TO KEEP PLAYING ------------ */
+
+                        Console.WriteLine("Do you want to play again "); // Output this text to the console
+                        answer = Console.ReadLine().ToLower(); // Take the user input assign it to the variable answer and convert it to lowercase
+                        if (answer == "yes" || answer == "yeah" || answer == "y") // If the value of answer equates to a variation of yes then
+                        {
+                            player.IsActivelyPlaying = true; // Set the current players isActivelyPlaying property to true
+                        } // End IF
+                        else // Then answer does not equate to a variation of yes
+                        {
+                            player.IsActivelyPlaying = false; // Set the current players isActivelyPlaying property to false
+                        } // End ELSE
+                    } // End IF
+
+                } // End WHILE
+
+            } // End FOREACH
+
+            Dealer.isBusted = TwentyOneRules.IsBusted(Dealer.Hand); // Pass the current Dealers hand into the isBusted() method then take the retruned boolean value and assign it to the Dealers isBusted property
+            Dealer.Stay = TwentyOneRules
 
         } // End Play Method
 

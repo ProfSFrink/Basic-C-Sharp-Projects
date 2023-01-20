@@ -63,8 +63,9 @@ namespace TwentyOne
 
             return result; // We have now calulated all possible values for the passed in hand of cards so we can return the result array
 
-        } // End GetAllPossibleHandValues
+        } // End GetAllPossibleHandValues Method
 
+        /* A method to check if a passed in hand has blackjack and return a boolean of true if it does and false if it does not */
         public static bool CheckForBlackJack(List<Card> Hand)
         {
             int[] possibleValues = GetAllPossibleHandValues(Hand); // Execute our GetAllPossibleValues method passing in our hand and storing the returned array to possibleValues
@@ -72,6 +73,22 @@ namespace TwentyOne
             if (value == 21) return true; // The hand has a blackjack so we return true
             else return false; // Any other value cannot be a blackjack so we retrun false
         } // End CheckForBlackJack Method
+
+        /* A method to check if a passed in hand of cards has gone bust or not */
+
+        public static bool IsBusted(List<Card> Hand)
+        {
+            int value = GetAllPossibleHandValues(Hand).Min(); // Check the passed in Hand of cards for the minimum possible value of the deck using the GetAllPossibleValues method and assign the returned value to the integer value
+            if (value > 21) return true; // If value is greater than 21 then the current hand is bust and we return true
+            else return false; // Else the hand is not bust and we return false
+        } // End IsBusted Method
+
+        /* A method to check if the dealer should stay or not */
+
+        public static bool ShouldDealerStay(List<Card> Hand)
+        {
+            return true; // Temp return
+        } // End ShouldDealerStay Method
 
     } // End TwentyOneRules Definition
 
