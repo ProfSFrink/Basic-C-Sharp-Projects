@@ -30,7 +30,8 @@ namespace TwentyOne
 
         /* PROPERTIES  */
 
-        public List<Card> Hand { get; set; } // A list data type containing instances of the Card class, this object will represent the players hand of card in the game
+        private List<Card> _hand = new List<Card>(); // Instance a new private list of the Card class called _hand
+        public List<Card> Hand { get { return _hand;  } set { _hand = value; } } // A list data type containing instances of the Card class, this object will represent the players hand of card in the game, points to the private instance of the list _hand
         public int Balance { get; set; } // An integer data type to represent the player's current balance
         public string Name { get; set; } // A string data type to represent the player's name
         public bool IsActivelyPlaying { get; set; } // A boolean data type to track if it's this instance of the player classes turn in during the game

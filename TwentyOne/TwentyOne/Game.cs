@@ -22,9 +22,12 @@ namespace TwentyOne
     {
         /* PROPERTIES */
 
-        public List<Player> Players { get; set; } // A list of Player objects called Players, with each element representing a player in the game
+        private List<Player> _players = new List<Player>(); // Add private instance of players list so we automatically instantiate an empty list
+        private Dictionary<Player, int> _bets = new Dictionary<Player, int>(); // Add private instance of Bets dictionary so we automatically instantiate an empty dictionary
+
+        public List<Player> Players { get { return _players; } set { _players = value; } } // A list of Player objects called Players, with each element representing a player in the game, points to the already instantiated private _players list
         public string Name { get; set; } // The name of the game (Blackjack, Poker, Texas Hold-em, Solitaire, etc
-        public Dictionary<Player, int> Bets { get; set; } // A dictionary called Bets to track the bets the players have made the key is an instance of the Player class with value being an integer value to represent the amount bet
+        public Dictionary<Player, int> Bets { get { return _bets; } set { _bets = value; } } // A dictionary called Bets to track the bets the players have made the key is an instance of the Player class with value being an integer value to represent the amount bet, points to the already instantiated private _bets dictionary
 
         /* This method is simply to take the list of player names and output them to the console, something that again all card games would have in common */
 

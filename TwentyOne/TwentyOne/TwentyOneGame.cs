@@ -39,6 +39,7 @@ namespace TwentyOne
             Dealer.Hand = new List<Card>(); // Create a new empty hand of playing cards for the Dealer
             Dealer.Stay = false; // Set the Dealer's stay property to false
             Dealer.Deck = new Deck(); // Issue the Dealer with a new deck of playing cards
+            Dealer.Deck.Shuffle(); // Shuffle the Dealer's new deck of playing cards
 
             /* -------------- PLACE BETS -------------- */
 
@@ -93,6 +94,7 @@ namespace TwentyOne
                         {
                             Dealer.Balance += entry.Value; // Add the value of each bet in the dictionary to the Dealer's balance
                         } // End FOREACH
+                        return; // End the Play() method as the current round is over
                     } // End IF
                 } // End IF
             } // End FOR
@@ -144,10 +146,12 @@ namespace TwentyOne
                         if (answer == "yes" || answer == "yeah" || answer == "y") // If the value of answer equates to a variation of yes then
                         {
                             player.IsActivelyPlaying = true; // Set the current players isActivelyPlaying property to true
+                            return;
                         } // End IF
                         else // Then answer does not equate to a variation of yes
                         {
                             player.IsActivelyPlaying = false; // Set the current players isActivelyPlaying property to false
+                            return;
                         } // End ELSE
                     } // End IF
 
