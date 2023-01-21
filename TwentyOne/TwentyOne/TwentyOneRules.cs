@@ -87,7 +87,15 @@ namespace TwentyOne
 
         public static bool ShouldDealerStay(List<Card> Hand)
         {
-            return true; // Temp return
+            int[] possibleHandValues = GetAllPossibleHandValues(Hand); // Execute the GetAllPossibleHandValues method on the current dealer hand and store the returned results in the integer array possibleHandValues
+            foreach (int value in possibleHandValues) // Iterate through the possibleHandValues array and assign the current element to value
+            {
+                if (value > 16 && value < 22) // If value is greater the 16 and less than 22 the dealer has to stay
+                {
+                    return true; // We return true as the dealer has to stay
+                } // End IF
+            } // End FOREACH
+            return false; // If any of the elements within possibleValues are NOT between 17 and 21 then the dealer does not need to stay 
         } // End ShouldDealerStay Method
 
     } // End TwentyOneRules Definition

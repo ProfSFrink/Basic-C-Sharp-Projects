@@ -155,8 +155,46 @@ namespace TwentyOne
 
             } // End FOREACH
 
+            /* ------------ DEALER HIT OR STAY ------------ */
+
             Dealer.isBusted = TwentyOneRules.IsBusted(Dealer.Hand); // Pass the current Dealers hand into the isBusted() method then take the retruned boolean value and assign it to the Dealers isBusted property
-            Dealer.Stay = TwentyOneRules
+            Dealer.Stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand); // Check the dealer current hand to determine if they should stay and assign the returned result to the dealers stay property
+            
+            while (!Dealer.Stay && !Dealer.isBusted) // Loop as long as the dealer does not stay or is not busted
+            {
+                Console.WriteLine("Dealer is hitting..."); // Output this text to the console
+                Dealer.Deal(Dealer.Hand); // Deal a card from the dealers current deck to their current playing hand
+                Dealer.isBusted = TwentyOneRules.IsBusted(Dealer.Hand); // Now check again if the dealer has gone bust or not
+                Dealer.Stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand); // Now check again if the dealer should stay or not
+            } // End WHILE
+
+            /* ------------ DEALER STAYS ------------ */
+
+            if (Dealer.Stay) // If the dealer stays
+            {
+                Console.WriteLine("Dealer is staying."); // Output this text to the console
+            } // End IF
+
+            /* ------------ DEALER BUST ------------ */
+
+            if (Dealer.isBusted) // If the dealer has gone bust
+            {
+                Console.WriteLine("Dealer Busted!."); // Output this text to the console
+                foreach (KeyValuePair<Player, int> entry in Bets) // Iterate through the Bets dictionary and assign each KV pair to entry
+                {
+                    Console.WriteLine("{0} won {1}", entry.Key.Name, entry.Value); // Concatenate the current entries Name and Value to this string and output it to the console
+
+                    /* We go through the Players list and find the one that matches the current KV pair assigned to the entry value and add double their bet to that players balance */
+                    Players.Where(x => x.Name == entry.Key.Name).First().Balance += (entry.Value * 2);
+                    Dealer.Balance -= entry.Value; // Deduct the amount the player won from the dealers balance
+                 } // End FOREACH
+                return; // End the Play() method and current round as the dealer has gone bust and the a player has won
+            } // End IF
+
+            foreach (Player player in Players)
+            {
+                bool? playerWon = TwentyOneRules.CompareHands(player.Hand, Dealer.Hand); // Create a boolean playerWon with the option to have null as a value then execute the CompareHands method to compare the hands of the player and dealer
+            } // End FOREACH
 
         } // End Play Method
 
