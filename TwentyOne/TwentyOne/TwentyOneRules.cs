@@ -98,6 +98,19 @@ namespace TwentyOne
             return false; // If any of the elements within possibleValues are NOT between 17 and 21 then the dealer does not need to stay 
         } // End ShouldDealerStay Method
 
+        public static bool? CompareHands(List<Card> PlayerHand, List<Card> DealerHand) // Define CompareHands method which can return a nullable boolean and take a player and dealer hand as parameters
+        {
+            int[] playerResults = GetAllPossibleHandValues(PlayerHand); // Create an integer array called playerResults then assign all possible hand values of the player hand to it
+            int[] dealerResults = GetAllPossibleHandValues(DealerHand); // Create an integer array called dealerResults then assign all possible hand values of the dealer hand to it
+
+            int playerScore = playerResults.Where(x => x < 22).Max(); // Find all values in the playerResults array that are less than 22 and store the highest of those values in playerScore
+            int dealerScore = dealerResults.Where(x => x < 22).Max(); // Find all values in the dealerResults array that are less than 22 and store the highest of those values in dealerScore
+
+            if (playerScore > dealerScore) return true; // If the player has the higher value hand return true and the player wins
+            else if (playerScore < dealerScore) return false; // If the dealer has the higher value hand return false and the dealer wins
+            else return null; // Then it must be a tie and we return null
+        } // End CompareHands Method
+
     } // End TwentyOneRules Definition
 
 } // End TwentyOne NAMESPACE

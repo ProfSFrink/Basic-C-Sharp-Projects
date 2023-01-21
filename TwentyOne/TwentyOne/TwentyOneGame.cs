@@ -191,9 +191,43 @@ namespace TwentyOne
                 return; // End the Play() method and current round as the dealer has gone bust and the a player has won
             } // End IF
 
-            foreach (Player player in Players)
+            /* ------------ COMPARE PLAYER & DEALER HANDS ------------ */
+
+            foreach (Player player in Players) // Iterate through the list of Players and assign the current Player to player
             {
-                bool? playerWon = TwentyOneRules.CompareHands(player.Hand, Dealer.Hand); // Create a boolean playerWon with the option to have null as a value then execute the CompareHands method to compare the hands of the player and dealer
+                bool? playerWon = TwentyOneRules.CompareHands(player.Hand, Dealer.Hand); // Create a boolean playerWon with the option to have null as a value then execute the CompareHands method to compare the hands of the player and dealer and store the returned boolean in playerWon
+
+                if (playerWon == null) // If playerWon is null then we have a tie
+                {
+                    /* ------------ TIED ------------ */
+                    Console.WriteLine("Push! No one wins."); // Output this text to the console
+                    player.Balance += Bets[player]; // Add the amount the player bet back to their balance
+                } // End IF
+                else if(playerWon == true) // If playerWon is true then the player won the round
+                {
+                    /* ------------ PLAYER WINS ------------ */
+                    Console.WriteLine("{0} won {1}!", player.Name, Bets[player]); // Take the player name and amount they bet and concatenate them to this string
+                    player.Balance += (Bets[player] * 2); // Award the player there winning which is double the original bet
+                    Dealer.Balance -= Bets[player]; // Deduct that amount from the dealers balance
+                } // End ELSE IF
+                else // If playerWon is false then the dealer won the round
+                {
+                    /* ------------ DEALER WINS ------------  */
+                    Console.WriteLine("Dealer wins {0}!", Bets[player]); // Concatenate the amount the player bet to this string and output to the console
+                    Dealer.Balance += Bets[player]; // Add the amount the player bet to the dealers balance
+                } // End ELSE
+
+                Console.WriteLine("Play again?"); // Output this text to the console
+                string answer = Console.ReadLine().ToLower(); // Convert the user input to lowercase and assign it to the string variable answer
+                if (answer == "yes" || answer == "yeah" || answer == "y") // If the value of answer matches one of these inputs
+                {
+                    player.IsActivelyPlaying = true; // Set the IsActivelyPlaying property to true
+                } // End IF
+                else // Then none of the above inputs match
+                {
+                    player.IsActivelyPlaying = false; // Set the IsActivelyPlaying property to false
+                } // End ELSE
+
             } // End FOREACH
 
         } // End Play Method
