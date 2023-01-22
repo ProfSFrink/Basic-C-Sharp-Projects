@@ -4,11 +4,11 @@
 
 // MODULE 7: Creating a Game of Blackjack and Intermediate C# Programming
 // AUTHOR: Steven Partlow
-// DATE: 19/01/2023
+// DATE: 21/01/2023
 
 // TWENTY ONE RULES DEFINITION
 
-// This class represents the business logic of our program, a business logic class is a that exists without the knowledge of other classes
+// This class represents the business logic of our program, a business logic class is a that exists without the knowledge of other classes. In this case the logic represents the rules of the game blackjack which is what this application is based on
 
 using System;
 using System.Collections.Generic;

@@ -4,9 +4,11 @@
 
 // MODULE 7: Creating a Game of Blackjack and Intermediate C# Programming
 // AUTHOR: Steven Partlow
-// DATE: 18/01/2023
+// DATE: 21/01/2023
 
 // TWENTYONEGAME CLASS DEFINITION
+
+// This TwentyOneGame class is specifically for our TwentyOne (Blackjack) game and will inherit the Game class
 
 using System;
 using System.Collections.Generic;
@@ -16,15 +18,16 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    /* This TwentyOneGame class is specifically for our TwentyOne (Blackjack) game and will inherit the Game class */
 
     public class TwentyOneGame : Game, IWalkAway // Inherit the Game Class and the IWalkAway interface
     {
         /* CLASS PROPERTIES */
 
-        public TwentyOneDealer Dealer { get; set; }
+        public TwentyOneDealer Dealer { get; set; } // Instantiate an instance of the TwentyOneDealer class and call it dealer
 
         /* CLASS METHODS */
+
+        /* This is the main play method and represent the core of our program */
 
         public override void Play() // As this is an inherited abstract method from the Game class we need the override keywrod
         {
@@ -63,9 +66,9 @@ namespace TwentyOne
             for (int i = 0; i < 2; i++)
             {
                 Console.WriteLine("Dealing..."); // Output this text to the console
-                foreach (Player player in Players)
+                foreach (Player player in Players) // Iterate through the list of players and assign each instance to player
                 {
-                    Console.Write("{0}: ", player.Name);
+                    Console.Write("{0}: ", player.Name); // Concatenate player name property and this string and output to the console
                     Dealer.Deal(player.Hand); // The dealer deals a card from their deck and deals it to the current instance of Player 
                     if (i == 1) // We check if i is equal to one here as this means we are on the second iteration of the loop which means there is at least two cards in the players hand which means they could have a blackjack at this point
                     {

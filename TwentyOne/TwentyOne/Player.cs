@@ -4,9 +4,11 @@
 
 // MODULE 5: C# Class Concepts
 // AUTHOR: Steven Partlow
-// DATE: 10/01/2023
+// DATE: 21/01/2023
 
 // PLAYER CLASS DEFINITION
+
+// A class definition for a player in a card game, this class can be used by any card game
 
 using System;
 using System.Collections.Generic;
@@ -21,6 +23,7 @@ namespace TwentyOne
         /* CONSTRUCTOR */
 
         /* A constructor which is created on object instantiation containing two input parameters, name and beginningBalance */
+
         public Player(string name, int beginningBalance)
         {
             Hand = new List<Card>(); // Instantiate the Hand properties list

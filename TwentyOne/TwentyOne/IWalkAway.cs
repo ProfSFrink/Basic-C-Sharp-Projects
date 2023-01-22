@@ -8,6 +8,8 @@
 
 // IWalkAway INTERFACE DEFINITION
 
+// An interface that allows the player to walk away from the game when they please. (NOT IN USE)
+
 using System;
 using System.Collections.Generic;
 using System.Linq;

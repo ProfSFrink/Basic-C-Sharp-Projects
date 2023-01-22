@@ -179,33 +179,36 @@ An assignment where we use lambda expressions on our Employee class which we hav
 ## 33 TUTORIAL - PUTTING IT ALL TOGETHER - PARTS 1 TO 10 [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
 A ten part video that covers finishing our Twenty One game, a series of code along videos that covers us turning our Twenty One game into a working application.
 
-### PART ONE
+### PART ONE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
 We re-write the main program by asking the user for their name and starting balance, then asking them if they would like to play a game of Twenty-One after which if they do we create a new Player object and add the player to the game and providing they wish to play and have a balance greater than zero we start the game.
 
-### PART TWO
+### PART TWO [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
 Continuing on frm part one, once the while loop ends we remove the player from the Game class, and output a goodbye message to the user, then we create a new TwentyOneDealer class which inherits from the Dealer class and gives it properties to represent the dealer's hand, if they wish to stay and if they have gone bust, then we remove the dealer property from the Game class as we no longer need it. Then we add an instance of TwentyOneDealer to the TwentyOneGame class, create a new instance of it, then finally give the Player class a stay property as well.
 
-### PART THREE
+### PART THREE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
 In this part we reset each player's hand and stay property, then do like wise with the dealer before issuing the dealer a new deck of playing cards. Then we continue working on our Play method by asking players to place there bets, we check to make sure that each player has enough to actually place there respective bets, if they do not we inform them of the fact, but if the do we deduct the amount from their balance. We have also added a dictionary to the Game class to track the bets made by each player in the game, the key / value pair is an instance of the Player class and an integer representing the amount bet.
 
-### PART FOUR
+### PART FOUR [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
 We countinue writing our Play() method by dealing cards to each player, we deal cards from the dealer's deck to each player. Then add a TwentyOneRules class to the application which will be a business logic class and then add dictionary called _cardValues which is used to store the face values of the playing cards, this dictionary will be private.
 
-### PART FIVE
+### PART FIVE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
 We fill out the dictionary to represent the face values of our playing cards, aces will be set to one as default and we will account for the possiblity of them being eleven elsewhere within our program. We then add to the TwentyOneRules class a custom method to check for a potential Blackjack but first we create a seperate custom method to calculate all the potential values a hand of cards could have depending on the number of aces present, the number of values is always the number of aces plus one, which we can use to determine the size of our result array that the method will need to return. We then make use of lambda expressions to count the number of aces and the sum total value of the current hand of cards, then we add logic to check if there is only one potential value of the current hand and end the method at this point if that is the case.
 
-### PART SIX
+### PART SIX [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
 We carry on trying to calulate all possible hand values of our hand of cards by utilising a for loop, which will iterate one time for each ace in the hand, during each loop we calculate the hand value plus the value of one ace and add the result to our array of results, then when this for loop has completed we return the result array. Then we carry on with our CheckForBlackJack method, we create a new array and execute our GetAllPossibleValues method and store the return result from that method within our new array possibleValues, we use a lambda expression to find the maximum value from this array then if it is equal to 21 we have a blackjack and return true else we return false.
 	Then returning to the TwentyOneGame class we execute the CheckForBlackJack method on the player hand, if this returns true then we congratulate the player then award them their winnings and exit the method, if they have not won we then deal a card to the dealer and again CheckForBlackJack and if the dealer has won we award the dealer the value of all the players bets.
 
-### PART SEVEN
+### PART SEVEN [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
 We first override the ToString() method of the card class so that when we use it we return the face and suit of the current instance of that card object, this is to make outputting card suit and face values easier. Then we ask the player to hit or stay and adjust the players stay property if they wish to do so, then if they do wish to hit we deal another card then afterwards check if the player has gone bust or not we add a custom method IsBusted to the TwentyOneRules class for this purpose this will return a boolean if the player goes bust we then ask them if they wish to carry on playing. Then we move on to the dealers game logic by checking if the dealer has gone bust or not, then add a another to new method to TwentyOneRules class this time called ShouldDealerStay.
 
-### PART EIGHT
+### PART EIGHT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
 We develop the ShouldDealerStay method then checking the possible values of the dealers hand and if one is between 17 and 21 under the rules of blackjack the dealer has to stay. Then we carry on developing our Play() method and checking if the dealer should stay or if they have gone bust, if the dealer does go bust we use lambda expressions to award the current player double there current bet, this would also end the current round and we exit the Play() method here. Then we need to account for neither the dealer or player having blackjack or going bust and we need to compare the value of their hands, this can lead to three outcomes, the player has the better hand, the dealer does or it's a tie, we can create a boolean that has three values using a ? after we type bool when declareing a variable. We then add a new rule method to TwentyOneRules which is CompareHands.
 
-### PART NINE
+### PART NINE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
 We develop the CompareHands() method which utilises the GetAllPossibleHandValues method to get the possible hand value for both the player and dealer we then use a lambda expression to get the highest value from each hand that is lower than 22. Then we compare these two values and return a null if we have a tie, or true or false depending on if the player or dealer won. Then back in the main Play() method we assign the nullable boolean to playerWon if it's null we have a tie else either the player or dealer won the game and award winnings accordingly, we then finally ask each player if they want to continue playing the game. At this stage we now have a working TwentyOne game to play.
 
-### PART TEN
+### PART TEN [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
 Now that we have a working version of our application we can start debugging, the first bug that we encounter is that we are instantiating any of our lists or dictionaries so for each of these in our class definitions we create a private instance which results in an empty but useable object, we then point the public instance to these private instances so that we fix our original bug, this is consider good practice. Then we encounter logic errors were the program does not behave as it should firstly we forgot to execute the shuffle method after fixing this we need the game to end when the dealer has a blackjack which it does not so we add in a return keyword to the program and likewise when the player busts and we ask them if they want to play again. After fixing these issues the program is in a working state. We are now advised to use a breakpoint and step through the entire program to ensure we have a full understanding of everything that is happening within the application and to google anything we don't.
+
+## BLACKJACK GAME ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
+We have now completed a version of our TwentyOne game and for this assignment we utilise Visual Studio debugging tools like breakpoints and the step-over function to work through our program and see how the whole program works and what every line of code is doing. Then we have to answer a few question about what certain lines of code within the program is doing.

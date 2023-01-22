@@ -2,11 +2,13 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 5: C# Class Concepts
+// MODULE 7: Creating a Game of Blackjack and Intermediate C# Programming
 // AUTHOR: Steven Partlow
-// DATE: 10/01/2023
+// DATE: 21/01/2023
 
 // GAMES CLASS DEFINITION
+
+// This generic game class contains properties and methods which are common to all card games, and can be reused later by other card games
 
 using System;
 using System.Collections.Generic;
@@ -16,7 +18,6 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    /* This generic game class contains properties and methods which are common to all card games, and can be reused later by other card games */
 
     public abstract class Game // Make the Game class and abstract class as we will never need to create an instance of this class instead only inherit from it
     {

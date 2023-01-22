@@ -4,7 +4,9 @@
 
 // MODULE 7: Creating a Game of Blackjack and Intermediate C# Programming
 // AUTHOR: Steven Partlow
-// DATE: 18/01/2023
+// DATE: 21/01/2023
+
+/* The main program of our application */
 
 using System;
 using System.Collections.Generic;

@@ -2,11 +2,13 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 6: Enumss Tutorial
+// MODULE 7: Creating a Game of Blackjack and Intermediate C# Programming
 // AUTHOR: Steven Partlow
-// DATE: 14/01/2023
+// DATE: 21/01/2023
 
 // CARD CLASS DEFINITION
+
+// A class to represent a playing card this class us defined in a manner so it can be reused in any type of card game
 
 using System;
 using System.Collections.Generic;

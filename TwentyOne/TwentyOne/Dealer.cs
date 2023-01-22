@@ -4,9 +4,11 @@
 
 // MODULE 5: C# Class Concepts
 // AUTHOR: Steven Partlow
-// DATE: 10/01/2023
+// DATE: 21/01/2023
 
 // DEALER CLASS DEFINITION
+
+// A class to represent a dealer in a card game, which can be used by any potential playing card game
 
 using System;
 using System.Collections.Generic;

@@ -2,11 +2,13 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 3: Classes and Objects Tutorial
+// MODULE 7: Creating a Game of Blackjack and Intermediate C# Programming
 // AUTHOR: Steven Partlow
-// DATE: 03/01/2023
+// DATE: 21/01/2023
 
 // DECK CLASS DEFINITION
+
+// A class which represents a full deck of playing cards, this inherits the card class definition and again can be reused in any game that requires a deck of playing cards
 
 using System;
 using System.Collections.Generic;
