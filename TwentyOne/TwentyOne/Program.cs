@@ -4,7 +4,7 @@
 
 // MODULE 7: Creating a Game of Blackjack and Intermediate C# Programming
 // AUTHOR: Steven Partlow
-// DATE: 21/01/2023
+// DATE: 23/01/2023
 
 /* The main program of our application */
 
@@ -21,8 +21,6 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            string text = "Here is some text"; // Initalise a string variable text and assign this value to it
-            File.WriteAllText(@"C:\Users\Steven Partlow\Logs\Logs.txt", text); // Take the value stored within the text string save to the file at this file path
 
             Console.Write("Welcome to the Grand Hotel and Casino. Let's start by telling me your name? "); // Output this text to the console
             string playerName = Console.ReadLine(); // Assign the user input to the string variable playerName
