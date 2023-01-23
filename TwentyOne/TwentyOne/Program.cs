@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO; // Use the IO namespace so we can utilise file-handling
 
 namespace TwentyOne
 {
@@ -20,6 +21,9 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            string text = "Here is some text"; // Initalise a string variable text and assign this value to it
+            File.WriteAllText(@"C:\Users\Steven Partlow\Logs\Logs.txt", text); // Take the value stored within the text string save to the file at this file path
+
             Console.Write("Welcome to the Grand Hotel and Casino. Let's start by telling me your name? "); // Output this text to the console
             string playerName = Console.ReadLine(); // Assign the user input to the string variable playerName
             Console.Write("And how much did you bring today? "); // Output this text to the console

@@ -212,3 +212,6 @@ Now that we have a working version of our application we can start debugging, th
 
 ## BLACKJACK GAME ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
 We have now completed a version of our TwentyOne game and for this assignment we utilise Visual Studio debugging tools like breakpoints and the step-over function to work through our program and see how the whole program works and what every line of code is doing. Then we have to answer a few question about what certain lines of code within the program is doing.
+
+## TUTORIAL: FILE IO [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
+We carry on making improvements to our TwentyOne game by learning how to read and write text to a file. We add the System.IO namespace to program.cs so we can make use of file-handling, then at the beginning of the main application we create a simple string variable and assign some text to it, then we the File.WriteAllText method to save the value within the text string to a file called Logs.txt.
