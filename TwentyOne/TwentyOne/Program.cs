@@ -8,11 +8,9 @@
 
 /* The main program of our application */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System; // Main system library
+using Casino; // Casino class contains all our base classes for our TwentyOne Application
+using Casino.TwentyOne; // Casino.TwentyOne contains our main classes and logic for our TwentyOne game
 using System.IO; // Use the IO namespace so we can utilise file-handling
 
 namespace TwentyOne
