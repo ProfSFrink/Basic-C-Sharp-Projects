@@ -1,0 +1,7 @@
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\DateTime_Assign\DateTime_Assign\bin\Debug\DateTime_Assign.exe.config
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\DateTime_Assign\DateTime_Assign\bin\Debug\DateTime_Assign.exe
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\DateTime_Assign\DateTime_Assign\bin\Debug\DateTime_Assign.pdb
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\DateTime_Assign\DateTime_Assign\obj\Debug\DateTime_Assign.csproj.AssemblyReference.cache
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\DateTime_Assign\DateTime_Assign\obj\Debug\DateTime_Assign.csproj.CoreCompileInputs.cache
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\DateTime_Assign\DateTime_Assign\obj\Debug\DateTime_Assign.exe
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\DateTime_Assign\DateTime_Assign\obj\Debug\DateTime_Assign.pdb
