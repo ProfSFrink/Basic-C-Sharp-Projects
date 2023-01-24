@@ -21,7 +21,6 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-
             Console.Write("Welcome to the Grand Hotel and Casino. Let's start by telling me your name? "); // Output this text to the console
             string playerName = Console.ReadLine(); // Assign the user input to the string variable playerName
             Console.Write("And how much did you bring today? "); // Output this text to the console

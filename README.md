@@ -218,3 +218,6 @@ We carry on making improvements to our TwentyOne game by learning how to read an
 
 ## FILE I/O ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/File_IO_Assign/File_IO_Assign)
 A assignment to test our knowledge of the material covered in the above tutorial. We ask the user for a number, which we then save to a file before reading the number back from the file and outputting it to the console.
+
+## TUTORIAL: DATETIME [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
+This tutorial covers two new data types DateTime and TimeSpan. Firstly we learn about the DateTime object which is an object which simply represents a Date and or Time, these need to be instantiated like a list they are also a value type so they cannot be null. When creating a DateTime object there are twelve different constructors you can use depending on the type of object you want, for our tutorial we pass in six parameters year, month, day, hour, minute, second. We then move on to TimeSpan objects which allow you to calculate the timespan between two DateTime objects, the result will be in days, hours, minutes and seconds. Then we move on to adding logging to our TwentyOne game by recording the date and time alongside the cards being dealt. 

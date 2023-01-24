@@ -33,10 +33,11 @@ namespace TwentyOne
         {
             /* Utilise the built-in Add() method of the Hand object to add a card to the dealers deck, then use the built-in method First() of the Cards object to take the first element in that list, then print the name of the card added to the console */
             Hand.Add(Deck.Cards.First()); // Utilise the built-in Add() method of the Hand object to add a card to the dealers deck
-            string card = string.Format(Deck.Cards.First().ToString()); // Take the value of the card dealt and convert to a string assign to the string variable card
+            string card = string.Format(Deck.Cards.First().ToString() + "\n"); // Take the value of the card dealt and convert to a string assign to the string variable card
             Console.WriteLine(card); // Write the value of the card variable to the console
-            using (StreamWriter file = new StreamWriter(@"C:\Users\Steven Partlow\Logs\Logs.txt", true)) // Create a new StreamWriter object called file assign it the file in the provided path and set that we wish to append to the file to true, the using statement frees up memory after we are done
+            using (StreamWriter file = new StreamWriter(@"C:\Users\Pitma\sp\Logs\Logs.txt", true)) // Create a new StreamWriter object called file assign it the file in the provided path and set that we wish to append to the file to true, the using statement frees up memory after we are done
             {
+                file.WriteLine(DateTime.Now); // Write the current date and time to file
                 file.WriteLine(card); // Write the value of the string card to file
             } // End STEAMWRTIER
             Deck.Cards.RemoveAt(0); // Finally use the built-in method RemoveAt() which will remove the card at index 0 from the Deck object as we have added to the Dealers hand so can remove it from the original deck
