@@ -22,6 +22,12 @@ namespace Casino
     {
         /* CONSTRUCTOR */
 
+        /* This chains off the original constructor for this clsss and only needs a player name as an argument, we set the balance to a default value of one hundred, no further implementation is required as we will reuse the code from the original constructor */
+
+        public Player(string name) : this(name, 100)
+        {
+        } // End CALL CHAIN CONSTRUCTOR Player
+
         /* A constructor which is created on object instantiation containing two input parameters, name and beginningBalance */
 
         public Player(string name, int beginningBalance)

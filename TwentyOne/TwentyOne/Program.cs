@@ -19,7 +19,8 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            Console.Write("Welcome to the Grand Hotel and Casino. Let's start by telling me your name? "); // Output this text to the console
+            const string casinoName = "Grand Hotel and Casino"; // A constant to define the name of our casino
+            Console.Write("Welcome to the {0}. Let's start by telling me your name? ", casinoName); // Concatenate the const casino name with this strinng and output this text to the console
             string playerName = Console.ReadLine(); // Assign the user input to the string variable playerName
             Console.Write("And how much did you bring today? "); // Output this text to the console
             int bank = Convert.ToInt32(Console.ReadLine()); // Cast the user input to the int variable bank
