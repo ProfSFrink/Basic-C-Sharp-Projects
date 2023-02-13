@@ -32,6 +32,11 @@ namespace TwentyOne
             {
                 /* Instantiate a new instance of the Player class called player, passing in the player and bank values */
                 Player player = new Player(playerName,bank);
+                player.Id = Guid.NewGuid(); // Assign the Guid Id property of the new instance of the player class a unique identifier
+                using (StreamWriter file = new StreamWriter(@"C:\Users\Steven Partlow\Logs.txt", true)) // Create a new StreamWriter object called file assign it the file in the provided path and set that we wish to append to the file to true, the using statement frees up memory after we are done
+                {
+                    file.WriteLine(player.Id); // Write the value the guid player property to file
+                } // End STEAMWRTIER
                 Game game = new TwentyOneGame(); // Instantiate a new instance of the TwentyOneGame class but utilise polymorphism to convert it back to the inherited class Game so we can make use of our overloaded operators
                 game += player; // Add the new created instance of the Player class player to our new instance of the Game class, this make use of our overloaded "+" operator
                 player.IsActivelyPlaying = true; // As the player wants to play the game we set this boolean to true

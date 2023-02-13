@@ -2,7 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\TwentyOne",
+    "\\TwentyOne\\Casino",
     "\\TwentyOne\\TwentyOne"
   ],
+  "SelectedNode": "\\TwentyOne\\Casino\\TwentyOneGame.cs",
   "PreviewInSolutionExplorer": false
 }
