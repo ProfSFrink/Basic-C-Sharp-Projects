@@ -2,9 +2,9 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 5: C# Class Concepts
+// MODULE 8: Libraries and Additional C# Features
 // AUTHOR: Steven Partlow
-// DATE: 21/01/2023
+// DATE: 13/02/2023
 
 // DEALER CLASS DEFINITION
 
