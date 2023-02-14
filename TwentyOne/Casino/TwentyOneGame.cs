@@ -51,7 +51,16 @@ namespace Casino.TwentyOne
 
             foreach(Player player in Players) // Iterate through the list of Players and assign each instance to the player 
             {
-                int bet = Convert.ToInt32(Console.ReadLine()); // Cast the value the user enters as a bet and assign it to the integer bet
+                bool validAnswer = false; // Define a boolean variable called validAnswer and set it's default value to false
+                int bet = 0; // Define an integer variable called bet and set it's default value to zero
+                
+                while (!validAnswer) // Keep the loop going as long as validAnswer is false
+                {
+                    Console.WriteLine("Place your bet!"); // Output this text to the console
+                    validAnswer = int.TryParse(Console.ReadLine(), out bet); // Attempt to cast the user input to an integer, then set validAnswer to true or false depending if it is successful, if the cast does succeded store the output in bet
+                    if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals."); // Output this text to the console
+                } // End WHILE
+
                 bool successfullyBet = player.Bet(bet); // Attempt to place the bet and store if it was successful in the boolean variable successfullyBet
                 if (!successfullyBet) // If the attempt to place the Players bet is unsucessful
                 {

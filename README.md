@@ -236,3 +236,6 @@ We cover some additional useful features of C#. Firstly we implement a construct
 
 42 ADDITIONAL FEATURES ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/AddFeaturesAssign/AddFeaturesAssign)
 This is assignment shows that we understand how to use constance variables within our program, then we create a class called Game which has an inital constructor that requires three parameters and then a second call chain constructor which only requires two, then we instaniate two instances of the game class utlising the var keyword.
+
+43 TUTORIAL: MORE ON EXCEPTION HANDLING [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
+An advanced tutorial on exception handling, in part one we learn to use the tryPrase method to cast user input to an integer and then set a boolean variable depending on if the cast was successful, this allows us to implement exception handling within our program, we account for both the user entering a string and and decimal places. We add this to two points in the program when the user is entering the ammount they have bought with them and placing a bet.
