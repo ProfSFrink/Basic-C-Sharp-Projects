@@ -1,0 +1,7 @@
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\bin\Debug\ExceptHandAssign.exe.config
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\bin\Debug\ExceptHandAssign.exe
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\bin\Debug\ExceptHandAssign.pdb
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\obj\Debug\ExceptHandAssign.csproj.AssemblyReference.cache
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\obj\Debug\ExceptHandAssign.csproj.CoreCompileInputs.cache
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\obj\Debug\ExceptHandAssign.exe
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\obj\Debug\ExceptHandAssign.pdb
