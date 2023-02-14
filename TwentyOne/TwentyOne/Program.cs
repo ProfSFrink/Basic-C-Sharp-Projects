@@ -4,7 +4,7 @@
 
 // MODULE 8: Libraries and Additional C# Features
 // AUTHOR: Steven Partlow
-// DATE: 13/02/2023
+// DATE: 14/02/2023
 
 /* The main program of our application */
 
@@ -53,7 +53,24 @@ namespace TwentyOne
                 /* While player.IsActivelyPlaying equals true and their balance is greater than zero */
                 while (player.IsActivelyPlaying && player.Balance > 0)
                 {
-                    game.Play(); // Execute the Play() method of the game object
+                    try
+                    {
+                        game.Play(); // Execute the Play() method of the game object
+                    } // End Try
+
+                    catch (FraudException) // This code runs if an ArgumentException is thrown
+                    {
+                        Console.WriteLine("Security! Kick this person out."); // Output this text to the console
+                        Console.ReadLine(); // Pause the application at this point
+                        return; // End the application
+                    } // End CATCH
+
+                    catch (Exception) // This code runs if a general Exception occurs
+                    {
+                        Console.WriteLine("An error occurred. Please contact your System Administrator."); // Output this text to the console
+                        Console.ReadLine(); // Pause the application at this point
+                        return; // End the application
+                    } // End CATCH
                 } // End WHILE
 
                 game -= player; // Remove the player from the game object
