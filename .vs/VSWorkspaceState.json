@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\TwentyOne",
+    "\\AddFeaturesAssign",
+    "\\AddFeaturesAssign\\AddFeaturesAssign",
     "\\TwentyOne\\Casino",
     "\\TwentyOne\\TwentyOne"
   ],
-  "SelectedNode": "\\TwentyOne\\Casino\\TwentyOneGame.cs",
+  "SelectedNode": "\\AddFeaturesAssign\\AddFeaturesAssign.sln",
   "PreviewInSolutionExplorer": false
 }
