@@ -2,9 +2,9 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 5: C# Class Concepts
+// MODULE 8: Libraries and Additional C# Features
 // AUTHOR: Steven Partlow
-// DATE: 21/01/2023
+// DATE: 13/02/2023
 
 // PLAYER CLASS DEFINITION
 
@@ -21,6 +21,12 @@ namespace Casino
     public class Player
     {
         /* CONSTRUCTOR */
+
+        /* This chains off the original constructor for this clsss and only needs a player name as an argument, we set the balance to a default value of one hundred, no further implementation is required as we will reuse the code from the original constructor */
+
+        public Player(string name) : this(name, 100)
+        {
+        } // End CALL CHAIN CONSTRUCTOR Player
 
         /* A constructor which is created on object instantiation containing two input parameters, name and beginningBalance */
 
@@ -39,6 +45,7 @@ namespace Casino
         public string Name { get; set; } // A string data type to represent the player's name
         public bool IsActivelyPlaying { get; set; } // A boolean data type to track if it's this instance of the player classes turn in during the game
         public bool Stay { get; set; } // A boolean data type to represent if the player wants to stay
+        public Guid Id { get; set; } // A Guid data type to give this instance of the player class a unqiue identifier
 
         /* METHODS */
 

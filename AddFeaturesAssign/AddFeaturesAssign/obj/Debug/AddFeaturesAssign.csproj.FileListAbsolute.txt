@@ -1,0 +1,14 @@
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\AddFeaturesAssign\AddFeaturesAssign\bin\Debug\AddFeaturesAssign.exe.config
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\AddFeaturesAssign\AddFeaturesAssign\bin\Debug\AddFeaturesAssign.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\AddFeaturesAssign\AddFeaturesAssign\bin\Debug\AddFeaturesAssign.pdb
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\AddFeaturesAssign\AddFeaturesAssign\obj\Debug\AddFeaturesAssign.csproj.AssemblyReference.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\AddFeaturesAssign\AddFeaturesAssign\obj\Debug\AddFeaturesAssign.csproj.CoreCompileInputs.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\AddFeaturesAssign\AddFeaturesAssign\obj\Debug\AddFeaturesAssign.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\AddFeaturesAssign\AddFeaturesAssign\obj\Debug\AddFeaturesAssign.pdb
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\AddFeaturesAssign\AddFeaturesAssign\bin\Debug\AddFeaturesAssign.exe.config
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\AddFeaturesAssign\AddFeaturesAssign\bin\Debug\AddFeaturesAssign.exe
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\AddFeaturesAssign\AddFeaturesAssign\bin\Debug\AddFeaturesAssign.pdb
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\AddFeaturesAssign\AddFeaturesAssign\obj\Debug\AddFeaturesAssign.csproj.AssemblyReference.cache
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\AddFeaturesAssign\AddFeaturesAssign\obj\Debug\AddFeaturesAssign.csproj.CoreCompileInputs.cache
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\AddFeaturesAssign\AddFeaturesAssign\obj\Debug\AddFeaturesAssign.exe
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\AddFeaturesAssign\AddFeaturesAssign\obj\Debug\AddFeaturesAssign.pdb

@@ -2,9 +2,9 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 5: C# Class Concepts
+// MODULE 8: Libraries and Additional C# Features
 // AUTHOR: Steven Partlow
-// DATE: 21/01/2023
+// DATE: 13/02/2023
 
 // DEALER CLASS DEFINITION
 
@@ -35,7 +35,7 @@ namespace Casino
             Hand.Add(Deck.Cards.First()); // Utilise the built-in Add() method of the Hand object to add a card to the dealers deck
             string card = string.Format(Deck.Cards.First().ToString() + "\n"); // Take the value of the card dealt and convert to a string assign to the string variable card
             Console.WriteLine(card); // Write the value of the card variable to the console
-            using (StreamWriter file = new StreamWriter(@"C:\Users\Pitma\sp\Logs\Logs.txt", true)) // Create a new StreamWriter object called file assign it the file in the provided path and set that we wish to append to the file to true, the using statement frees up memory after we are done
+            using (StreamWriter file = new StreamWriter(@"C:\Users\Steven Partlow\Logs.txt", true)) // Create a new StreamWriter object called file assign it the file in the provided path and set that we wish to append to the file to true, the using statement frees up memory after we are done
             {
                 file.WriteLine(DateTime.Now); // Write the current date and time to file
                 file.WriteLine(card); // Write the value of the string card to file
