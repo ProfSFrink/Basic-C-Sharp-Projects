@@ -58,7 +58,7 @@ namespace TwentyOne
                         game.Play(); // Execute the Play() method of the game object
                     } // End Try
 
-                    catch (FraudException) // This code runs if an ArgumentException is thrown
+                    catch (FraudException) // This code runs if an FraudException is thrown
                     {
                         Console.WriteLine("Security! Kick this person out."); // Output this text to the console
                         Console.ReadLine(); // Pause the application at this point

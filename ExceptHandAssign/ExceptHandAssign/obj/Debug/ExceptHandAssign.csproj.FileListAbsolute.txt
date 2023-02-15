@@ -5,3 +5,10 @@ C:\Users\pitma\sp\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\obj\D
 C:\Users\pitma\sp\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\obj\Debug\ExceptHandAssign.csproj.CoreCompileInputs.cache
 C:\Users\pitma\sp\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\obj\Debug\ExceptHandAssign.exe
 C:\Users\pitma\sp\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\obj\Debug\ExceptHandAssign.pdb
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\bin\Debug\ExceptHandAssign.exe.config
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\bin\Debug\ExceptHandAssign.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\bin\Debug\ExceptHandAssign.pdb
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\obj\Debug\ExceptHandAssign.csproj.AssemblyReference.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\obj\Debug\ExceptHandAssign.csproj.CoreCompileInputs.cache
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\obj\Debug\ExceptHandAssign.exe
+C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\ExceptHandAssign\ExceptHandAssign\obj\Debug\ExceptHandAssign.pdb

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ExceptHandAssign",
+    "\\ExceptHandAssign\\ExceptHandAssign"
   ],
-  "SelectedNode": "\\TwentyOne.sln",
+  "SelectedNode": "\\ExceptHandAssign\\ExceptHandAssign\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
