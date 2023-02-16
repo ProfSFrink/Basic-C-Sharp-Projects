@@ -81,6 +81,11 @@ namespace TwentyOne
             Console.Read(); // Pause the application
         } // End MAIN
 
+        private static void UpdateDbWithException(Exception ex)
+        {
+            string conectionString = "Data Source=(localdb)\ProjectsV13;Initial Catalog=TwentyOneGame;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
+        } // End UpdateDbWithException
+
     } // End CLASS
 
 } // End NAMESPACE

@@ -242,3 +242,6 @@ An advanced tutorial on exception handling, in part one we learn to use the tryP
 
 ## 44 EXCEPTION HANDLING ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ExceptHandAssign/ExceptHandAssign)
 An assignment to show our understanding of exception handling. We first implement a while loop, which will iterate until we get valid input from the user, which in this case is there age, we then implement try catch blocks to catch exceptions for the user entering letters, zero and negative numbers and also catch any other exceptions before finally telling the user the year they were born.
+
+## 45 TUTORIAL: DATABASE ACCESS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne
+A four-part tutorial series covering database access and C#. In the first part of our tutorial we cover using a widget built into Visual Studio called SQL server object explorer, this allows us to add a database to our TwentyOneGame application which will be used to log exceptions. We add the database then add a table called Exceptions with four fields, id, exceptionType, exceptionMessage and TimeStamp, then we start to write a method after our main application has run to log any exceptions to our database.
