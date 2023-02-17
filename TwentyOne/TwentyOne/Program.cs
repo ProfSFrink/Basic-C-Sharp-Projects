@@ -12,6 +12,8 @@ using System; // Main system library
 using Casino; // Casino class contains all our base classes for our TwentyOne Application
 using Casino.TwentyOne; // Casino.TwentyOne contains our main classes and logic for our TwentyOne game
 using System.IO; // Use the IO namespace so we can utilise file-handling
+using System.Data.SqlClient;
+using System.Data;
 
 namespace TwentyOne
 {
@@ -83,7 +85,34 @@ namespace TwentyOne
 
         private static void UpdateDbWithException(Exception ex)
         {
-            string conectionString = "Data Source=(localdb)\ProjectsV13;Initial Catalog=TwentyOneGame;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
+            // A string that contains the information needed to connect to our exceptions database
+            string connectionString = @"Data Source = (localdb)\ProjectsV13; Initial Catalog = TwentyOneGame; 
+                                        Integrated Security = True; Connect Timeout = 30; Encrypt = False;
+                                        TrustServerCertificate = False; ApplicationIntent = ReadWrite;
+                                        MultiSubnetFailover = False";
+
+            // A string that contains a SQL query which will insert new data into our database tables, we will insert the values of variables @ExceptionType, @ExceptionMessage, @TimeStamp into the table rows ExceptionType, ExceptionMessage and TimeStamp
+            string queryString = @"INSERT INTO Exceptions (ExceptionType, ExceptionMessage, TimeStamp) 
+                                   VALUES (@ExceptionType, @ExceptionMessage, @TimeStamp)";
+
+            // Open a new SQL connection to the database we point to in the connectionString variable above, the connection is called command
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(queryString, connection); // Use the SQLCommand command declared above and passing the queryString and connection declared above
+
+                command.Parameters.Add("@ExceptionType", SqlDbType.VarChar); // Specify the @ExceptionType parameter in the above queryString is VarChar SQL data type
+                command.Parameters.Add("@ExceptionMessage", SqlDbType.VarChar); // Specify the @ExceptionMessage parameter in the above queryString is VarChar SQL data type
+                command.Parameters.Add("@TimeStamp", SqlDbType.DateTime); // Specify the @TimeStamp parameter in the above queryString is a DateTime SQL data type
+
+                command.Parameters["@ExceptionType"].Value = ex.GetType().ToString(); // Set the @ExceptionType parameter and set it to the string value of our exception ex exception type
+                command.Parameters["@ExceptionMessage"].Value = ex.Message; // Set the @ExceptionMessage parameter and set it to the value of ex.Message
+                command.Parameters["@TimeStamp"].Value = DateTime.Now; // Set the value of the @TimeStamp to the current date and time
+
+                connection.Open(); // Open the connection to the database
+                command.ExecuteNonQuery(); // Execute the command in our queryString
+                connection.Close(); // Close the connection to the database
+            } // End SqlConnection
+
         } // End UpdateDbWithException
 
     } // End CLASS
