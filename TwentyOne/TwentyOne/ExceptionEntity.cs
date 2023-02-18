@@ -23,7 +23,7 @@ namespace TwentyOne
     {
         /* PROPERTIES */ 
 
-        public int id { get; set; } // The primary key of the Exceptions table and the id column
+        public int Id { get; set; } // The primary key of the Exceptions table and the id column
         public string ExceptionType { get; set; } // The ExceptionType column from the exceptions table
         public string ExceptionMessage { get; set; } // The ExceptionMessage column from the exceptions table
         public DateTime TimeStamp { get; set; } // The TimeStamp column from the exceptions table

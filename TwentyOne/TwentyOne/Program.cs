@@ -34,7 +34,7 @@ namespace TwentyOne
                 foreach (var exception in Exceptions) // Iterate through each individual exception in the Exceptions list
                 {
 
-                    Console.Write(exception.id + " | "); // Output the value of exception.id to the console
+                    Console.Write(exception.Id + " | "); // Output the value of exception.id to the console
                     Console.Write(exception.ExceptionType + " | "); // Output the value of exception.ExecptionType to the console
                     Console.Write(exception.ExceptionMessage + " | "); // Output the value of exception.ExceptionMessage to the console
                     Console.Write(exception.TimeStamp + " | "); // Output the value of exception.TimeStamp to the console
@@ -150,6 +150,37 @@ namespace TwentyOne
                                         Integrated Security = True; Connect Timeout = 30; Encrypt = False;
                                         TrustServerCertificate = False; ApplicationIntent = ReadWrite;
                                         MultiSubnetFailover = False";
+
+            // A string which contains a SQL query which selects all entries from the exceptions table
+            string queryString = @"SELECT Id, ExceptionType, ExceptionMessage, TimeStamp FROM Exceptions";
+
+            List<ExceptionEntity> Exceptions = new List<ExceptionEntity>(); // Create a new list of ExceptionEntity objects called Exceptions
+
+            using (SqlConnection connection = new SqlConnection(connectionString)) // Create a new SQL connection object
+            {
+
+                SqlCommand command = new SqlCommand(queryString, connection); // Create a new SQL command object
+                connection.Open(); // Open the SQL conneciton
+                SqlDataReader reader = command.ExecuteReader(); // Create a new SQL reader object so we can read from the database we have connected to, called reader
+
+                while (reader.Read()) // While there are still entries in the database left to read
+                {
+                    
+                    ExceptionEntity exception = new ExceptionEntity(); // Create a new ExceptionEntity object called exception
+
+                    exception.Id = Convert.ToInt32(reader["Id"]); // Take the Id column from the current row and convert it to an integer then assign the value to exception.id
+                    exception.ExceptionType = reader["ExceptionType"].ToString(); // Take the ExceptionType column from the current row and convert it to a string then assign the value to exception.ExceptionType
+                    exception.ExceptionMessage = reader["ExceptionMessage"].ToString(); // Take the ExceptionMesssage column from the current row and convert it to a string then assign the value to exception.ExceptionMessage
+                    exception.TimeStamp = Convert.ToDateTime(reader["TimeStamp"]); // Take the TimeStamp column from the current row and convert it to a DateTime object then assign the value to exception.TimeStamp
+                    Exceptions.Add(exception); // Add exception to the Exceptions list
+
+                } // End WHILE
+
+                connection.Close(); // Close the connection to the database
+
+            } // End SqlConnection
+
+            return Exceptions; // Return the Exceptions list
 
         } // End ReadExceptions
 
