@@ -2,18 +2,20 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 8: Libraries and Additional C# Features
+// MODULE 9: Database and MVC Fundamentals
 // AUTHOR: Steven Partlow
-// DATE: 14/02/2023
+// DATE: 17/02/2023
 
 /* The main program of our application */
 
 using System; // Main system library
+using System.Collections.Generic;
 using Casino; // Casino class contains all our base classes for our TwentyOne Application
 using Casino.TwentyOne; // Casino.TwentyOne contains our main classes and logic for our TwentyOne game
 using System.IO; // Use the IO namespace so we can utilise file-handling
 using System.Data.SqlClient;
 using System.Data;
+
 
 namespace TwentyOne
 {
@@ -24,6 +26,25 @@ namespace TwentyOne
             const string casinoName = "Grand Hotel and Casino"; // A constant to define the name of our casino
             Console.Write("Welcome to the {0}. Let's start by telling me your name? ", casinoName); // Concatenate the const casino name with this strinng and output this text to the console
             string playerName = Console.ReadLine(); // Assign the user input to the string variable playerName
+
+            if (playerName.ToLower() == "admin") // If playerName is equal to admin
+            {
+
+                List<ExceptionEntity> Exceptions = ReadExceptions(); // Take the list returned by ReadExceptions and store in the list object called Exceptions
+                foreach (var exception in Exceptions) // Iterate through each individual exception in the Exceptions list
+                {
+
+                    Console.Write(exception.id + " | "); // Output the value of exception.id to the console
+                    Console.Write(exception.ExceptionType + " | "); // Output the value of exception.ExecptionType to the console
+                    Console.Write(exception.ExceptionMessage + " | "); // Output the value of exception.ExceptionMessage to the console
+                    Console.Write(exception.TimeStamp + " | "); // Output the value of exception.TimeStamp to the console
+                    Console.WriteLine(); // Write a new line in the console window
+
+                } // End FOREACH 
+                Console.Read(); // Pause the application here
+                return;
+
+            } // End IF
 
             bool validAnswer = false; // Define a boolean variable called validAnswer and set it's default value to false
             int bank = 0; // Define an integer variable called bank and set it's default value to zero
@@ -43,9 +64,11 @@ namespace TwentyOne
                 /* Instantiate a new instance of the Player class called player, passing in the player and bank values */
                 Player player = new Player(playerName,bank);
                 player.Id = Guid.NewGuid(); // Assign the Guid Id property of the new instance of the player class a unique identifier
-                using (StreamWriter file = new StreamWriter(@"C:\Users\Pitma\sp\Logs\Logs.txt", true))
-                //using (StreamWriter file = new StreamWriter(@"C:\Users\Steven Partlow\Logs.txt", true)) // Create a new StreamWriter object called file assign it the file in the provided path and set that we wish to append to the file to true, the using statement frees up memory after we are done
-                {
+
+                /* using (StreamWriter file = new StreamWriter(@"C:\Users\Pitma\sp\Logs\Logs.txt", true)) */
+                using (StreamWriter file = new StreamWriter(@"C:\Users\ProfS\Logs\Logs.txt", true))
+                /* using (StreamWriter file = new StreamWriter(@"C:\Users\Steven Partlow\Logs.txt", true)) */ // Create a new StreamWriter object called file assign it the file in the provided path and set that we wish to append to the file to true, the using statement frees up memory after we are done
+                { 
                     file.WriteLine(player.Id); // Write the value the guid player property to file
                 } // End STEAMWRTIER
                 Game game = new TwentyOneGame(); // Instantiate a new instance of the TwentyOneGame class but utilise polymorphism to convert it back to the inherited class Game so we can make use of our overloaded operators
@@ -60,16 +83,18 @@ namespace TwentyOne
                         game.Play(); // Execute the Play() method of the game object
                     } // End Try
 
-                    catch (FraudException) // This code runs if an FraudException is thrown
+                    catch (FraudException ex) // This code executes when a FraudException is caught, the exception is stored in ex
                     {
-                        Console.WriteLine("Security! Kick this person out."); // Output this text to the console
+                        Console.WriteLine(ex.Message); // Output this text to the console
+                        UpdateDbWithException(ex); // Run the log exception method passing in the caught exception ex as a parameter
                         Console.ReadLine(); // Pause the application at this point
                         return; // End the application
                     } // End CATCH
 
-                    catch (Exception) // This code runs if a general Exception occurs
+                    catch (Exception ex) // This code executes when a Exception is caught, the exception is stored in ex
                     {
                         Console.WriteLine("An error occurred. Please contact your System Administrator."); // Output this text to the console
+                        UpdateDbWithException(ex); // Run the log exception method passing in the caught exception ex as a parameter
                         Console.ReadLine(); // Pause the application at this point
                         return; // End the application
                     } // End CATCH
@@ -83,8 +108,9 @@ namespace TwentyOne
             Console.Read(); // Pause the application
         } // End MAIN
 
-        private static void UpdateDbWithException(Exception ex)
+        private static void UpdateDbWithException(Exception ex) // This method will log the type, message and time and date everytime an exception is caught by the application
         {
+
             // A string that contains the information needed to connect to our exceptions database
             string connectionString = @"Data Source = (localdb)\ProjectsV13; Initial Catalog = TwentyOneGame; 
                                         Integrated Security = True; Connect Timeout = 30; Encrypt = False;
@@ -114,6 +140,18 @@ namespace TwentyOne
             } // End SqlConnection
 
         } // End UpdateDbWithException
+
+        // Read all the rows in the Exceptions DB table into a list of ExceptionEntity objects
+        private static List<ExceptionEntity> ReadExceptions()
+        {
+
+            // A string that contains the information needed to connect to our exceptions database
+            string connectionString = @"Data Source = (localdb)\ProjectsV13; Initial Catalog = TwentyOneGame; 
+                                        Integrated Security = True; Connect Timeout = 30; Encrypt = False;
+                                        TrustServerCertificate = False; ApplicationIntent = ReadWrite;
+                                        MultiSubnetFailover = False";
+
+        } // End ReadExceptions
 
     } // End CLASS
 

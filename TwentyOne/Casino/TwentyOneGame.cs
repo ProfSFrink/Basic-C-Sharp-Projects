@@ -2,9 +2,9 @@
 // Part X: C# and .NET Framework - Part 2
 // by Pitman Training / The Tech Academy
 
-// MODULE 7: Creating a Game of Blackjack and Intermediate C# Programming
+// MODULE 9: Database and MVC Fundamentals
 // AUTHOR: Steven Partlow
-// DATE: 21/01/2023
+// DATE: 17/02/2023
 
 // TWENTYONEGAME CLASS DEFINITION
 
@@ -63,7 +63,7 @@ namespace Casino.TwentyOne
 
                 if (bet < 0) // If the bet amount entered is below zero
                 {
-                    throw new FraudException(); // Throw an exception
+                    throw new FraudException("Security! Kick this person out."); // Throw an exception
                 } // End IF
 
                 bool successfullyBet = player.Bet(bet); // Attempt to place the bet and store if it was successful in the boolean variable successfullyBet
