@@ -251,3 +251,6 @@ A tutorial covering a basic introductions to web forms in both C# and Visual Stu
 
 ## 47 TUTORIAL: INTRODUCTION TO MVC [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/IntroToMVC/IntroToMVC)
 A video giving a simple overview of MVC and how it is implemented within Visual Studio and covers how Models, Views and Controller work within an MVC Web App and how they interact within each other, this is to prep us to develop MVC application later in the course.
+
+## 48 TUTORIAL: MVC [(CODE](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/MVCTutorial/MVCTutorial)
+A tutorial giving a deep dive into MVC web applications with C# and Visual Studio. We first cover the difference between HTTP requests of a basic web sites versus a C#/HTML MVC Web application.
