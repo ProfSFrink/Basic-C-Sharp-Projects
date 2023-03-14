@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\TwentyOne",
-    "\\TwentyOne\\Casino",
-    "\\TwentyOne\\TwentyOne"
+    "\\MVCTutorial",
+    "\\MVCTutorial\\MVCTutorial",
+    "\\MVCTutorial\\MVCTutorial\\Views",
+    "\\MVCTutorial\\MVCTutorial\\Views\\Home"
   ],
-  "SelectedNode": "\\TwentyOne\\TwentyOne\\Program.cs",
+  "SelectedNode": "\\MVCTutorial\\MVCTutorial\\Views\\Home\\Contact.cshtml",
   "PreviewInSolutionExplorer": false
 }

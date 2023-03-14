@@ -112,10 +112,10 @@ namespace TwentyOne
         {
 
             // A string that contains the information needed to connect to our exceptions database
-            string connectionString = @"Data Source = (localdb)\ProjectsV13; Initial Catalog = TwentyOneGame; 
-                                        Integrated Security = True; Connect Timeout = 30; Encrypt = False;
-                                        TrustServerCertificate = False; ApplicationIntent = ReadWrite;
-                                        MultiSubnetFailover = False";
+            string connectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=TwentyOneGame;
+                                        Integrated Security=True;Connect Timeout=30;Encrypt=False;
+                                        TrustServerCertificate=False;ApplicationIntent=ReadWrite;
+                                        MultiSubnetFailover=False";
 
             // A string that contains a SQL query which will insert new data into our database tables, we will insert the values of variables @ExceptionType, @ExceptionMessage, @TimeStamp into the table rows ExceptionType, ExceptionMessage and TimeStamp
             string queryString = @"INSERT INTO Exceptions (ExceptionType, ExceptionMessage, TimeStamp) 
@@ -146,10 +146,10 @@ namespace TwentyOne
         {
 
             // A string that contains the information needed to connect to our exceptions database
-            string connectionString = @"Data Source = (localdb)\ProjectsV13; Initial Catalog = TwentyOneGame; 
-                                        Integrated Security = True; Connect Timeout = 30; Encrypt = False;
-                                        TrustServerCertificate = False; ApplicationIntent = ReadWrite;
-                                        MultiSubnetFailover = False";
+            string connectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=TwentyOneGame;
+                                        Integrated Security=True;Connect Timeout=30;Encrypt=False;
+                                        TrustServerCertificate=False;ApplicationIntent=ReadWrite;
+                                        MultiSubnetFailover=False";
 
             // A string which contains a SQL query which selects all entries from the exceptions table
             string queryString = @"SELECT Id, ExceptionType, ExceptionMessage, TimeStamp FROM Exceptions";
