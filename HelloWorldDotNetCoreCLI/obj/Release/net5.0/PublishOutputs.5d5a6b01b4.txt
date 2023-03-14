@@ -1,0 +1,5 @@
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\bin\Release\net5.0\publish\HelloWorldDotNetCoreCLI.exe
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\bin\Release\net5.0\publish\HelloWorldDotNetCoreCLI.dll
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\bin\Release\net5.0\publish\HelloWorldDotNetCoreCLI.deps.json
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\bin\Release\net5.0\publish\HelloWorldDotNetCoreCLI.runtimeconfig.json
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\bin\Release\net5.0\publish\HelloWorldDotNetCoreCLI.pdb

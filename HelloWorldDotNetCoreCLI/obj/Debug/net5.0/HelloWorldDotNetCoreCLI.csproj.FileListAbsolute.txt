@@ -1,0 +1,16 @@
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\bin\Debug\net5.0\HelloWorldDotNetCoreCLI.exe
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\bin\Debug\net5.0\HelloWorldDotNetCoreCLI.deps.json
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\bin\Debug\net5.0\HelloWorldDotNetCoreCLI.runtimeconfig.json
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\bin\Debug\net5.0\HelloWorldDotNetCoreCLI.runtimeconfig.dev.json
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\bin\Debug\net5.0\HelloWorldDotNetCoreCLI.dll
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\bin\Debug\net5.0\ref\HelloWorldDotNetCoreCLI.dll
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\bin\Debug\net5.0\HelloWorldDotNetCoreCLI.pdb
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\obj\Debug\net5.0\HelloWorldDotNetCoreCLI.csproj.AssemblyReference.cache
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\obj\Debug\net5.0\HelloWorldDotNetCoreCLI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\obj\Debug\net5.0\HelloWorldDotNetCoreCLI.AssemblyInfoInputs.cache
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\obj\Debug\net5.0\HelloWorldDotNetCoreCLI.AssemblyInfo.cs
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\obj\Debug\net5.0\HelloWorldDotNetCoreCLI.csproj.CoreCompileInputs.cache
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\obj\Debug\net5.0\HelloWorldDotNetCoreCLI.dll
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\obj\Debug\net5.0\ref\HelloWorldDotNetCoreCLI.dll
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\obj\Debug\net5.0\HelloWorldDotNetCoreCLI.pdb
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\HelloWorldDotNetCoreCLI\obj\Debug\net5.0\HelloWorldDotNetCoreCLI.genruntimeconfig.cache

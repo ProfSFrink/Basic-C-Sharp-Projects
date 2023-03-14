@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MVCTutorial",
-    "\\MVCTutorial\\MVCTutorial",
-    "\\MVCTutorial\\MVCTutorial\\Views",
-    "\\MVCTutorial\\MVCTutorial\\Views\\Home"
+    "\\Scores",
+    "\\Scores\\Scores"
   ],
-  "SelectedNode": "\\MVCTutorial\\MVCTutorial\\Views\\Home\\Contact.cshtml",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }

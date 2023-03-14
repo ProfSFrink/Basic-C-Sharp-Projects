@@ -248,3 +248,6 @@ A four-part tutorial series covering database access and C#. In the first part o
 
 ## 46 TUTORIAL: LEARNING .NET CORE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Scores/Scores)
 A tutorial covering how to develop a simple application using .NET Core and how much easier it is to add files to a project.
+
+## 47 TUTORIAL: HELLO WORLD WITH .NET CORE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/HelloWorldDotNetCoreCLI)
+A .NET Core application created using the DOTNET CLI.

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "28E6CM+XbYezlVCZqm9abnvclHiOLEH2b/n7+t1mfSC3uNFcuXSwrLopo2W47U9KSDExj9W5Sc27k/uG1y9pyg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pitma\\sp\\Basic-C-Sharp-Projects\\HelloWorldDotNetCoreCLI\\HelloWorldDotNetCoreCLI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pitma\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.17\\microsoft.netcore.app.runtime.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\pitma\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.17\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\pitma\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.17\\microsoft.aspnetcore.app.runtime.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
