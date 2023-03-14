@@ -1,0 +1,14 @@
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.exe
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.deps.json
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.runtimeconfig.json
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.runtimeconfig.dev.json
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.dll
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.pdb
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.csproj.AssemblyReference.cache
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.AssemblyInfoInputs.cache
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.AssemblyInfo.cs
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.csproj.CoreCompileInputs.cache
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.dll
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.pdb
+C:\Users\pitma\sp\Basic-C-Sharp-Projects\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.genruntimeconfig.cache
