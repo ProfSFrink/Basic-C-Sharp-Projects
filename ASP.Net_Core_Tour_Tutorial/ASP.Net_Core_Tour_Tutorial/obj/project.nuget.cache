@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8vsg9BGtfQxHkNpNzmZ6AORP+Xp7M/6AoaALUiSrJg5GR3EV1cC41TvJsiJs9tCmoLjsFU1lOFZltXgXcglwlA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ProfS\\source\\repos\\Basic-C-Sharp-Projects\\ASP.Net_Core_Tour_Tutorial\\ASP.Net_Core_Tour_Tutorial\\ASP.Net_Core_Tour_Tutorial.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ProfS\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\pitma\\.nuget\\packages\\": {}
+    "C:\\Users\\ProfS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pitma\\sp\\Basic-C-Sharp-Projects\\Scores\\Scores\\Scores.csproj",
+      "projectUniqueName": "C:\\Users\\ProfS\\source\\repos\\Basic-C-Sharp-Projects\\Scores\\Scores\\Scores.csproj",
       "projectName": "Scores",
-      "projectPath": "C:\\Users\\pitma\\sp\\Basic-C-Sharp-Projects\\Scores\\Scores\\Scores.csproj",
-      "packagesPath": "C:\\Users\\pitma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pitma\\sp\\Basic-C-Sharp-Projects\\Scores\\Scores\\obj\\",
+      "projectPath": "C:\\Users\\ProfS\\source\\repos\\Basic-C-Sharp-Projects\\Scores\\Scores\\Scores.csproj",
+      "packagesPath": "C:\\Users\\ProfS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ProfS\\source\\repos\\Basic-C-Sharp-Projects\\Scores\\Scores\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pitma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ProfS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -55,12 +55,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.23, 3.1.23]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

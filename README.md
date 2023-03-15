@@ -251,3 +251,6 @@ A tutorial covering how to develop a simple application using .NET Core and how 
 
 ## 47 TUTORIAL: HELLO WORLD WITH .NET CORE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/HelloWorldDotNetCoreCLI)
 A .NET Core application created using the DOTNET CLI.
+
+## 48 TUTORIAL: ASP.NET CORE TOUR [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ASP.NET_Core_Tour_Tutorial)
+A simple guide to creating an .NET CORE ASP MVC Web app in Visual Studio.

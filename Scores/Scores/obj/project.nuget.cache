@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HR20/dDNobeG+ZvryqpEDHqZb7ahdFh7f5iuRZCfU8hGKRaQwjFVWZjP2tIm3ESvjkgcATbdSqLqXkfKov4Hbg==",
+  "dgSpecHash": "a3FfoKE0bDaZSBcCx5z4t8SaL3Vlk/6oSKAXJ5vinE/tJs+ZVkqNOet/bAv5YfUPFQouDANY4/rDG53tt/ED7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pitma\\sp\\Basic-C-Sharp-Projects\\Scores\\Scores\\Scores.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ProfS\\source\\repos\\Basic-C-Sharp-Projects\\Scores\\Scores\\Scores.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ProfS\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
+  ],
   "logs": []
 }
