@@ -1,0 +1,47 @@
+/*  Advanced Software and Web Developer Diploma
+    Part X: C# and .NET Framework - Part 2
+    by Pitman Training / The Tech Academy
+
+    FINAL PROJECT: Final Challenge
+    AUTHOR: Steven Partlow
+    DATE: 16/03/2023
+
+    CSS Styling
+*/
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: lightgrey;
+}
+
+/* CUSTOM CSS STYLING */
+
+h1 { /* Styling for landing page h1 header */
+    font: bold 12px helvectica; /* Set font to 12point bold helvectica */
+    text-shadow: 2px 1px grey; /* Give the text a shadow */
+}
+
+footer { /* Change the background colour of the site footer to midnight blue */
+    background-color: midnightblue;
+}
+
+p { /* Styling for landing page paragraph element */
+    font: 96px times new roman; /* Set text to 96px times new roman */
+    font-weight: 500; /* Make the text slightly bold */
+    border: 5px solid black; /* Give the text a border */
+}

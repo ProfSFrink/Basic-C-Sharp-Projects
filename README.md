@@ -257,3 +257,6 @@ A simple guide to creating an .NET CORE ASP MVC Web app in Visual Studio.
 
 ## 49 TUTORIAL: ASP.NET CORE PUBLISH TO AZURE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/MyFirstAzureWebApp)
 An application created to practise publishing an app to Microsoft Azure.
+
+## 50 FINAL CHALLENGE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/FinalChallenge)
+The final challenge of the course is to develop and ASP.NET CORE Web application, that displays the date and time in the browser then publish the app to azure.
