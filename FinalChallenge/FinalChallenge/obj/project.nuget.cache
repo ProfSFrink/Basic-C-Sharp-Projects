@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gx0G9mPr3ma4+zWhokM8yQTbaj5f//eqWoHKjB9zKvUD45pGQ/X6sNaNf+dd57BrE1UAexGcam+4UYvEs8qSYg==",
+  "dgSpecHash": "3yEyUi6PyLGDEGI6mVTAVyfnHa/RfJ2bC9Y8fXFWzCV0fI6biBzomtoRlPD6OyRsFKVQsH1/LtMbZMYGTnnhkA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ProfS\\source\\repos\\Basic-C-Sharp-Projects\\FinalChallenge\\FinalChallenge\\FinalChallenge.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ProfS\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
   "logs": []
 }

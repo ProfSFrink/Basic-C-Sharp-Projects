@@ -7,6 +7,8 @@
 // DATE: 16/03/2023
 
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Logging;
+using System;
 
 namespace FinalChallenge.Pages
 {
