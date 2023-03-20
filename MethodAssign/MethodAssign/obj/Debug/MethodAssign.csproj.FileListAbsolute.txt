@@ -5,3 +5,10 @@ C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framew
 C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\MethodAssign\MethodAssign\obj\Debug\MethodAssign.csproj.CoreCompileInputs.cache
 C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\MethodAssign\MethodAssign\obj\Debug\MethodAssign.exe
 C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Projects\MethodAssign\MethodAssign\obj\Debug\MethodAssign.pdb
+C:\Users\ProfS\source\repos\Basic-C-Sharp-Projects\MethodAssign\MethodAssign\bin\Debug\MethodAssign.exe.config
+C:\Users\ProfS\source\repos\Basic-C-Sharp-Projects\MethodAssign\MethodAssign\bin\Debug\MethodAssign.exe
+C:\Users\ProfS\source\repos\Basic-C-Sharp-Projects\MethodAssign\MethodAssign\bin\Debug\MethodAssign.pdb
+C:\Users\ProfS\source\repos\Basic-C-Sharp-Projects\MethodAssign\MethodAssign\obj\Debug\MethodAssign.csproj.AssemblyReference.cache
+C:\Users\ProfS\source\repos\Basic-C-Sharp-Projects\MethodAssign\MethodAssign\obj\Debug\MethodAssign.csproj.CoreCompileInputs.cache
+C:\Users\ProfS\source\repos\Basic-C-Sharp-Projects\MethodAssign\MethodAssign\obj\Debug\MethodAssign.exe
+C:\Users\ProfS\source\repos\Basic-C-Sharp-Projects\MethodAssign\MethodAssign\obj\Debug\MethodAssign.pdb

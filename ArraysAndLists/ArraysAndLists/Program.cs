@@ -55,7 +55,7 @@ class Program
 
         //Console.WriteLine(intList[0]); // Output the value at element one from the list intList to the console window
 
-        List<string> stringList = new List<string>(); // This will instanstiate a new list consisting of integer data types called stringList
+        List<string> stringList = new List<string>(); // This will instanstiate a new list consisting of string data types called stringList
         stringList.Add("Hello"); // Add a string value 'Hello' to the list stringList
         stringList.Add("Jesse"); // Add a string value 'Jesse' to the list stringList
         stringList.Remove("Jesse"); // Remove the value 'Jesse' from the list stringList

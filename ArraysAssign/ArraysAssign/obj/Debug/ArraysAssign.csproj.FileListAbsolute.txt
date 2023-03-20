@@ -5,3 +5,10 @@ C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framew
 C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ArraysAssign\ArraysAssign\obj\Debug\ArraysAssign.csproj.CoreCompileInputs.cache
 C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ArraysAssign\ArraysAssign\obj\Debug\ArraysAssign.exe
 C:\Users\Steven Partlow\OneDrive\Personal\Learning\Pitman\10. C# and .NET Framework - Part 2\Basic-C-Sharp-Programs\ArraysAssign\ArraysAssign\obj\Debug\ArraysAssign.pdb
+C:\Users\ProfS\source\repos\Basic-C-Sharp-Projects\ArraysAssign\ArraysAssign\bin\Debug\ArraysAssign.exe.config
+C:\Users\ProfS\source\repos\Basic-C-Sharp-Projects\ArraysAssign\ArraysAssign\bin\Debug\ArraysAssign.exe
+C:\Users\ProfS\source\repos\Basic-C-Sharp-Projects\ArraysAssign\ArraysAssign\bin\Debug\ArraysAssign.pdb
+C:\Users\ProfS\source\repos\Basic-C-Sharp-Projects\ArraysAssign\ArraysAssign\obj\Debug\ArraysAssign.csproj.AssemblyReference.cache
+C:\Users\ProfS\source\repos\Basic-C-Sharp-Projects\ArraysAssign\ArraysAssign\obj\Debug\ArraysAssign.csproj.CoreCompileInputs.cache
+C:\Users\ProfS\source\repos\Basic-C-Sharp-Projects\ArraysAssign\ArraysAssign\obj\Debug\ArraysAssign.exe
+C:\Users\ProfS\source\repos\Basic-C-Sharp-Projects\ArraysAssign\ArraysAssign\obj\Debug\ArraysAssign.pdb
