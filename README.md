@@ -235,7 +235,7 @@ Covering how libraries work in C#, we first add a class library 'casino' to our 
 We cover some additional useful features of C#. Firstly we implement a constructor call chain to our Player class, which allows to create a second class constructor which only has the player name as a parameter and then reuse the original constructor so we have the option of multiple class constructors. Then we cover using the var keyword which allows us to implicitly declare a variable when the data type is obvious, this saves typing and is very usefuel when declare dictionaries for example. Then we cover constants which are variables that cannot be changed once assigned a value. Then in the second part of the tutorial we cover concept of GUID's which can be used to give a user a unqiue identifier, we utilise this in our TwentyOne game by adding a guid property called Id to give the a unqiue Id and then log this Id to our log file so that we can see the Id of each player.
 
 ## 42 ADDITIONAL FEATURES ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/AddFeaturesAssign/AddFeaturesAssign)
-This is assignment shows that we understand how to use constance variables within our program, then we create a class called Game which has an inital constructor that requires three parameters and then a second call chain constructor which only requires two, then we instaniate two instances of the game class utlising the var keyword.
+This is assignment shows that we understand how to make use of constance variables within a program, then we create a class called Game which has an inital constructor that requires three parameters and then a second call chain constructor which only requires two, then we instaniate two instances of the game class using both constructors and the var keyword.
 
 ## 43 TUTORIAL: MORE ON EXCEPTION HANDLING [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
 An advanced tutorial on exception handling, in part one we learn to use the tryPrase method to cast user input to an integer and then set a boolean variable depending on if the cast was successful, this allows us to implement exception handling within our program, we account for both the user entering a string and and decimal places. We add this to two points in the program when the user is entering the ammount they have bought with them and placing a bet. Then in the second part of the tutorial we place the main Play method into a try / catch block and throw an exception if the user attempts to enter a negative number and end the program at that point, entering a negative number constitutues cheating as the player can gain money even if they lose so we need to define our own exception if this occurs, we do this by creating a FraudException class and defining two constructor methods to use to throw exceptions then the user attempts to cheat.
@@ -243,20 +243,26 @@ An advanced tutorial on exception handling, in part one we learn to use the tryP
 ## 44 EXCEPTION HANDLING ASSIGNMENT [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ExceptHandAssign/ExceptHandAssign)
 An assignment to show our understanding of exception handling. We first implement a while loop, which will iterate until we get valid input from the user, which in this case is there age, we then implement try catch blocks to catch exceptions for the user entering letters, zero and negative numbers and also catch any other exceptions before finally telling the user the year they were born.
 
-## 45 TUTORIAL: DATABASE ACCESS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne
+## 45 TUTORIAL: DATABASE ACCESS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/TwentyOne/TwentyOne)
 A four-part tutorial series covering database access and C#. In the first part of our tutorial we cover using a widget built into Visual Studio called SQL server object explorer, this allows us to add a database to our TwentyOneGame application which will be used to log exceptions. We add the database then add a table called Exceptions with four fields, id, exceptionType, exceptionMessage and TimeStamp, then we start to write a method after our main application has run to log any exceptions to our database. Then in the second part with start to write the actual logging method, which has one parameter ex which is the exception we are logging, Firstyl we create a new SQL command object then we then establish a connections string which we use to connect to our database, then a query string which is a series of SQL commands stored in a string with C# variables to represent the values we will add to the database. Then to prevent against SQL injection attacks we specify the SQL data types of the variable we want to store in the database, then we set the values of the SQL data types. Finally we open the connection to the database, execute the SQL command object we created and then close the connection to the database. In the third part of our tutorial we execute our method everytime we catch an exception and customise the exception message. Then in part three we use the update database method to add all the exceptions we catch in the application to the database itself, after we confirm this is working we then move on to being able to read all the exceptions within the database back into the main program if the username is admin. We do this by first creating an ExceptionEntity class object which maps one-to-one with the Exceptions table in the database. Then in the final part we opening a connection to our database then reading each row from the exceptions table into an instance of the ExceptionEntity object, then adding that object to a list of ExceptionEntity objects we then display that list to the console.
 
-## 46 TUTORIAL: LEARNING .NET CORE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Scores/Scores)
+## 46 TUTORIAL: WEB FORMS [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/IntroToWebForms/IntroToWebForms)
+
+## 47 TUTORIAL: INTRODUCTION TO MVC (MODEL-VIEW-CONTROLLER) [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/IntroToMVC/IntroToMVC)
+
+## 48 TUTORIAL: MVC - MODEL-VIEW-CONTROLER [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/MVCTutorial/MVCTutorial)
+
+## 49 TUTORIAL: LEARNING .NET CORE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/Scores/Scores)
 A tutorial covering how to develop a simple application using .NET Core and how much easier it is to add files to a project.
 
-## 47 TUTORIAL: HELLO WORLD WITH .NET CORE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/HelloWorldDotNetCoreCLI)
+## 50 TUTORIAL: HELLO WORLD WITH .NET CORE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/HelloWorldDotNetCoreCLI)
 A .NET Core application created using the DOTNET CLI.
 
-## 48 TUTORIAL: ASP.NET CORE TOUR [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ASP.NET_Core_Tour_Tutorial)
+## 51 TUTORIAL: ASP.NET CORE TOUR [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/ASP.NET_Core_Tour_Tutorial)
 A simple guide to creating an .NET CORE ASP MVC Web app in Visual Studio.
 
-## 49 TUTORIAL: ASP.NET CORE PUBLISH TO AZURE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/MyFirstAzureWebApp)
+## 52 TUTORIAL: ASP.NET CORE PUBLISH TO AZURE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/MyFirstAzureWebApp)
 An application created to practise publishing an app to Microsoft Azure.
 
-## 50 FINAL CHALLENGE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/FinalChallenge)
+## 53 FINAL CHALLENGE [(CODE)](https://github.com/ProfSFrink/Basic-C-Sharp-Projects/blob/main/FinalChallenge)
 The final challenge of the course is to develop and ASP.NET CORE Web application, that displays the date and time in the browser then publish the app to azure.
